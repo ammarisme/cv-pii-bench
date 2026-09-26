@@ -8,3 +8,6 @@ results/*__*.json
 hf/model/*.safetensors
 results/*__*.json
 results/leaderboard.jsonl
+
+# internal-only copies of the paper
+paper/INTERNAL_PAPER.*
