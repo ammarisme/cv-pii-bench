@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this benchmark or pipeline, please cite it as below."
 title: "CV-PII-Bench: Anonymising CVs Without Losing Them"
 authors:
-  - family-names: "<Surname>"
+  - family-names: "Ameeruddeen"
     given-names: "Ammar"
 date-released: 2026-09-25
 version: 1.0.0

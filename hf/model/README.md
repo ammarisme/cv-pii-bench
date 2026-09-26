@@ -5,7 +5,7 @@ library_name: gliner2
 language: [en, de, fr, es, it, nl, pt, pl, sv, fi, da, "no"]
 pipeline_tag: token-classification
 tags: [pii, anonymization, redaction, cv, resume, gdpr, gliner, lora]
-datasets: [<hf-user>/cv-pii-bench]
+datasets: [abamerdeen/cv-pii-bench]
 ---
 
 # GLiNER2-PII-CV (LoRA adapter)
@@ -54,7 +54,7 @@ from safetensors.torch import load_file
 from huggingface_hub import hf_hub_download
 
 base = GLiNER2.from_pretrained("fastino/gliner2-privacy-filter-PII-multi")
-lora = load_file(hf_hub_download("<hf-user>/gliner2-pii-cv-lora", "adapter_model.safetensors"))
+lora = load_file(hf_hub_download("abamerdeen/gliner2-pii-cv-lora", "adapter_model.safetensors"))
 sd = base.state_dict()
 for k in [k for k in lora if ".lora_A." in k]:
     target = k.split(".lora_A.")[0].replace("base_model.model.", "") + ".weight"
@@ -71,7 +71,7 @@ Alternatively, `scripts/finetune_gliner2.py` in the repository reproduces the ad
 
 ## Training
 
-- **Data:** `devsynth` (80) and `devhard` (60) splits of [CV-PII-Bench](https://huggingface.co/datasets/<hf-user>/cv-pii-bench), chunked to 1,500 characters. All CVs are fictional. The `holdout` split was never used.
+- **Data:** `devsynth` (80) and `devhard` (60) splits of [CV-PII-Bench](https://huggingface.co/datasets/abamerdeen/cv-pii-bench), chunked to 1,500 characters. All CVs are fictional. The `holdout` split was never used.
 - **LoRA:** r = 16, α = 32, on encoder attention/dense layers and the heads; learning rate 1e-4 for encoder and heads; 3 epochs; batch size 2; max length 512; seed 0.
 - **Hardware:** 2 CPU cores, about 15 minutes.
 

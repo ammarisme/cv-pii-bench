@@ -33,7 +33,7 @@ Full write-up: [`paper/PAPER.md`](paper/PAPER.md). How every experiment was run,
 | `devhard` | 60 | 623 | 12 | Written by an LLM agent blind to the pipeline | Error analysis, tuning, fine-tuning |
 | `holdout` | 40 | 477 | 10 | Written by a second LLM agent blind to the pipeline | **Final evaluation only** |
 
-Every person, email, phone number and ID in the data is **fictional**. The `devhard` and `holdout` sets were written by AI agents (Claude) given only the masking policy and a list of hard phenomena: tool-like names, name particles, two-column PDF artefacts, Europass forms, referees, publication lists, and non-personal URLs. The same data is available on Hugging Face as `<hf-user>/cv-pii-bench`.
+Every person, email, phone number and ID in the data is **fictional**. The `devhard` and `holdout` sets were written by AI agents (Claude) given only the masking policy and a list of hard phenomena: tool-like names, name particles, two-column PDF artefacts, Europass forms, referees, publication lists, and non-personal URLs. The same data is available on Hugging Face as `abamerdeen/cv-pii-bench`.
 
 **Masking policy.** Mask names (candidate and third parties), email, phone, street address and postcode, home city/region/country, personal URLs and handles, ID/account/licence numbers, date of birth or age, nationality, marital status, gender and pronouns, and universities and schools. Keep employers, job titles, skills and tools, certification names, work-only cities, date ranges and metrics. Ambiguous items are marked `required: false` and are neither rewarded nor penalised.
 

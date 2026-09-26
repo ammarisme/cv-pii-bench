@@ -161,4 +161,4 @@ The data is synthetic. Real CVs bring OCR noise, scanned images, tables and layo
 
 ## 10. Reproducibility
 
-Everything is at `https://github.com/ammarisme/cv-pii-bench`; the data is also on Hugging Face as `<hf-user>/cv-pii-bench`, and the adapter as `<hf-user>/gliner2-pii-cv-lora`. `python scripts/reproduce.py` rebuilds Table 7.1 from cached detector outputs in seconds. `results/leaderboard_full_log.jsonl` contains all 366 logged runs, including those not shown here.
+Everything is at `https://github.com/ammarisme/cv-pii-bench`; the data is also on Hugging Face as `abamerdeen/cv-pii-bench`, and the adapter as `abamerdeen/gliner2-pii-cv-lora`. `python scripts/reproduce.py` rebuilds Table 7.1 from cached detector outputs in seconds. `results/leaderboard_full_log.jsonl` contains all 366 logged runs, including those not shown here.

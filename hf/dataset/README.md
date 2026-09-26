@@ -65,7 +65,7 @@ All people, emails, phone numbers, addresses and IDs are **fictional**; any rese
 ```bibtex
 @misc{cvpiibench2026,
   title  = {Masking Personal Data in CVs: A Span-Based Pipeline and an Honest Hold-Out},
-  author = {Ammar <Surname>},
+  author = {Ammar Ameeruddeen},
   year   = {2026},
   url    = {https://github.com/ammarisme/cv-pii-bench}
 }
