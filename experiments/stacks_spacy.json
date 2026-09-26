@@ -1,0 +1,7 @@
+[{"name":"S1-presidio-default-lg","detectors":{"presidio:lg":0.0},"cfg":{"raw":true,"regex":false}},
+ {"name":"S1-presidio-default-trf","detectors":{"presidio:trf":0.0},"cfg":{"raw":true,"regex":false}},
+ {"name":"S0-rules-only","detectors":{},"cfg":{"propagate":"surname"}},
+ {"name":"S2-presidio+cv-trf","detectors":{"presidio:trf":0.85},"cfg":{"propagate":"surname"}},
+ {"name":"S2b-spacy+cv-trf","detectors":{"spacy:trf":0.0},"cfg":{"propagate":"surname"}},
+ {"name":"S2b-spacy+cv-lg","detectors":{"spacy:lg":0.0},"cfg":{"propagate":"surname"}},
+ {"name":"S2b-spacy+cv-auto","detectors":{"spacy:auto":0.0},"cfg":{"propagate":"surname"}}]

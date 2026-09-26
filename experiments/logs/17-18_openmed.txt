@@ -1,0 +1,16 @@
+
+Loading weights:   0%|          | 0/140 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 140/140 [00:00<00:00, 3518.16it/s]
+[openmed-cache] S5-pf-openmed-raw                  h3   R=0.544 P=0.720 F2=0.572 entR=0.506 leakDocs=57/60 FP/doc=5.43 s/doc=0.575
+[openmed-cache] S5-pf-openmed-raw                  h2   R=0.500 P=0.747 F2=0.535 entR=0.474 leakDocs=39/40 FP/doc=4.83 s/doc=0.555
+[openmed-cache] S5-pf-openmed-raw                  test R=0.743 P=0.784 F2=0.751 entR=0.785 leakDocs=12/20 FP/doc=2.85 s/doc=0.33
+[openmed-sweep] S5-pf-openmed+cv                   h3   R=0.952 P=0.777 F2=0.911 entR=0.944 leakDocs=24/60 FP/doc=7.07 s/doc=0.592
+[openmed-sweep] S5-pf-openmed+cv                   h3   R=0.946 P=0.806 F2=0.914 entR=0.939 leakDocs=26/60 FP/doc=5.88 s/doc=0.585
+[openmed-sweep] S5-pf-openmed+cv                   h3   R=0.934 P=0.859 F2=0.918 entR=0.926 leakDocs=31/60 FP/doc=3.95 s/doc=0.585
+[openmed-sweep] S5-pf-openmed+cv                   h3   R=0.930 P=0.876 F2=0.919 entR=0.920 leakDocs=33/60 FP/doc=3.38 s/doc=0.587
+[openmed-sweep] S5-pf-openmed+cv                   h3   R=0.926 P=0.896 F2=0.920 entR=0.918 leakDocs=34/60 FP/doc=2.77 s/doc=0.584
+[openmed-sweep] S5-pf-openmed+cv                   h3   R=0.915 P=0.913 F2=0.915 entR=0.909 leakDocs=35/60 FP/doc=2.23 s/doc=0.584
+[openmed-sweep] S14-gliner2cv+openmed+cv           h3   R=0.969 P=0.839 F2=0.940 entR=0.970 leakDocs=13/60 FP/doc=4.78 s/doc=1.304
+[openmed-sweep] S14-gliner2cv+openmed+cv           h3   R=0.974 P=0.770 F2=0.925 entR=0.976 leakDocs=11/60 FP/doc=7.52 s/doc=1.306
+[openmed-sweep] S14-gliner2cv+openmed+cv           h3   R=0.971 P=0.790 F2=0.928 entR=0.971 leakDocs=12/60 FP/doc=6.63 s/doc=1.305
+[openmed-sweep] S15-gliner2cv+pf+openmed+cv        h3   R=0.974 P=0.832 F2=0.942 entR=0.971 leakDocs=12/60 FP/doc=5.05 s/doc=2.178

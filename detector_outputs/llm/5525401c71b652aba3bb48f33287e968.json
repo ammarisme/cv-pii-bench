@@ -1,0 +1,1 @@
+{"out": "{\"pii\": [{\"text\": \"Olusegun Adeyemi\", \"label\": \"NAME\"}, {\"text\": \"olusegun.adeyemi@supplymail.ng\", \"label\": \"EMAIL\"}, {\"text\": \"0803 456 7788\", \"label\": \"PHONE\"}, {\"text\": \"Ikeja, Lagos\", \"label\": \"ADDRESS|LOCATION\"}]}"}

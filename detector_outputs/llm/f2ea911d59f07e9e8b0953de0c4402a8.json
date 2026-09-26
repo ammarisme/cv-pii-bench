@@ -1,0 +1,1 @@
+{"out": "{\"pii\": [{\"text\": \"Oleksandr Kowalczuk-Ivanenko\", \"label\": \"NAME\"}, {\"text\": \"+48 512 803 944\", \"label\": \"PHONE\"}, {\"text\": \"oleksandr.ki@example.com\", \"label\": \"EMAIL\"}, {\"text\": \"RP4817392\", \"label\": \"ID\"}, {\"text\": \"Wroc\u0142aw\", \"label\": \"LOCATION\"}, {\"text\": \"okowalczuk\", \"label\": \"HANDLE\"}]}"}

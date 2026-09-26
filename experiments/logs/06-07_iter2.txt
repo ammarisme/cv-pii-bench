@@ -1,0 +1,30 @@
+[iter2] S1-presidio-default-lg             test R=0.804 P=0.464 F2=0.702 entR=0.841 leakDocs=9/20 FP/doc=13.15 s/doc=0.047
+[iter2] S1-presidio-default-lg             h3   R=0.727 P=0.392 F2=0.621 entR=0.722 leakDocs=50/60 FP/doc=29.50 s/doc=0.061
+[iter2] S1-presidio-default-lg             h2   R=0.723 P=0.369 F2=0.607 entR=0.679 leakDocs=38/40 FP/doc=35.27 s/doc=0.058
+[iter2] S1-presidio-default-lg             dev  R=0.722 P=0.389 F2=0.617 entR=0.761 leakDocs=68/80 FP/doc=26.44 s/doc=0.056
+[iter2] S1-presidio-default-trf            test R=0.779 P=0.525 F2=0.710 entR=0.822 leakDocs=12/20 FP/doc=10.00 s/doc=0.19
+[iter2] S1-presidio-default-trf            h3   R=0.671 P=0.415 F2=0.597 entR=0.689 leakDocs=55/60 FP/doc=24.75 s/doc=2.239
+[iter2] S1-presidio-default-trf            h2   R=0.646 P=0.385 F2=0.569 entR=0.656 leakDocs=39/40 FP/doc=29.18 s/doc=0.486
+[iter2] S1-presidio-default-trf            dev  R=0.718 P=0.408 F2=0.623 entR=0.776 leakDocs=66/80 FP/doc=24.40 s/doc=0.379
+[iter2] S0-rules-only                      test R=1.000 P=0.993 F2=0.999 entR=1.000 leakDocs=0/20 FP/doc=0.10 s/doc=0.019
+[iter2] S0-rules-only                      h3   R=0.824 P=0.926 F2=0.843 entR=0.791 leakDocs=44/60 FP/doc=1.68 s/doc=0.012
+[iter2] S0-rules-only                      h2   R=0.836 P=0.935 F2=0.854 entR=0.818 leakDocs=32/40 FP/doc=1.65 s/doc=0.015
+[iter2] S0-rules-only                      dev  R=0.982 P=1.000 F2=0.986 entR=0.988 leakDocs=8/80 FP/doc=0.00 s/doc=0.006
+[iter2] S2-presidio+cv-trf                 test R=1.000 P=0.993 F2=0.999 entR=1.000 leakDocs=0/20 FP/doc=0.10 s/doc=0.193
+[iter2] S2-presidio+cv-trf                 h3   R=0.917 P=0.897 F2=0.913 entR=0.894 leakDocs=34/60 FP/doc=2.70 s/doc=2.251
+[iter2] S2-presidio+cv-trf                 h2   R=0.892 P=0.906 F2=0.895 entR=0.876 leakDocs=27/40 FP/doc=2.65 s/doc=0.502
+[iter2] S2-presidio+cv-trf                 dev  R=0.991 P=0.981 F2=0.989 entR=0.992 leakDocs=6/80 FP/doc=0.44 s/doc=0.385
+[iter2] S2b-spacy+cv-trf                   test R=1.000 P=0.993 F2=0.999 entR=1.000 leakDocs=0/20 FP/doc=0.10 s/doc=0.219
+[iter2] S2b-spacy+cv-trf                   h3   R=0.917 P=0.897 F2=0.913 entR=0.894 leakDocs=34/60 FP/doc=2.70 s/doc=0.437
+[iter2] S2b-spacy+cv-trf                   h2   R=0.892 P=0.906 F2=0.895 entR=0.876 leakDocs=27/40 FP/doc=2.65 s/doc=0.492
+[iter2] S2b-spacy+cv-trf                   dev  R=0.991 P=0.981 F2=0.989 entR=0.992 leakDocs=6/80 FP/doc=0.44 s/doc=0.39
+[iter2] S2b-spacy+cv-lg                    test R=1.000 P=0.972 F2=0.994 entR=1.000 leakDocs=0/20 FP/doc=0.40 s/doc=0.027
+[iter2] S2b-spacy+cv-lg                    h3   R=0.923 P=0.778 F2=0.890 entR=0.904 leakDocs=35/60 FP/doc=6.77 s/doc=0.057
+[iter2] S2b-spacy+cv-lg                    h2   R=0.905 P=0.792 F2=0.880 entR=0.876 leakDocs=26/40 FP/doc=6.78 s/doc=0.061
+[iter2] S2b-spacy+cv-lg                    dev  R=0.992 P=0.870 F2=0.965 entR=0.992 leakDocs=6/80 FP/doc=3.31 s/doc=0.041
+[iter2] S2b-spacy+cv-auto                  test R=1.000 P=0.972 F2=0.994 entR=1.000 leakDocs=0/20 FP/doc=0.40 s/doc=0.03
+[iter2] S2b-spacy+cv-auto                  h3   R=0.911 P=0.843 F2=0.896 entR=0.889 leakDocs=38/60 FP/doc=4.35 s/doc=0.232
+/usr/local/lib/python3.11/dist-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[iter2] S2b-spacy+cv-auto                  h2   R=0.902 P=0.865 F2=0.894 entR=0.870 leakDocs=26/40 FP/doc=4.00 s/doc=0.465
+[iter2] S2b-spacy+cv-auto                  dev  R=0.990 P=0.932 F2=0.978 entR=0.992 leakDocs=6/80 FP/doc=1.61 s/doc=0.25

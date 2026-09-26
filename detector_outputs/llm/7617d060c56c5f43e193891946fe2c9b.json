@@ -1,0 +1,1 @@
+{"out": "{\"pii\": [{\"text\": \"Daniel O'Connor\", \"label\": \"NAME\"}, {\"text\": \"d.oconnor@consultmail.com\", \"label\": \"EMAIL\"}, {\"text\": \"+353 87 234 5566\", \"label\": \"PHONE\"}, {\"text\": \"Dublin 2, Ireland\", \"label\": \"ADDRESS\"}]}"}

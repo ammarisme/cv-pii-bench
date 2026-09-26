@@ -1,0 +1,65 @@
+# Gold annotation spec for the 20 test CVs.
+# Each entry: (surface string, label, required, nth)
+#   required=True  -> must be masked (miss = FN, counts toward leak)
+#   required=False -> optional: masking it is neither FP nor FN (ambiguous under policy)
+#   nth=None -> every occurrence of the string in that CV; int -> only that occurrence (0-based)
+# Policy v1 (agreed 2026-09-24):
+#   MASK: personal names (candidate + third parties), emails, phones, street addresses,
+#         home city/region/country, personal URLs/handles, government/financial/credential IDs,
+#         DOB, nationality, marital status, universities/schools.
+#   KEEP: employers/clients, job titles, skills/tools/products, certification names,
+#         cities mentioned only as work locations, dates of employment/education, metrics.
+R, O = True, False
+
+GOLD = {
+ "CV-01": [("John Smith","NAME",R,None),("john.smith@example.com","EMAIL",R,None),
+           ("+44 7700 900123","PHONE",R,None),("12 Baker Street, London, NW1 6XE","ADDRESS",R,None),
+           ("University of Manchester","EDU_ORG",R,None)],
+ "CV-02": [("Priya Nair","NAME",R,None),("priya.nair@mailbox.io","EMAIL",R,None),("077 123 4567","PHONE",R,None),
+           ("Colombo 05, Sri Lanka","LOCATION",R,None),("University of Moratuwa","EDU_ORG",R,None)],
+ "CV-03": [("Marcus Webb","NAME",R,None),("marcus.webb@devmail.net","EMAIL",R,None),("(212) 555-0147","PHONE",R,None),
+           ("Brooklyn, New York, USA","LOCATION",R,None)],
+ "CV-04": [("Aisha Rahman Khan","NAME",R,None),("14 March 1993","DOB",R,None),("931031234V","ID",R,None),
+           ("N4419827","ID",R,None),("aisha.rk93@gmail.com","EMAIL",R,None),("+94 71 448 9021","PHONE",R,None),
+           ("No. 42/3, Galle Road, Dehiwala, Sri Lanka","ADDRESS",R,None),("linkedin.com/in/aisharkhan","URL",R,None),
+           ("Married","MARITAL",R,None),("Sri Lankan","NATIONALITY",R,None)],
+ "CV-05": [("Daniel O'Connor","NAME",R,None),("d.oconnor@consultmail.com","EMAIL",R,None),("+353 87 234 5566","PHONE",R,None),
+           ("Dublin 2, Ireland","LOCATION",R,None),("Trinity College Dublin","EDU_ORG",R,None)],
+ "CV-06": [("Chen Wei","NAME",R,None),("chen.wei@datamail.cn","EMAIL",R,None),("+86 138 0013 8000","PHONE",R,None),
+           ("Shanghai, China","LOCATION",R,None)],
+ "CV-07": [("Sarah Mitchell","NAME",R,None),("sarah.mitchell@nhsmail.uk","EMAIL",R,None),("07911 223344","PHONE",R,None),
+           ("Flat 6, 19 Elm Grove, Leeds, LS2 9JT","ADDRESS",R,None),
+           ("Dr.","TITLE",O,None),("Amanda Price","NAME",R,None),("St James Hospital","ORG",O,None),
+           ("amanda.price@sjh.uk","EMAIL",R,None),("0113 496 1122","PHONE",R,None),
+           ("Mr.","TITLE",O,None),("Peter Osei","NAME",R,None),("Leeds General","ORG",O,None),
+           ("p.osei@lgi.uk","EMAIL",R,None),("0113 496 8890","PHONE",R,None)],
+ "CV-08": [("Fatima Al-Sayed","NAME",R,None),("fatima.alsayed@corpmail.ae","EMAIL",R,None),("+971 50 887 3321","PHONE",R,None),
+           ("Dubai Marina, United Arab Emirates","LOCATION",R,None),("INSEAD","EDU_ORG",R,None)],
+ "CV-09": [("Tomasz Nowak","NAME",R,None),("t.nowak@devbox.pl","EMAIL",R,None),("+48 601 234 567","PHONE",R,None),
+           ("Krakow, Poland","LOCATION",R,None),("Polish","LANGUAGE_PROXY",O,None)],
+ "CV-10": [("R O B E R T   H A Y E S","NAME",R,None),("robert [dot] hayes [at] protonmail [dot] com","EMAIL",R,None),
+           ("zero-seven-seven eight nine one two three four","PHONE",R,None),("rhayes(at)securemail(dot)org","EMAIL",R,None),
+           ("@rhayes_sec","HANDLE",R,None)],
+ "CV-11": [("Nguyen Thi Minh Hang","NAME",R,None),("nguyenthiminhhang@vnmail.vn","EMAIL",R,None),("+84 90 123 4567","PHONE",R,None),
+           ("Quan 1, Ho Chi Minh City, Vietnam","LOCATION",R,None)],
+ "CV-12": [("Prof.","TITLE",O,None),("Elena Vasquez","NAME",R,None),("PhD","TITLE",O,None),
+           ("elena.vasquez@univ-lab.es","EMAIL",R,None),("+34 612 998 774","PHONE",R,None),
+           ("Calle Mayor 88, Madrid, Spain","ADDRESS",R,None),("Vasquez E.","NAME",R,None),("Lindqvist K.","NAME",R,None)],
+ "CV-13": [("Michael Brennan","NAME",R,None),("mbrennan@ledgerpro.com","EMAIL",R,None),("020 7946 0321","PHONE",R,None),
+           ("20-00-00","ID",R,None),("41235678","ID",R,None),("GB29 NWBK 6016 1331 9268 19","ID",R,None),
+           ("GB 123 4567 89","ID",R,None),("QQ123456C","ID",R,None)],
+ "CV-14": [],
+ "CV-15": [("Olusegun Adeyemi","NAME",R,None),("olusegun.adeyemi@supplymail.ng","EMAIL",R,None),("0803 456 7788","PHONE",R,None),
+           ("Ikeja, Lagos","LOCATION",R,None),("University of Lagos","EDU_ORG",R,None)],
+ "CV-16": [("Karen Whitfield","NAME",R,None),("k.whitfield@qmail.co.nz","EMAIL",R,None),("+64 21 445 662","PHONE",R,None),
+           ("Wellington, New Zealand","LOCATION",R,None),("00219845","ID",R,None),("2938471","ID",R,None)],
+ "CV-17": [("Ahmed Hassan","NAME",R,None),("ahmed.hassan@mailer.eg","EMAIL",R,None),("+20 100 224 5566","PHONE",R,None),
+           ("Nasr City, Cairo, Egypt","LOCATION",R,None),("Cairo University","EDU_ORG",R,None)],
+ "CV-18": [("Lucas Ferreira","NAME",R,None),("lucas.ferreira@webdev.br","EMAIL",R,None),("+55 11 98877 6655","PHONE",R,None),
+           ("Sao Paulo, Brazil","LOCATION",R,None),("https://lucasferreira.dev","URL",R,None),
+           ("https://github.com/lucasfdev","URL",R,None),("https://linkedin.com/in/lucas-ferreira-88","URL",R,None)],
+ "CV-19": [("April Summers","NAME",R,None),("april.summers@brandco.com","EMAIL",R,None),("+1 415 555 0198","PHONE",R,None),
+           ("Austin, Texas","LOCATION",R,None),("Austin","LOCATION",O,None)],
+ "CV-20": [("Gregory Palmer","NAME",R,None),("gregory.palmer@archmail.se","EMAIL",R,None),("+46 70 123 4567","PHONE",R,None),
+           ("Stockholm","LOCATION",R,None)],
+}

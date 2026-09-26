@@ -1,0 +1,60 @@
+{"id": "H3-001", "fn_leaks": [], "fp_tokens": ["London"]}
+{"id": "H3-002", "fn_leaks": [], "fp_tokens": ["in", "Carl", "2015", "2013"]}
+{"id": "H3-003", "fn_leaks": [], "fp_tokens": []}
+{"id": "H3-004", "fn_leaks": [{"label": "EDU_ORG", "text": "Télécom Physique Strasbourg", "visible": ["Télécom", "Physique", "Strasbourg"]}], "fp_tokens": ["DUT", "Informatique", "Illkirch", "n°"]}
+{"id": "H3-005", "fn_leaks": [{"label": "LOCATION", "text": "Dublin, County Dublin, Ireland", "visible": ["Dublin", "County", "Dublin", "Ireland"]}], "fp_tokens": []}
+{"id": "H3-006", "fn_leaks": [], "fp_tokens": []}
+{"id": "H3-007", "fn_leaks": [], "fp_tokens": ["Department", "of", "Physics", "UK", "Marie", "Stuttgart", "Thesis"]}
+{"id": "H3-008", "fn_leaks": [], "fp_tokens": []}
+{"id": "H3-009", "fn_leaks": [], "fp_tokens": []}
+{"id": "H3-010", "fn_leaks": [], "fp_tokens": []}
+{"id": "H3-011", "fn_leaks": [], "fp_tokens": []}
+{"id": "H3-012", "fn_leaks": [], "fp_tokens": ["Nome", "Avio", "Aero", "•", "Nome", "e", "tipo", "di", "istituto"]}
+{"id": "H3-013", "fn_leaks": [], "fp_tokens": ["Atlanta", "GA", "Atlanta", "GA", "BA", "Economics"]}
+{"id": "H3-014", "fn_leaks": [], "fp_tokens": ["tel", "e-mail", "Comarch", "S.A", "2016", "2014"]}
+{"id": "H3-015", "fn_leaks": [], "fp_tokens": ["Norwich"]}
+{"id": "H3-016", "fn_leaks": [], "fp_tokens": ["Stans", "Bussnang", "Altdorf"]}
+{"id": "H3-017", "fn_leaks": [], "fp_tokens": []}
+{"id": "H3-018", "fn_leaks": [], "fp_tokens": ["lingala", "Né", "à", "Nationalité"]}
+{"id": "H3-019", "fn_leaks": [], "fp_tokens": []}
+{"id": "H3-020", "fn_leaks": [], "fp_tokens": ["·"]}
+{"id": "H3-021", "fn_leaks": [{"label": "URL", "text": "github.com/jkrowlandson/tyche", "visible": ["github.com/jkrowlandson/tyche"]}], "fp_tokens": ["School", "of", "Informatics", "Prof", "Dr"]}
+{"id": "H3-022", "fn_leaks": [], "fp_tokens": ["Equinor", "Bergen", "Johan", "Sverdrup-feltet", "Ivar", "Aasen-feltet", "norsk", "morsmål", "Equinor"]}
+{"id": "H3-023", "fn_leaks": [], "fp_tokens": ["SSC"]}
+{"id": "H3-024", "fn_leaks": [], "fp_tokens": []}
+{"id": "H3-025", "fn_leaks": [], "fp_tokens": []}
+{"id": "H3-026", "fn_leaks": [{"label": "ADDRESS", "text": "Rua Augusta, 1508, apto 72 – Consolação – São Paulo/SP – CEP 01304-001", "visible": ["Consolação"]}], "fp_tokens": []}
+{"id": "H3-027", "fn_leaks": [], "fp_tokens": ["NAVER", "Clova", "Kakao", "Brain"]}
+{"id": "H3-028", "fn_leaks": [], "fp_tokens": ["México", "RFC"]}
+{"id": "H3-029", "fn_leaks": [], "fp_tokens": ["Balfour", "Beatty", "Morgan", "Sindall", "IET", "MIET"]}
+{"id": "H3-030", "fn_leaks": [], "fp_tokens": ["il"]}
+{"id": "H3-031", "fn_leaks": [], "fp_tokens": ["Telephone(s", "Organisation"]}
+{"id": "H3-032", "fn_leaks": [], "fp_tokens": ["**Magna", "Steyr**", "*Sommer", "Erasmus", "am"]}
+{"id": "H3-033", "fn_leaks": [{"label": "EDU_ORG", "text": "TAFE NSW Hunter Institute", "visible": ["TAFE", "NSW", "Hunter", "Institute"]}], "fp_tokens": ["happy", "to", "travel", "FIFO", "NSW", "Electrical", "Contractor", "Licence", "No", "NSW", "ph"]}
+{"id": "H3-034", "fn_leaks": [{"label": "EDU_ORG", "text": "EHESS", "visible": ["EHESS"]}], "fp_tokens": ["Laboratoire", "LADEC"]}
+{"id": "H3-035", "fn_leaks": [{"label": "NAME", "text": "MATEO", "visible": ["MATEO"]}, {"label": "NAME", "text": "ARISTIZÁBAL", "visible": ["ARISTIZÁBAL"]}, {"label": "NAME", "text": "QUINTERO", "visible": ["QUINTERO"]}, {"label": "ADDRESS", "text": "Calle de Embajadores 90,", "visible": ["Calle", "de", "Embajadores", "90"]}, {"label": "ADDRESS", "text": "28012 Madrid", "visible": ["28012", "Madrid"]}, {"label": "NATIONALITY", "text": "Colombian", "visible": ["Colombian"]}, {"label": "EDU_ORG", "text": "Javeriana", "visible": ["Javeriana"]}], "fp_tokens": ["Bogotá", "→", "Madrid", "SKILLS"]}
+{"id": "H3-036", "fn_leaks": [], "fp_tokens": []}
+{"id": "H3-037", "fn_leaks": [], "fp_tokens": []}
+{"id": "H3-038", "fn_leaks": [], "fp_tokens": ["Voornaam", "scouts"]}
+{"id": "H3-039", "fn_leaks": [{"label": "LOCATION", "text": "Galway", "visible": ["Galway"]}], "fp_tokens": ["McCann", "FitzGerald", "SC"]}
+{"id": "H3-040", "fn_leaks": [{"label": "EDU_ORG", "text": "Alma Mater Studiorum – Università di Bologna", "visible": ["Alma", "Mater", "Studiorum"]}], "fp_tokens": []}
+{"id": "H3-041", "fn_leaks": [], "fp_tokens": ["ISC2", "Member", "ID"]}
+{"id": "H3-042", "fn_leaks": [], "fp_tokens": ["praca", "zdalna"]}
+{"id": "H3-043", "fn_leaks": [{"label": "ID", "text": "J-08871", "visible": ["J-08871"]}], "fp_tokens": ["EN"]}
+{"id": "H3-044", "fn_leaks": [], "fp_tokens": ["Postdoktorand", "Arbeitsgruppe", "Prof", "Dr", "Institut", "für", "Organische", "Chemie", "J"]}
+{"id": "H3-045", "fn_leaks": [{"label": "ADDRESS", "text": "Av. Corrientes 3247, piso 5 \"B\", C1193AAE, Ciudad Autónoma de Buenos Aires", "visible": ["Av", "Corrientes", "3247", "piso", "5", "B"]}], "fp_tokens": []}
+{"id": "H3-046", "fn_leaks": [], "fp_tokens": ["Oregon", "TSPC", "License", "Mathematics", "grades", "7–12", "MAT"]}
+{"id": "H3-047", "fn_leaks": [{"label": "ID", "text": "2112457", "visible": ["2112457"]}], "fp_tokens": ["l'Université", "de", "Montréal"]}
+{"id": "H3-048", "fn_leaks": [{"label": "URL", "text": "tariqml.se/writing", "visible": ["tariqml.se/writing"]}], "fp_tokens": ["a", "engineering", "manager", "living", "in", "with", "I", "moved", "from", "to", "Sweden", "in", "2011", "to", "study", "at", "and", "never", "left", "Stockholm", "Stockholm", "Lahore"]}
+{"id": "H3-049", "fn_leaks": [], "fp_tokens": ["Trondheim", "Mvh"]}
+{"id": "H3-050", "fn_leaks": [{"label": "NAME", "text": "Oluwadamilare \"Dami\" Fashola-Grant", "visible": ["Fashola-Grant"]}], "fp_tokens": ["Address"]}
+{"id": "H3-051", "fn_leaks": [], "fp_tokens": ["·", "Nacionalidade", "Teixeira", "Duarte", "MS", "Project"]}
+{"id": "H3-052", "fn_leaks": [], "fp_tokens": []}
+{"id": "H3-053", "fn_leaks": [], "fp_tokens": ["Chelsea", "and", "Westminster", "Hospital", "NHS", "Foundation", "Trust", "Kent", "Academy", "Physio", "CPD", "AACP", "APPI"]}
+{"id": "H3-054", "fn_leaks": [], "fp_tokens": ["Institut", "for", "Folkesundhedsvidenskab", "Statens", "Serum", "Institut", "SSI", "Vaccine", "Novo", "Nordisk", "Fonden"]}
+{"id": "H3-055", "fn_leaks": [], "fp_tokens": ["CA", "Singapore", "ISCA", "member", "no"]}
+{"id": "H3-056", "fn_leaks": [{"label": "EDU_ORG", "text": "Otto-Friedrich-", "visible": ["Otto-Friedrich-"]}], "fp_tokens": ["Stationen", "München", "Herzogenaurach", "IT", "Excel", "VBA"]}
+{"id": "H3-057", "fn_leaks": [], "fp_tokens": ["tokio-rs/tokio", "https://github.com/tokio-rs/tokio"]}
+{"id": "H3-058", "fn_leaks": [], "fp_tokens": ["Bostadsort", "Telefon", "E-post", "Processtekniker", "YH", "Teknikprogrammet"]}
+{"id": "H3-059", "fn_leaks": [], "fp_tokens": []}
+{"id": "H3-060", "fn_leaks": [{"label": "ID", "text": "117622", "visible": ["117622"]}], "fp_tokens": ["UAE"]}

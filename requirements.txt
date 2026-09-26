@@ -1,0 +1,13 @@
+# core (enough to reproduce all tables from cached detector outputs)
+spacy>=3.8
+lingua-language-detector>=2.1
+geonamescache>=3.0
+requests>=2.31      # scripts/run_judge.py
+# detectors (only needed for --live runs)
+torch>=2.4
+transformers>=5.0
+gliner>=0.2.29
+gliner2>=2.0
+peft>=0.21
+presidio-analyzer>=2.2
+llama-cpp-python>=0.3   # optional, local LLM stacks

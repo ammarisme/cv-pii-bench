@@ -1,0 +1,1 @@
+{"out": "{\"pii\": [{\"text\": \"John Smith\", \"label\": \"NAME\"}, {\"text\": \"john.smith@example.com\", \"label\": \"EMAIL\"}, {\"text\": \"+44 7700 900123\", \"label\": \"PHONE\"}, {\"text\": \"12 Baker Street, London, NW1 6XE\", \"label\": \"ADDRESS\"}]}"}

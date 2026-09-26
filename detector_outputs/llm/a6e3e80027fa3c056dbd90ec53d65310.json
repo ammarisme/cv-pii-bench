@@ -1,0 +1,1 @@
+{"out": "{\"pii\": [{\"text\": \"...nguy\u1ec5n th\u1ecb thu h\u00e0\", \"label\": \"NAME\"}, {\"text\": \"... thuha.nguyen@example.vn\", \"label\": \"EMAIL\"}, {\"text\": \"... +84 90 812 3456\", \"label\": \"PHONE\"}, {\"text\": \"...thuha.example.dev\", \"label\": \"URL\"}, {\"text\": \"...thuha-ml\", \"label\": \"HANDLE\"}]}"}

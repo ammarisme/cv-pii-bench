@@ -1,0 +1,1 @@
+{"out": "{\"pii\": [{\"text\": \"Priya Nair\", \"label\": \"NAME\"}, {\"text\": \"priya.nair@mailbox.io\", \"label\": \"EMAIL\"}, {\"text\": \"077 123 4567\", \"label\": \"PHONE\"}, {\"text\": \"Colombo 05, Sri Lanka\", \"label\": \"ADDRESS|LOCATION\"}]}"}

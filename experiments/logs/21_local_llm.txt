@@ -1,0 +1,2 @@
+[llm-qwen3b] S7-llm-only-qwen3b                 h2   R=0.517 P=0.694 F2=0.545 entR=0.530 leakDocs=39/40 FP/doc=6.47 s/doc=54.389
+[llm-qwen3b] S7-llm-only-qwen3b                 test R=0.877 P=0.743 F2=0.846 entR=0.813 leakDocs=11/20 FP/doc=4.25 s/doc=29.131

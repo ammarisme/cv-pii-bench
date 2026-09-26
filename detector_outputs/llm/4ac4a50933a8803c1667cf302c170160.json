@@ -1,0 +1,1 @@
+{"out": "{\"pii\": [{\"text\": \"Tomasz\", \"label\": \"NAME\"}, {\"text\": \"t.nowak@devbox.pl\", \"label\": \"EMAIL\"}, {\"text\": \"+48 601 234 567\", \"label\": \"PHONE\"}, {\"text\": \"Krakow, Poland\", \"label\": \"ADDRESS|LOCATION\"}]}"}

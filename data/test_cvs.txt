@@ -1,0 +1,325 @@
+======================================================================
+CV-01 | Classic dev CV (baseline)
+======================================================================
+John Smith
+Software Engineer
+Email: john.smith@example.com | Phone: +44 7700 900123
+Address: 12 Baker Street, London, NW1 6XE
+
+EXPERIENCE
+Senior Developer at Acme Corp (2019-2024). Built payment systems using Python and Django. Reduced latency by 40%.
+
+EDUCATION
+BSc Computer Science, University of Manchester, 2015-2018. GPA 3.8.
+
+SKILLS
+Python, Java, AWS, Docker, Kubernetes, React
+
+======================================================================
+CV-02 | Tool names that are human names
+======================================================================
+Priya Nair
+DevOps Engineer | priya.nair@mailbox.io | 077 123 4567
+Colombo 05, Sri Lanka
+
+TOOLING
+Jenkins, Grafana, Kafka, Cassandra, Ansible, Terraform, Jasmine, Selenium, Maven, Kibana, Nagios.
+
+EXPERIENCE
+Platform Engineer, Northwind Logistics, 2021-Present. Migrated 120 services to Kubernetes.
+Automated release pipelines with Jenkins and Ansible, cutting deploy time from 45 minutes to 6.
+
+EDUCATION
+MSc Distributed Systems, University of Moratuwa.
+
+======================================================================
+CV-03 | Frameworks that are place / person words
+======================================================================
+Marcus Webb
+Full Stack Developer
+marcus.webb@devmail.net / (212) 555-0147
+Brooklyn, New York, USA
+
+TECH STACK
+React, Angular, Vue, Django, Laravel, Phoenix, Rails, Swift, Rust, Ruby, Kotlin, Go.
+
+EXPERIENCE
+Lead Engineer at Vertex Media (2020-2024). Rebuilt the customer portal in React and shipped a Swift iOS client.
+Introduced Rust for the pricing engine; p99 dropped from 800ms to 120ms.
+
+CERTIFICATIONS
+AWS Solutions Architect, 2022.
+
+======================================================================
+CV-04 | Heavy PII block, low tech noise
+======================================================================
+CURRICULUM VITAE
+
+Full name: Aisha Rahman Khan
+Date of birth: 14 March 1993
+National ID: 931031234V
+Passport: N4419827
+Email: aisha.rk93@gmail.com
+Mobile: +94 71 448 9021
+Home: No. 42/3, Galle Road, Dehiwala, Sri Lanka
+LinkedIn: linkedin.com/in/aisharkhan
+Marital status: Married
+Nationality: Sri Lankan
+
+PROFILE
+Finance analyst with eight years in treasury operations.
+
+======================================================================
+CV-05 | Company names containing place names
+======================================================================
+Daniel O'Connor
+Management Consultant
+d.oconnor@consultmail.com | +353 87 234 5566
+Dublin 2, Ireland
+
+EXPERIENCE
+Boston Consulting Group - Associate (2019-2022)
+London Stock Exchange Group - Analyst (2017-2019)
+Bank of America Merrill Lynch - Intern (2016)
+Advised on 14 cross-border deals worth EUR 2.3bn.
+
+EDUCATION
+BA Economics, Trinity College Dublin.
+
+======================================================================
+CV-06 | Numbers that are not PII
+======================================================================
+Chen Wei
+Data Engineer
+chen.wei@datamail.cn | +86 138 0013 8000
+Shanghai, China
+
+ACHIEVEMENTS
+Processed 2,400,000 rows per hour on a 32-node cluster.
+Cut storage cost from $18,500 to $4,200 per month.
+Reduced pipeline runtime 73% (from 6h 40m to 1h 48m).
+Maintained 99.95% uptime across 2021-2024.
+Employee ID at previous firm: not disclosed.
+
+SKILLS
+Spark 3.4, Airflow 2.7, Snowflake, dbt, Python 3.11.
+
+======================================================================
+CV-07 | Referees section (real PII of third parties)
+======================================================================
+Sarah Mitchell
+Registered Nurse
+sarah.mitchell@nhsmail.uk | 07911 223344
+Flat 6, 19 Elm Grove, Leeds, LS2 9JT
+
+REFEREES
+Dr. Amanda Price, Ward Manager, St James Hospital. amanda.price@sjh.uk, 0113 496 1122.
+Mr. Peter Osei, Charge Nurse, Leeds General. p.osei@lgi.uk, 0113 496 8890.
+
+SKILLS
+Triage, IV cannulation, Epic EHR, phlebotomy.
+
+======================================================================
+CV-08 | Job titles and departments
+======================================================================
+Fatima Al-Sayed
+fatima.alsayed@corpmail.ae | +971 50 887 3321
+Dubai Marina, United Arab Emirates
+
+CAREER
+Chief Operating Officer, Meridian Holdings (2022-2025)
+Head of Strategy, Gulf Retail Partners (2018-2022)
+Vice President, Product, Nexa Systems (2015-2018)
+Managed a team of 240 across Operations, Finance and People Ops.
+
+EDUCATION
+MBA, INSEAD, 2014.
+
+======================================================================
+CV-09 | Product and brand names
+======================================================================
+Tomasz Nowak
+Mobile Developer
+t.nowak@devbox.pl | +48 601 234 567
+Krakow, Poland
+
+EXPERIENCE
+Built the Alexa skill for a retail client; 180k monthly users.
+Shipped apps to the App Store and Google Play; integrated Stripe, Twilio and SendGrid.
+Worked with Firebase, Realm, Room and SQLite.
+Used Figma, Jira, Confluence and Slack daily.
+
+LANGUAGES
+Polish (native), English (C1), German (B1).
+
+======================================================================
+CV-10 | Obfuscated / spaced contact details
+======================================================================
+R O B E R T   H A Y E S
+Security Analyst
+
+Reach me at robert [dot] hayes [at] protonmail [dot] com
+Cell: zero-seven-seven eight nine one two three four
+Or: rhayes(at)securemail(dot)org
+Telegram: @rhayes_sec
+
+EXPERIENCE
+SOC Tier 2, Cygnus Defence, 2020-2024. Handled 3,100 alerts, 42 confirmed incidents.
+Tooling: Splunk, CrowdStrike, Wireshark, Burp Suite, Nessus.
+
+======================================================================
+CV-11 | Non-English name forms
+======================================================================
+Nguyen Thi Minh Hang
+Business Analyst
+nguyenthiminhhang@vnmail.vn | +84 90 123 4567
+Quan 1, Ho Chi Minh City, Vietnam
+
+EXPERIENCE
+FPT Software - Senior BA, 2019-2024. Led requirements for a core banking migration.
+VNG Corporation - BA, 2016-2019.
+
+TOOLS
+BPMN, UML, Visio, Jira, SQL, Power BI, Tableau.
+
+======================================================================
+CV-12 | Academic CV with publications
+======================================================================
+Prof. Elena Vasquez, PhD
+elena.vasquez@univ-lab.es | +34 612 998 774
+Calle Mayor 88, Madrid, Spain
+
+PUBLICATIONS
+Vasquez E., Lindqvist K. (2023) "Sparse attention for genomics", Nature Methods 20(4).
+Vasquez E. (2021) "Bayesian priors in clinical trials", JAMA 325(11).
+
+GRANTS
+ERC Starting Grant, 1.5M EUR, 2022-2027.
+
+TEACHING
+Statistical Learning, Bayesian Inference, Research Methods.
+
+======================================================================
+CV-13 | Financial identifiers (should be caught)
+======================================================================
+Michael Brennan
+Contractor - Accounting
+mbrennan@ledgerpro.com | 020 7946 0321
+Bank details for invoicing: Sort code 20-00-00, Account 41235678
+IBAN: GB29 NWBK 6016 1331 9268 19
+VAT: GB 123 4567 89
+NI Number: QQ123456C
+
+EXPERIENCE
+Freelance financial controller, 2018-present. Clients include Halo Retail and Pemberton Group.
+
+======================================================================
+CV-14 | Skills-only, no PII at all (pure FP probe)
+======================================================================
+SKILLS SUMMARY
+
+Languages: Python, Java, C++, Rust, Go, Ruby, Swift, Kotlin, Scala, Elixir.
+Frameworks: Django, Flask, Spring Boot, React, Angular, Svelte, Phoenix, Rails.
+Data: Postgres, MySQL, MongoDB, Cassandra, Redis, Kafka, Spark, Hadoop, Hive.
+Cloud: AWS, Azure, GCP, Terraform, Ansible, Docker, Kubernetes, Helm, Istio.
+Observability: Prometheus, Grafana, Jaeger, Datadog, Splunk, Sentry.
+Practices: TDD, DDD, CI/CD, pair programming, trunk-based development.
+
+======================================================================
+CV-15 | Name embedded in prose only
+======================================================================
+PROFILE
+
+I am Olusegun Adeyemi, a supply chain manager with eleven years in FMCG.
+You can reach me on olusegun.adeyemi@supplymail.ng or 0803 456 7788.
+I currently live in Ikeja, Lagos.
+
+EXPERIENCE
+At Unilever Nigeria I owned demand planning for a 40 SKU portfolio.
+Previously at Dangote Group I ran inbound logistics for three plants.
+
+EDUCATION
+BSc Industrial Engineering, University of Lagos, 2011.
+
+======================================================================
+CV-16 | Certifications and standards
+======================================================================
+Karen Whitfield
+Quality Manager
+k.whitfield@qmail.co.nz | +64 21 445 662
+Wellington, New Zealand
+
+CERTIFICATIONS
+ISO 9001:2015 Lead Auditor
+ISO 27001 Implementer
+Six Sigma Black Belt
+PRINCE2 Practitioner, registration 00219845
+PMP, credential 2938471
+
+EXPERIENCE
+Quality Manager, Kiwi Foods Ltd, 2018-2024. Closed 87 non-conformances.
+
+======================================================================
+CV-17 | Dates everywhere
+======================================================================
+Ahmed Hassan
+ahmed.hassan@mailer.eg | +20 100 224 5566
+Nasr City, Cairo, Egypt
+
+EMPLOYMENT
+Jan 2020 - Mar 2024: Product Manager, Cairo Fintech
+Jun 2017 - Dec 2019: Associate PM, Delta Payments
+Sep 2014 - May 2017: Analyst, Nile Bank
+
+EDUCATION
+Sep 2010 - Jun 2014: BSc Economics, Cairo University
+
+Available from 1 October 2026. Notice period: 30 days.
+
+======================================================================
+CV-18 | URLs and handles
+======================================================================
+Lucas Ferreira
+Frontend Engineer
+lucas.ferreira@webdev.br | +55 11 98877 6655
+Sao Paulo, Brazil
+
+LINKS
+Portfolio: https://lucasferreira.dev
+GitHub: https://github.com/lucasfdev
+LinkedIn: https://linkedin.com/in/lucas-ferreira-88
+Company blog I wrote for: https://engineering.acmecorp.com
+Docs I maintain: https://reactjs.org/docs
+
+SKILLS
+TypeScript, Next.js, Tailwind, Storybook, Vite, Playwright.
+
+======================================================================
+CV-19 | Ambiguous single-token names vs words
+======================================================================
+April Summers
+Marketing Lead
+april.summers@brandco.com | +1 415 555 0198
+Austin, Texas
+
+EXPERIENCE
+Brand Manager, Sterling & Co, 2019-2024. Ran the Summer campaign that lifted recall 18%.
+Worked with agencies in Austin, Denver and Phoenix.
+Managed budgets in April and October cycles.
+
+SKILLS
+SEO, SEM, HubSpot, Marketo, Google Analytics, Figma.
+
+======================================================================
+CV-20 | Minimal CV, contact in footer
+======================================================================
+SENIOR ARCHITECT
+
+Twelve years designing distributed systems for regulated industries.
+Led the migration of a core insurance platform serving 4 million policies.
+Speaker at QCon and GOTO. Author of an internal design-review handbook.
+
+Stack: Java, Spring, Kafka, Postgres, Kubernetes, Istio, OpenTelemetry.
+
+---
+Gregory Palmer - gregory.palmer@archmail.se - +46 70 123 4567 - Stockholm

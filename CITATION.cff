@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or pipeline, please cite it as below."
+title: "CV-PII-Bench: Anonymising CVs Without Losing Them"
+authors:
+  - family-names: "<Surname>"
+    given-names: "Ammar"
+date-released: 2026-09-25
+version: 1.0.0
+license: Apache-2.0
+repository-code: "https://github.com/ammarisme/cv-pii-bench"
+keywords: [PII, anonymisation, redaction, CV, resume, GLiNER, NER, benchmark, GDPR]

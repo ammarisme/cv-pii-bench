@@ -1,0 +1,1 @@
+{"out": "{\"pii\": [{\"text\": \"Nguyen Thi Minh Hang\", \"label\": \"NAME\"}, {\"text\": \"nguyenthiminhhang@vnmail.vn\", \"label\": \"EMAIL\"}, {\"text\": \"+84 90 123 4567\", \"label\": \"PHONE\"}, {\"text\": \"Quan 1, Ho Chi Minh City, Vietnam\", \"label\": \"ADDRESS|LOCATION\"}]}"}

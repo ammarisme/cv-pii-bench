@@ -1,0 +1,1 @@
+{"out": "{\"decisions\": {\"0\": \"mask\", \"1\": \"mask\", \"2\": \"mask\"}, \"missed\": [{\"text\": \"ahmed.hassan@mailer.eg\", \"label\": \"EMAIL\"}, {\"text\": \"+20 100 224 5566\", \"label\": \"PHONE\"}, {\"text\": \"Nasr City, Cairo, Egypt\", \"label\": \"LOCATION\"}, {\"text\": \"Cairo University\", \"label\": \"EDU_ORG\"}]}"}

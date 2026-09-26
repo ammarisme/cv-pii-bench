@@ -1,0 +1,4116 @@
+[
+ {
+  "id": "H3-001",
+  "lang": "en",
+  "text": "CONTACT                         PROFILE\nRhiannon Tredegar-Pugh          Data engineer with 9 years building\n+44 (0)29 2046 7713             streaming pipelines; led a team of 14\nrhiannon.tp@protonmail.com      and cut infra spend by £1.2M in 2023.\n14 Heol y Deri, Cardiff CF14 6HF\n                                EXPERIENCE\nSKILLS                          Admiral Group — Lead Data Engineer\nKafka 3.6 · Spark · dbt         Cardiff | 2020 – present\nAirflow 2.8 · Terraform         • Migrated 212 batch jobs to Flink\nSnowflake · Python 3.12         • ISO 27001 audit owner (2022, 2024)\n\nEDUCATION                       Monzo — Data Engineer\nCardiff University              London | 2017 – 2020\nMSc Data Science, 2017          • Built fraud features serving 7.5M users\nAberystwyth University\nBSc Computer Science, 2016      LANGUAGES\n                                Welsh (native), English (native)\nlinkedin.com/in/rhiannon-tp\n",
+  "gold": [
+   [
+    "Rhiannon Tredegar-Pugh",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "+44 (0)29 2046 7713",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "rhiannon.tp@protonmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "14 Heol y Deri, Cardiff CF14 6HF",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "Cardiff University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Aberystwyth University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "linkedin.com/in/rhiannon-tp",
+    "URL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-002",
+  "lang": "de",
+  "text": "LEBENSLAUF\n\nPersönliche Daten\nName:                Friederike von Aschenbach\nAnschrift:           Kastanienallee 27, 10435 Berlin\nTelefon:             0176 / 83 22 90 14\nE-Mail:              f.aschenbach@web.de\nGeburtsdatum:        14.03.1991 in Kassel\nStaatsangehörigkeit: deutsch\nFamilienstand:       verheiratet, zwei Kinder\n\nBerufserfahrung\n04/2019 – heute     Siemens Healthineers AG, Erlangen\n                    Senior Produktmanagerin MRT-Software\n                    – Verantwortung für Umsatz von 38 Mio. EUR\n                    – Team von 11 Entwicklern, Release 4.2 und 5.0\n09/2015 – 03/2019   Carl Zeiss Meditec AG, Jena\n                    Produktmanagerin\n\nAusbildung\n2013 – 2015         Technische Universität München – M.Sc. Medizintechnik\n2010 – 2013         Karlsruher Institut für Technologie (KIT) – B.Sc. Maschinenbau\n2010                Abitur, Friedrichsgymnasium Kassel\n\nKenntnisse\nMS Project, Jira, DICOM, IEC 62304, ISO 13485\nSprachen: Deutsch (Muttersprache), Englisch (C1), Französisch (B1)\n\nBerlin, im Mai 2025\nFriederike von Aschenbach\n",
+  "gold": [
+   [
+    "Friederike von Aschenbach",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Kastanienallee 27, 10435 Berlin",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "0176 / 83 22 90 14",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "f.aschenbach@web.de",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "14.03.1991",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Kassel",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "deutsch",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "verheiratet, zwei Kinder",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Technische Universität München",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Karlsruher Institut für Technologie",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "KIT",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Friedrichsgymnasium Kassel",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Berlin",
+    "LOCATION",
+    true,
+    1
+   ]
+  ]
+ },
+ {
+  "id": "H3-003",
+  "lang": "en",
+  "text": "Senior iOS Developer — 8 yrs Swift/Objective-C\nContact: b.okonkwo-ellis@gmail.com\n\n- Revolut (2021–now): payments SDK, 99.97% crash-free sessions, 40M MAU\n- Deliveroo (2018–2021): rider app, SwiftUI migration, 30+ releases\n- Freelance (2016–2018): 12 App Store apps, 2 featured by Apple\n\nStack: Swift 5.9, Combine, CoreData, Fastlane, Bitrise, Firebase\nTesting: XCTest, snapshot tests, 85% coverage on core modules\nBSc Software Engineering, University of Greenwich (2016)\nAvailable with 4 weeks' notice. Right to work in the UK.\n",
+  "gold": [
+   [
+    "b.okonkwo-ellis@gmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "University of Greenwich",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-004",
+  "lang": "fr",
+  "text": "Camille Nguyen-Delacroix\nIngénieure DevOps\n12 bis rue des Tanneurs – 67000 Strasbourg\n06 71 44 20 83 | camille.ndx@orange.fr\nNée le 2 juillet 1994 (31 ans) – Nationalité française – Permis B\nPacsée\n\nEXPÉRIENCES PROFESSIONNELLES\nDepuis 2021 — OVHcloud, Roubaix — Ingénieure SRE\n• Supervision de 3 500 serveurs bare-metal, astreinte N2\n• Réduction du MTTR de 45 min à 12 min\n• Migration Kubernetes 1.24 → 1.29\n2018 – 2021 — Capgemini, Strasbourg — Consultante DevOps\n• Clients : Crédit Mutuel, Adidas\n• Pipelines GitLab CI pour 60 équipes\n\nFORMATION\n2018 — Diplôme d'ingénieur, Télécom Physique Strasbourg\n2015 — DUT Informatique, IUT Robert Schuman (Illkirch)\n2012 — Baccalauréat S, Lycée Kléber\n\nCOMPÉTENCES\nAnsible, Terraform, Prometheus, Grafana, Python, Go\nCertifications : CKA (n° LF-9k27dh3m1q), AWS SAA\n\nLANGUES : français (langue maternelle), anglais C1, vietnamien (notions)\n",
+  "gold": [
+   [
+    "Camille Nguyen-Delacroix",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "12 bis rue des Tanneurs – 67000 Strasbourg",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "06 71 44 20 83",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "camille.ndx@orange.fr",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "2 juillet 1994",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "31 ans",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "française",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "Pacsée",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Télécom Physique Strasbourg",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "IUT Robert Schuman",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Lycée Kléber",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "LF-9k27dh3m1q",
+    "ID",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-005",
+  "lang": "en",
+  "text": "Contact\nwww.linkedin.com/in/kwame-asante-boateng (LinkedIn)\nkwame.ab.dev (Other)\nTop Skills\nGo\nDistributed Systems\ngRPC\nLanguages\nTwi (Native or Bilingual)\nEnglish (Full Professional)\nCertifications\nCertified Kubernetes Administrator\nHashiCorp Certified: Terraform Associate (003)\n\nKwame Asante-Boateng\nStaff Software Engineer at Stripe\nDublin, County Dublin, Ireland\n\nSummary\nBackend engineer focused on money movement. Previously scaled ledger services from 2k to 45k TPS.\n\nExperience\nStripe\nStaff Software Engineer\nMarch 2022 - Present (3 years 7 months)\nDublin, Ireland\nIntercom\nSenior Software Engineer\nJune 2018 - February 2022 (3 years 9 months)\nDublin, Ireland\nBuilt the inbox search on Elasticsearch 6.x; team of 6.\n\nEducation\nKwame Nkrumah University of Science and Technology\nBachelor of Science - BS, Computer Engineering · (2010 - 2014)\nTrinity College Dublin\nMaster of Science - MS, Computer Science · (2016 - 2017)\n\nPage 1 of 1\n",
+  "gold": [
+   [
+    "www.linkedin.com/in/kwame-asante-boateng",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "kwame.ab.dev",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "Kwame Asante-Boateng",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Dublin, County Dublin, Ireland",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "Kwame Nkrumah University of Science and Technology",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Trinity College Dublin",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-006",
+  "lang": "es",
+  "text": "CURRÍCULUM VITAE\n\nDATOS PERSONALES\nNombre y apellidos: María del Carmen Ibáñez Roldán\nDNI: 48213377-K\nFecha de nacimiento: 23/11/1988\nEstado civil: soltera\nDomicilio: C/ Sierpes, 41, 3º B, 41004 Sevilla\nMóvil: +34 654 902 118\nCorreo: mcarmen.ibanez@yahoo.es\n\nEXPERIENCIA\n2019 – actualidad   Abengoa · Sevilla\n    Ingeniera de proyectos solares (plantas de 50 MW y 200 MW)\n2014 – 2019   Acciona Energía · Pamplona\n    Técnica de O&M, parque eólico de 48 aerogeneradores\n\nFORMACIÓN\n2012 – 2014   Máster en Energías Renovables — Universidad de Sevilla\n2006 – 2012   Ingeniería Industrial — Universidad Politécnica de Madrid\n\nIDIOMAS\nInglés: C1 (Cambridge Advanced, 2015) · Alemán: A2\n\nOTROS DATOS\nCarné de conducir B y vehículo propio\nDisponibilidad para viajar\n\nREFERENCIAS\nD. Joaquín Mestre Albiol, Director de Operaciones, Acciona Energía — tel. 948 006 215\n",
+  "gold": [
+   [
+    "María del Carmen Ibáñez Roldán",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "48213377-K",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "23/11/1988",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "soltera",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "C/ Sierpes, 41, 3º B, 41004 Sevilla",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "+34 654 902 118",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "mcarmen.ibanez@yahoo.es",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "Universidad de Sevilla",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Universidad Politécnica de Madrid",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Joaquín Mestre Albiol",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "948 006 215",
+    "PHONE",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-007",
+  "lang": "en",
+  "text": "CURRICULUM VITAE\nDr. Ines Kowalczyk-Moreau\nDepartment of Physics, University of Bristol, Tyndall Avenue, Bristol BS8 1TL, UK\nines.kowalczyk-moreau@bristol.ac.uk · ORCID 0000-0002-7741-3398\n\nAPPOINTMENTS\n2021–      Lecturer in Condensed Matter Physics, University of Bristol\n2018–2021  Marie Skłodowska-Curie Fellow, ETH Zürich (host: Prof. Anselm Grüninger)\n2017–2018  Postdoctoral Researcher, Max Planck Institute for Solid State Research, Stuttgart\n\nEDUCATION\n2017  PhD Physics, Université Paris-Saclay. Thesis: \"Spin–orbit coupling in iridate thin films\".\n      Supervisor: Dr. Hélène Marchetti-Brun\n2013  MSc Physics, Jagiellonian University, Kraków\n\nSELECTED PUBLICATIONS\n[1] I. Kowalczyk-Moreau, T. Abernathy, A. Grüninger, \"Magnon transport in Sr2IrO4\", Phys. Rev. Lett. 128, 047201 (2022).\n[2] Kowalczyk-Moreau I., Oyelaran D., Marchetti-Brun H., \"Epitaxial strain in La2CuO4\", Nature Materials 19, 1123 (2020).\n[3] R. Sato, I. Kowalczyk-Moreau, \"Terahertz probes of altermagnets\", arXiv:2403.11852.\n\nGRANTS\nEPSRC New Investigator Award EP/X012345/1 (£412,000), 2023–2026\nRoyal Society Research Grant RGS/R1/231177 (£20,000)\n\nTEACHING\nPHYS20034 Quantum Mechanics (220 students)\n\nPhD STUDENTS SUPERVISED\nTobias Abernathy (2022–), Deola Oyelaran (2023–)\n\nMEMBERSHIPS\nInstitute of Physics (MInstP), membership no. 1847223\n",
+  "gold": [
+   [
+    "Ines Kowalczyk-Moreau",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Tyndall Avenue, Bristol BS8 1TL",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "University of Bristol",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "ines.kowalczyk-moreau@bristol.ac.uk",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "0000-0002-7741-3398",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "ETH Zürich",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Anselm Grüninger",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Max Planck Institute for Solid State Research",
+    "EDU_ORG",
+    false,
+    null
+   ],
+   [
+    "Université Paris-Saclay",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Hélène Marchetti-Brun",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Jagiellonian University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "I. Kowalczyk-Moreau",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "T. Abernathy",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "A. Grüninger",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Kowalczyk-Moreau I.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Oyelaran D.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Marchetti-Brun H.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "R. Sato",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "EP/X012345/1",
+    "ID",
+    false,
+    null
+   ],
+   [
+    "RGS/R1/231177",
+    "ID",
+    false,
+    null
+   ],
+   [
+    "Tobias Abernathy",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Deola Oyelaran",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "1847223",
+    "ID",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-008",
+  "lang": "nl",
+  "text": "Curriculum Vitae — Joost van den Heuvel-Bakker\n\nPersonalia\nAdres: Oudegracht 118-bis, 3511 AX Utrecht\nTel.: 06-4172 8830\nE-mail: joostvdh [at] xs4all [punt] nl\nGeboortedatum: 7 augustus 1985\nNationaliteit: Nederlandse\nBurgerlijke staat: samenwonend, 1 dochter\nBSN: 184 726 503 (alleen voor contractdoeleinden)\n\nWerkervaring\n2018 – heden   Rabobank, Utrecht — Lead Risk Modeller\n               Kredietrisicomodellen (IRB), portefeuille € 42 mrd\n2012 – 2018    ING Bank, Amsterdam — Quantitative Analyst\n2010 – 2012    Ortec Finance, Rotterdam — Junior consultant\n\nOpleiding\n2008 – 2010  MSc Econometrie, Erasmus Universiteit Rotterdam (cum laude)\n2004 – 2008  BSc Wiskunde, Universiteit Utrecht\n1998 – 2004  VWO, Stedelijk Gymnasium Leiden\n\nVaardigheden: R, Python, SAS 9.4, SQL, Basel III/IV, IFRS 9\nTalen: Nederlands (moedertaal), Engels (vloeiend), Duits (goed)\n\nReferenties\nMw. dr. Saskia Oosterhuis-Lamberts, afdelingshoofd Model Validation, Rabobank\ns.oosterhuis@rabobank.nl | +31 30 216 0000\n",
+  "gold": [
+   [
+    "Joost van den Heuvel-Bakker",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Oudegracht 118-bis, 3511 AX Utrecht",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "06-4172 8830",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "joostvdh [at] xs4all [punt] nl",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "7 augustus 1985",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Nederlandse",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "samenwonend, 1 dochter",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "184 726 503",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Erasmus Universiteit Rotterdam",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Universiteit Utrecht",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Stedelijk Gymnasium Leiden",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Saskia Oosterhuis-Lamberts",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "s.oosterhuis@rabobank.nl",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "+31 30 216 0000",
+    "PHONE",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-009",
+  "lang": "en",
+  "text": "# Ruby Jenkins\n**Platform Engineer** · Leeds, UK · ruby@rubyjenkins.dev · [github.com/rjenkins-ops](https://github.com/rjenkins-ops)\n\n## Summary\nI build CI/CD platforms. I have migrated three orgs off Jenkins onto GitHub Actions and I still write Ruby for fun.\n\n## Experience\n**Sky Betting & Gaming** — Senior Platform Engineer *(2021 – present)*\n- Replaced 480 Jenkins jobs with reusable Actions workflows; build time p50 down 63%\n- Owner of internal Ruby gem `sbg-deploy` (v2.3.1)\n- On-call rota for 1,200 microservices\n\n**BJSS** — DevOps Consultant *(2017 – 2021)*\n- Client work for NHS Digital and HMRC\n- Jenkins shared libraries, Groovy, Ansible\n\n## Education\n**University of Leeds** — BSc Computer Science, 2017\n\n## Skills\nRuby, Go, Bash, Jenkins, Kubernetes, ArgoCD, Vault\n",
+  "gold": [
+   [
+    "Ruby Jenkins",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Leeds, UK",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "ruby@rubyjenkins.dev",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "github.com/rjenkins-ops",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "University of Leeds",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-010",
+  "lang": "sv",
+  "text": "MERITFÖRTECKNING\nÅsa Lindqvist Järvholm\nCivilingenjör, Energisystem\nSveavägen 64 lgh 1102, 113 59 Stockholm · 070-318 22 94 · asa.jarvholm@telia.com\nPersonnummer: 19870412-3386\n\nANSTÄLLNINGAR\n2020–      Vattenfall AB, Solna — Projektledare vindkraft\n           Ansvar för portfölj om 1,4 GW, budget 2,8 mdr SEK\n2015–2020  ABB, Västerås — Systemingenjör HVDC\n           Leverans av 800 kV-station till Kina\n2013–2015  Sweco, Göteborg — Konsult\n\nUTBILDNING\n2008–2013  Civilingenjör Energisystem, Kungliga Tekniska högskolan (KTH)\n2011       Utbytestermin, Technische Universität Wien\n\nÖVRIGT\nKörkort B · Svenska (modersmål), engelska (flytande), tyska (goda kunskaper)\nFörtroendeuppdrag: styrelseledamot i Svensk Vindenergi (ideell)\n\nREFERENSER\nLämnas på begäran.\n",
+  "gold": [
+   [
+    "Åsa Lindqvist Järvholm",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Sveavägen 64 lgh 1102, 113 59 Stockholm",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "070-318 22 94",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "asa.jarvholm@telia.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "19870412-3386",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Kungliga Tekniska högskolan",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "KTH",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Technische Universität Wien",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-011",
+  "lang": "en",
+  "text": "CANDIDATE PROFILE — REF 2025-0418 (blind shortlist)\nRole applied for: Head of Finance Transformation\n\nSummary\nChartered accountant with 15 years in FMCG and retail finance. Led an SAP S/4HANA\nmigration across 23 entities and a £3.4bn revenue base.\n\nCareer history\n2019 – present   Unilever, London — Director, Finance Systems\n2014 – 2019      Tesco PLC, Welwyn Garden City — Head of Group Reporting\n2010 – 2014      PwC, Birmingham — Audit Manager\n\nQualifications\nACA (ICAEW), 2012\nLean Six Sigma Green Belt\n\nTools\nSAP S/4HANA, BlackLine, Anaplan, Power BI, Alteryx\n\nNotice period: 3 months\nSalary expectation: £165,000 + bonus\n",
+  "gold": []
+ },
+ {
+  "id": "H3-012",
+  "lang": "it",
+  "text": "FORMATO EUROPEO PER IL CURRICULUM VITAE\n\nINFORMAZIONI PERSONALI\nNome\tDE ROSA, GIANLUCA\nIndirizzo\tVia Toledo 256, 80134 Napoli (NA)\nTelefono\t+39 081 552 7390 – cell. 347 889 1026\nE-mail\tgianluca.derosa@pec.it\nNazionalità\titaliana\nData di nascita\t09/05/1979\nCodice fiscale\tDRSGLC79E09F839U\n\nESPERIENZA LAVORATIVA\n• Date\t2016 – oggi\n• Nome del datore di lavoro\tLeonardo S.p.A., Pomigliano d'Arco\n• Tipo di impiego\tResponsabile qualità, linea aerostrutture\n• Principali mansioni\tCertificazioni EN 9100 e ISO 9001:2015; audit su 35 fornitori\n• Date\t2008 – 2016\n• Nome del datore di lavoro\tAvio Aero, Torino\n• Tipo di impiego\tIngegnere di processo\n\nISTRUZIONE E FORMAZIONE\n• Date\t1998 – 2004\n• Nome e tipo di istituto\tUniversità degli Studi di Napoli Federico II\n• Qualifica conseguita\tLaurea in Ingegneria Aerospaziale, 110/110 e lode\n\nCAPACITÀ E COMPETENZE PERSONALI\nMadrelingua\tItaliano\nAltre lingue\tInglese (B2), Francese (A2)\nPatente\tB\n\nAutorizzo il trattamento dei dati personali ai sensi del D.Lgs. 196/2003 e del GDPR (Reg. UE 2016/679).\nNapoli, 12/03/2025\t\tGianluca De Rosa\n",
+  "gold": [
+   [
+    "DE ROSA, GIANLUCA",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Via Toledo 256, 80134 Napoli (NA)",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "+39 081 552 7390",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "347 889 1026",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "gianluca.derosa@pec.it",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "italiana",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "09/05/1979",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "DRSGLC79E09F839U",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Università degli Studi di Napoli Federico II",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Napoli",
+    "LOCATION",
+    true,
+    2
+   ],
+   [
+    "Gianluca De Rosa",
+    "NAME",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-013",
+  "lang": "en",
+  "text": "DESHAWN MCALLISTER-OYELOWO\nAtlanta, GA 30318 | (404) 555-0187 | deshawn.mo@outlook.com\n\nPROFESSIONAL SUMMARY\nSupply chain analyst with 7+ years optimizing distribution networks. Saved $4.1M annually across 312 SKUs; managed 3PL contracts worth $27M.\n\nEXPERIENCE\nThe Home Depot — Senior Supply Chain Analyst | Atlanta, GA | 2021–Present\n• Built demand forecasts in Python (Prophet 1.1) covering 2,000+ stores\n• Reduced stockouts 18% in the Region 404 pilot (555 stores)\nDelta Air Lines — Operations Analyst | Atlanta, GA | 2018–2021\n• Parts inventory model for 850 aircraft; on-time performance up 2.3 pts\n\nEDUCATION\nGeorgia Institute of Technology — MS Supply Chain Engineering, 2018\nMorehouse College — BA Economics, 2016\n\nCERTIFICATIONS\nAPICS CSCP (Certificate ID: 2319847)\nSix Sigma Black Belt (ASQ)\n\nVOLUNTEER\nTreasurer, Westside Youth Soccer League (2019–present)\n",
+  "gold": [
+   [
+    "DESHAWN MCALLISTER-OYELOWO",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Atlanta, GA 30318",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "(404) 555-0187",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "deshawn.mo@outlook.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "Georgia Institute of Technology",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Morehouse College",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "2319847",
+    "ID",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-014",
+  "lang": "pl",
+  "text": "Curriculum Vitae\n\nZofia Wiśniewska-Grabowska\nul. Piotrkowska 148/12, 90-063 Łódź\ntel. 601 234 877\ne-mail: zofia.wg@o2.pl\ndata urodzenia: 30.01.1993\nPESEL: 93013004528\n\nDOŚWIADCZENIE ZAWODOWE\n03.2020 – obecnie   Fujitsu Technology Solutions, Łódź\n    Starsza analityczka biznesowa – projekty SAP dla 14 klientów z branży FMCG\n07.2016 – 02.2020   Comarch S.A., Kraków\n    Analityczka / konsultantka ERP (Comarch ERP XL 2019.1)\n\nWYKSZTAŁCENIE\n2014 – 2016  Uniwersytet Łódzki, Wydział Zarządzania – studia magisterskie\n2011 – 2014  Szkoła Główna Handlowa w Warszawie – studia licencjackie\n\nJĘZYKI: angielski C1, niemiecki B1\nCERTYFIKATY: PSM I, ISTQB Foundation Level, IREB CPRE\n\nWyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z RODO).\n",
+  "gold": [
+   [
+    "Zofia Wiśniewska-Grabowska",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "ul. Piotrkowska 148/12, 90-063 Łódź",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "601 234 877",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "zofia.wg@o2.pl",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "30.01.1993",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "93013004528",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Uniwersytet Łódzki",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Szkoła Główna Handlowa w Warszawie",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-015",
+  "lang": "en",
+  "text": "BAKER, HOPE ELIZABETH\nRegistered Nurse (Adult) — NMC PIN 09H2173E\n\nAddress: Flat 3, 22 Mill Lane, Norwich NR3 4QT\nMobile: 07700 900 413   |   Email: hope.e.baker@btinternet.com\nDOB: 19 Sept 1990   Gender: Female   Nationality: British\n\nCLINICAL EXPERIENCE\nNorfolk and Norwich University Hospitals NHS Foundation Trust\nBand 6 Staff Nurse, Acute Medical Unit — 2019 to present\n - 28-bed unit, nurse-to-patient ratio 1:6 on nights\n - Link nurse for sepsis (NEWS2), trained 40 staff\nJames Paget University Hospitals NHS Foundation Trust, Great Yarmouth\nBand 5 Staff Nurse, Respiratory — 2013 to 2019\n\nEDUCATION\nBSc (Hons) Adult Nursing, University of East Anglia, 2013\nCity College Norwich — Access to HE Diploma (Health), 2010\n\nREFERENCES\n1. Bill Stone, Ward Manager, AMU, NNUH — 01603 286286 ext. 4471\n2. Dr Grace Whitlock-Adebayo, Consultant Physician — g.whitlock-adebayo@nhs.net\n\nEMERGENCY CONTACT\nThomas Baker (husband) — 07700 900 588\n",
+  "gold": [
+   [
+    "BAKER, HOPE ELIZABETH",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "09H2173E",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Flat 3, 22 Mill Lane, Norwich NR3 4QT",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "07700 900 413",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "hope.e.baker@btinternet.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "19 Sept 1990",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Female",
+    "GENDER",
+    true,
+    null
+   ],
+   [
+    "British",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "University of East Anglia",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "City College Norwich",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Bill Stone",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "01603 286286 ext. 4471",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "Grace Whitlock-Adebayo",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "g.whitlock-adebayo@nhs.net",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "Thomas Baker",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "husband",
+    "MARITAL",
+    false,
+    null
+   ],
+   [
+    "07700 900 588",
+    "PHONE",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-016",
+  "lang": "de",
+  "text": "Lebenslauf\n\nKontakt | Details\nName | Reto Zgraggen-Imhof\nAdresse | Bahnhofstrasse 9a, 6460 Altdorf UR\nMobile | +41 79 402 18 66\nMail | reto.zgraggen@bluewin.ch\nJahrgang | 1982\nZivilstand | geschieden\nHeimatort | Erstfeld\nAHV-Nr. | 756.3047.5009.62\n\nBerufliche Laufbahn |\n2017–heute | Pilatus Aircraft Ltd, Stans – Leiter Qualitätssicherung (Team 22 MA)\n2009–2017 | Stadler Rail AG, Bussnang – Prozessingenieur\n2006–2009 | Dätwyler AG, Altdorf – Konstrukteur\n\nAus- und Weiterbildung |\n2004–2008 | ETH Zürich – MSc Maschineningenieurwissenschaften\n2020 | Executive MBA, Universität St. Gallen (HSG)\n2002 | Berufsmaturität, Berufsschule Uri\n\nSprachen | Deutsch (Muttersprache), Französisch (B2), Englisch (C1)\nHobbys | Skitouren, Bergsteigen (SAC-Mitglied seit 2001)\n",
+  "gold": [
+   [
+    "Reto Zgraggen-Imhof",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Bahnhofstrasse 9a, 6460 Altdorf UR",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "+41 79 402 18 66",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "reto.zgraggen@bluewin.ch",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "1982",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "geschieden",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Erstfeld",
+    "NATIONALITY",
+    false,
+    null
+   ],
+   [
+    "756.3047.5009.62",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "ETH Zürich",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Universität St. Gallen",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "HSG",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Berufsschule Uri",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-017",
+  "lang": "en",
+  "text": "PROFILE\nProduct designer (8 yrs) specialising in fintech onboarding flows. Portfolio and case studies on request.\n\nEXPERIENCE\nWise — Senior Product Designer, London (2021 – present)\n• Redesigned KYC flow; completion up from 61% to 78% across 9 markets\n• Design system tokens for 3 platforms (Figma, Swift, Kotlin)\nStarling Bank — Product Designer, Cardiff (2018 – 2021)\n• Launched joint accounts to 250k customers\n\nEDUCATION\nGlasgow School of Art — BA (Hons) Communication Design, 2017\n\nTOOLS\nFigma, Framer, Principle, Maze, Amplitude\n\nCONTACT\nbehance.net/isla-mcconnachie · dribbble.com/islamcc · +44 7911 204 667\n\nisla_mcconnachie_cv_2025.pdf — page 1/1 — Isla McConnachie\n",
+  "gold": [
+   [
+    "Glasgow School of Art",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "behance.net/isla-mcconnachie",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "dribbble.com/islamcc",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "+44 7911 204 667",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "isla_mcconnachie",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Isla McConnachie",
+    "NAME",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-018",
+  "lang": "fr",
+  "text": "Thibault Mbeki-Lemaire — Data Scientist\nBruxelles (Ixelles) · thibault.lemaire(at)gmail(point)com · +32 (0)478 55 21 09\n\nExpérience\n2022–      Proximus, Bruxelles — Data Scientist senior\n           Modèles de churn sur 4,6 M d'abonnés ; uplift +3,2 pts\n2019–2022  Solvay, Neder-Over-Heembeek — Data Scientist\n2018–2019  Stage, BNP Paribas Fortis\n\nFormation\n2017–2019  Master ingénieur civil en informatique, Université libre de Bruxelles (ULB)\n2014–2017  Bachelier, UCLouvain\n\nCompétences : Python, PyTorch 2.1, Spark, SQL, Airflow, MLflow\nLangues : français, néerlandais (C1), anglais (C1), lingala\nNé à Kinshasa · Nationalité belge · Permis B\n",
+  "gold": [
+   [
+    "Thibault Mbeki-Lemaire",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Bruxelles (Ixelles)",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "thibault.lemaire(at)gmail(point)com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "+32 (0)478 55 21 09",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "Université libre de Bruxelles",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "ULB",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "UCLouvain",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Kinshasa",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "belge",
+    "NATIONALITY",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-019",
+  "lang": "en",
+  "text": "Yusuf Demirci-Hartmann\nBlockchain / Smart-contract engineer\nRemote — based in Lisbon, Portugal\n\nReach me:\n  email: yusuf dot demirci at hey dot com\n  telegram: @ydh_eth\n  skype: live:.cid.3f9a7e21b04c\n  phone (WhatsApp): plus three five one, nine one two, four four seven, eight zero three\n\nWork\n  2022-now  Aave Companies — Smart Contract Engineer. Audited 31 protocol upgrades; TVL secured > $9B.\n  2020-2022 ConsenSys — Solidity developer on MetaMask Snaps (v0.32).\n  2018-2020 Freelance audits (14 clients, 0 critical findings post-deploy)\n\nOpen source\n  github.com/ydh-eth — 1.2k stars across foundry plugins\n  Contributor to OpenZeppelin Contracts (https://github.com/OpenZeppelin/openzeppelin-contracts)\n\nEducation\n  BSc Computer Engineering, Middle East Technical University (METU), Ankara, 2018\n\nTalks: EthCC 2023 (Paris), Devcon 7 (Bangkok)\n",
+  "gold": [
+   [
+    "Yusuf Demirci-Hartmann",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Lisbon, Portugal",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "yusuf dot demirci at hey dot com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "@ydh_eth",
+    "HANDLE",
+    true,
+    null
+   ],
+   [
+    "live:.cid.3f9a7e21b04c",
+    "HANDLE",
+    true,
+    null
+   ],
+   [
+    "plus three five one, nine one two, four four seven, eight zero three",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "github.com/ydh-eth",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "Middle East Technical University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "METU",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-020",
+  "lang": "da",
+  "text": "CV\n\nMikkel Østergaard Sørensen\nNørrebrogade 52, 2. th., 2200 København N\nMobil: 28 41 93 06 · mikkel.o.sorensen@gmail.com\nFødt: 11. juni 1990 · Gift, 2 børn\nCPR-nr. oplyses efter ansættelse\n\nProfil\nErfaren backend-udvikler med fokus på betalingssystemer. Har arbejdet med systemer der håndterer 1,8 mio. transaktioner i døgnet.\n\nErhvervserfaring\n2019 – nu      Nets A/S, Ballerup – Senior udvikler (Java 17, Kafka)\n2015 – 2019    Netcompany, København – Udvikler, offentlige IT-projekter (MitID, 2 mio. brugere)\n2013 – 2015    Studentermedhjælper, Danske Bank\n\nUddannelse\n2013 – 2015  Cand.polyt. Softwareteknologi, Danmarks Tekniske Universitet (DTU)\n2010 – 2013  B.Sc. Datalogi, Københavns Universitet\n\nSprog: Dansk (modersmål), engelsk (flydende), tysk (skoleniveau)\nFritid: Formand for Brønshøj Badmintonklub (120 medlemmer)\n",
+  "gold": [
+   [
+    "Mikkel Østergaard Sørensen",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Nørrebrogade 52, 2. th., 2200 København N",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "28 41 93 06",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "mikkel.o.sorensen@gmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "11. juni 1990",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Gift, 2 børn",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Danmarks Tekniske Universitet",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "DTU",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Københavns Universitet",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-021",
+  "lang": "en",
+  "text": "J. K. ROWLANDSON\nCurriculum Vitae — updated August 2025\n\nContact: jk.rowlandson@ed.ac.uk | School of Informatics, 10 Crichton Street, Edinburgh EH8 9AB\n\nResearch interests\nProgram synthesis, probabilistic programming, verification of ML systems.\n\nEducation\n2019–2023  PhD Informatics, University of Edinburgh\n           Advisors: Prof. Maeve O'Driscoll and Dr. Kofi Mensah-Larbi\n           Thesis: \"Types for Probabilistic Inference\" (examined by Prof. Dieter Vollrath, TU Darmstadt)\n2015–2019  MEng Computer Science, University of Oxford (Balliol College)\n\nPositions\n2023–        Research Fellow, University of Edinburgh\nSummer 2021  Research Intern, Microsoft Research Cambridge (mentor: Dr. Priyanka Venkataraman)\n\nPublications\nRowlandson, J. K., & O'Driscoll, M. (2024). Refinement types for Stan. POPL 2024, 1–29.\nRowlandson, J. K., Mensah-Larbi, K., Chu, E. (2022). Verifying Pyro programs. NeurIPS 2022.\nChu, E., Rowlandson, J. K. (2021). Shape-checking PyTorch. ICML Workshop on Formal Methods.\n\nSoftware\ntyche — a type checker for Stan models (github.com/jkrowlandson/tyche, 340 stars)\n\nAwards\nEPSRC Doctoral Prize (2023); Best Paper, POPL 2024\n\nReferees\nProf. Maeve O'Driscoll, University of Edinburgh — m.odriscoll@ed.ac.uk\nDr. Kofi Mensah-Larbi, University of Edinburgh — +44 131 650 5129\n",
+  "gold": [
+   [
+    "J. K. ROWLANDSON",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "jk.rowlandson@ed.ac.uk",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "10 Crichton Street, Edinburgh EH8 9AB",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "University of Edinburgh",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Maeve O'Driscoll",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Kofi Mensah-Larbi",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Dieter Vollrath",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "TU Darmstadt",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "University of Oxford",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Balliol College",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Priyanka Venkataraman",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Rowlandson, J. K.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "O'Driscoll, M.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Mensah-Larbi, K.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Chu, E.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "github.com/jkrowlandson/tyche",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "m.odriscoll@ed.ac.uk",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "+44 131 650 5129",
+    "PHONE",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-022",
+  "lang": "no",
+  "text": "CURRICULUM VITAE\n\nNavn: Ingrid Haugland Bakke\nAdresse: Kong Oscars gate 33, 5017 Bergen\nTelefon: 915 62 408\nE-post: ingrid.h.bakke@online.no\nFødselsnummer: 24068944172\nSivilstatus: samboer\n\nARBEIDSERFARING\n2018–d.d.  Equinor ASA, Bergen – Senior reservoaringeniør\n           Johan Sverdrup-feltet: prognoser for 2,7 mrd fat; team på 9\n2012–2018  Aker BP, Stavanger – Reservoaringeniør (Ivar Aasen-feltet)\n\nUTDANNING\n2007–2012  Master i petroleumsteknologi, Norges teknisk-naturvitenskapelige universitet (NTNU)\n2010       Utveksling, University of Texas at Austin\n\nKURS OG SERTIFISERINGER\nPetrel 2023, Eclipse 300, GOSA offshore sikkerhetskurs\n\nSPRÅK: norsk (morsmål), engelsk (flytende)\n\nREFERANSER\nLars Ove Tjøtta, fagsjef, Equinor – tlf. 481 20 377\n",
+  "gold": [
+   [
+    "Ingrid Haugland Bakke",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Kong Oscars gate 33, 5017 Bergen",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "915 62 408",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "ingrid.h.bakke@online.no",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "24068944172",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "samboer",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Norges teknisk-naturvitenskapelige universitet",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "NTNU",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "University of Texas at Austin",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Lars Ove Tjøtta",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "481 20 377",
+    "PHONE",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-023",
+  "lang": "en",
+  "text": "RESUME\n\nName:\tVenkata Sai Lakshmi Prasanna Kotturi\nFather's Name:\tK. Ramachandra Rao\nDate of Birth:\t04-Feb-1996\nGender:\tFemale\nMarital Status:\tUnmarried\nNationality:\tIndian\nPassport No.:\tT4829137\nLanguages Known:\tTelugu, Hindi, English\nPermanent Address:\tD.No. 12-7-44, Gandhi Nagar, Vijayawada, Andhra Pradesh – 520003\nPresent Address:\tFlat 402, Prestige Shantiniketan, Whitefield, Bengaluru – 560048\nMobile:\t+91 98490 31772\nEmail:\tprasanna.kotturi96@gmail.com\n\nCAREER OBJECTIVE\nTo work as a QA Automation Engineer in a growth-oriented organisation.\n\nPROFESSIONAL EXPERIENCE (4.5 years)\nInfosys Ltd, Bengaluru\tSenior Test Engineer\tJul 2021 – Present\n\t• Selenium 4 + TestNG framework for a US banking client; 1,850 automated cases\n\t• Reduced regression cycle from 5 days to 9 hours\nTata Consultancy Services, Hyderabad\tAssistant System Engineer\tJan 2019 – Jun 2021\n\nEDUCATIONAL QUALIFICATIONS\nB.Tech (ECE)\tVelagapudi Ramakrishna Siddhartha Engineering College, Vijayawada\t2018\t8.2 CGPA\nIntermediate (MPC)\tSri Chaitanya Junior College, Vijayawada\t2014\t96.4%\nSSC\tNirmala High School, Vijayawada\t2012\t9.5 GPA\n\nDECLARATION\nI hereby declare that the above information is true to the best of my knowledge.\nPlace: Bengaluru\t\t\t\t\t\t\t(V. S. L. PRASANNA KOTTURI)\n",
+  "gold": [
+   [
+    "Venkata Sai Lakshmi Prasanna Kotturi",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "K. Ramachandra Rao",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "04-Feb-1996",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Female",
+    "GENDER",
+    true,
+    null
+   ],
+   [
+    "Unmarried",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Indian",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "T4829137",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "D.No. 12-7-44, Gandhi Nagar, Vijayawada, Andhra Pradesh – 520003",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "Flat 402, Prestige Shantiniketan, Whitefield, Bengaluru – 560048",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "+91 98490 31772",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "prasanna.kotturi96@gmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "Velagapudi Ramakrishna Siddhartha Engineering College",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Sri Chaitanya Junior College",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Nirmala High School",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Bengaluru",
+    "LOCATION",
+    true,
+    2
+   ],
+   [
+    "V. S. L. PRASANNA KOTTURI",
+    "NAME",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-024",
+  "lang": "fi",
+  "text": "ANSIOLUETTELO\n\nHenkilötiedot\nNimi: Aleksi Väänänen-Kivelä\nOsoite: Hämeenkatu 19 B 23, 33200 Tampere\nPuhelin: 040 718 2256\nSähköposti: aleksi.vaananen@kolumbus.fi\nSyntymäaika: 17.9.1989\nHenkilötunnus: 170989-457R\n\nTyökokemus\n2020–      Nokia Oyj, Tampere – Senior Software Engineer, 5G RAN (C++20, 40 hengen tiimi)\n2016–2020  Wapice Oy, Vaasa – Ohjelmistosuunnittelija\n2014–2016  Tampereen kaupunki – kesätyöntekijä (IT-tuki)\n\nKoulutus\n2010–2016  Diplomi-insinööri, Tampereen teknillinen yliopisto\n2005–2008  Ylioppilas, Tampereen lyseon lukio\n\nKielitaito: suomi (äidinkieli), englanti (erinomainen), ruotsi (tyydyttävä)\nHarrastukset: suunnistus, shakki (FIDE-rating 1920)\n",
+  "gold": [
+   [
+    "Aleksi Väänänen-Kivelä",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Hämeenkatu 19 B 23, 33200 Tampere",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "040 718 2256",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "aleksi.vaananen@kolumbus.fi",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "17.9.1989",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "170989-457R",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Tampereen teknillinen yliopisto",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Tampereen lyseon lukio",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-025",
+  "lang": "en",
+  "text": "Callum Fairweather-Ngata | callum.fn@icloud.com\n\nCommercial Finance Manager\n\nExperience\nTed Baker plc — Commercial Finance Manager (2022–present)\n  Owned P&L for wholesale channel, £96m revenue; margin +140bps\nJohnson & Johnson — Senior Financial Analyst (2019–2022)\n  Consumer Health EMEA; supported Kenvue carve-out planning\nErnst & Young — Assistant Manager, Transaction Services (2016–2019)\n  Buy-side due diligence on 20+ deals ranging £15m–£400m\nMarks & Spencer — Graduate Finance Scheme (2014–2016)\n\nQualifications\nCIMA (ACMA, CGMA) — 2017\nBA Accounting & Finance — 2014\n\nSystems\nOracle Hyperion, SAP BW, Tableau, Excel/VBA, Python (pandas)\n\nInterests\nRugby union (Harlequins amateur XV), sea swimming\n",
+  "gold": [
+   [
+    "Callum Fairweather-Ngata",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "callum.fn@icloud.com",
+    "EMAIL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-026",
+  "lang": "pt",
+  "text": "CURRÍCULO\n\nThiago Albuquerque dos Santos\nBrasileiro, casado, 34 anos\nRua Augusta, 1508, apto 72 – Consolação – São Paulo/SP – CEP 01304-001\nCelular/WhatsApp: (11) 98123-4470\nE-mail: thiago.adsantos@uol.com.br\nLinkedIn: linkedin.com/in/thiagoadsantos\nCPF: 318.442.907-15\n\nOBJETIVO\nGerente de Engenharia de Software\n\nEXPERIÊNCIA PROFISSIONAL\nNubank — Engineering Manager (2021 – atual)\n- Liderança de 3 squads (24 engenheiros) na plataforma de crédito; Clojure, Kafka\n- Redução de 37% no custo de AWS\niFood — Tech Lead (2018 – 2021)\n- Sistema de roteirização com 160 mil entregadores\nItaú Unibanco — Desenvolvedor Java (2013 – 2018)\n\nFORMAÇÃO ACADÊMICA\nBacharelado em Ciência da Computação – Universidade de São Paulo (USP), 2012\nMBA em Gestão de Projetos – Fundação Getulio Vargas (FGV), 2017\n\nIDIOMAS\nInglês fluente, espanhol intermediário\n",
+  "gold": [
+   [
+    "Thiago Albuquerque dos Santos",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Brasileiro",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "casado",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "34 anos",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Rua Augusta, 1508, apto 72 – Consolação – São Paulo/SP – CEP 01304-001",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "(11) 98123-4470",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "thiago.adsantos@uol.com.br",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "linkedin.com/in/thiagoadsantos",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "318.442.907-15",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Universidade de São Paulo",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "USP",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Fundação Getulio Vargas",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "FGV",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-027",
+  "lang": "en",
+  "text": "PARK Ji-hoon (박지훈)\nMachine Learning Engineer · Seoul / open to relocation to Berlin\nAge 29 · Korean citizen · Military service completed (2016–2018)\n☎ +82 10-4471-2093  ✉ jihoon.park.ml@gmail.com\n🌐 jihoonpark.io   ⌥ gitlab.com/jhpark-ml\n\nEXPERIENCE\nNAVER Clova (Seongnam) — ML Engineer, 2021–present\n  · Speech recognition model distillation: 1.2B → 180M params, WER +0.4 only\n  · Served on a 3,000-GPU cluster; latency p99 < 120 ms\nKakao Brain — Research Engineer intern, 2020\n\nEDUCATION\nKAIST — M.S. Electrical Engineering, 2021 (advisor: Prof. Lee Seung-min)\nSeoul National University — B.S. Computer Science, 2016\n\nSELECTED PAPERS\nPark J., Lee S. \"Low-rank adapters for streaming ASR.\" Interspeech 2022.\nKim H., Park J., Lee S. \"Token pruning for Conformer.\" ICASSP 2023.\n\nSKILLS\nPyTorch, JAX, Triton, CUDA, Kubernetes, Ray\n",
+  "gold": [
+   [
+    "PARK Ji-hoon",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "박지훈",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Seoul",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "Berlin",
+    "LOCATION",
+    false,
+    null
+   ],
+   [
+    "Age 29",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Korean",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "+82 10-4471-2093",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "jihoon.park.ml@gmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "jihoonpark.io",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "gitlab.com/jhpark-ml",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "KAIST",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Lee Seung-min",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Seoul National University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Park J.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Lee S.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Kim H.",
+    "NAME",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-028",
+  "lang": "es",
+  "text": "Ana Lucía Xóchitl Hernández Pacheco\nIngeniera de Datos | Guadalajara, Jalisco, México\n33 1845 2290 · analucia.hdz@gmail.com · github.com/alxhp\n\nResumen\n6 años construyendo plataformas de datos en retail y fintech. Procesé 2.300 millones de eventos/día.\n\nExperiencia\nOracle México (Zapopan) — Ingeniera de Datos Sr. · 2022 – hoy\n· Lakehouse en OCI con Spark 3.5 y Delta Lake; 18 equipos consumidores\nKueski — Data Engineer · 2019 – 2022\n· Pipeline de scoring para 1,4 M solicitudes de crédito/mes\nCoppel — Analista BI · 2018 – 2019\n\nEducación\nInstituto Tecnológico y de Estudios Superiores de Occidente (ITESO) — Ing. en Sistemas, 2018\nDiplomado en Ciencia de Datos — Universidad de Guadalajara, 2020\n\nDatos adicionales\nRFC: HEPA950614QX3 · CURP: HEPA950614MJCRCN08\nIdiomas: español (nativo), inglés (C1), náhuatl (básico)\n",
+  "gold": [
+   [
+    "Ana Lucía Xóchitl Hernández Pacheco",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Guadalajara, Jalisco, México",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "33 1845 2290",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "analucia.hdz@gmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "github.com/alxhp",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "Instituto Tecnológico y de Estudios Superiores de Occidente",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "ITESO",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Universidad de Guadalajara",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "HEPA950614QX3",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "HEPA950614MJCRCN08",
+    "ID",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-029",
+  "lang": "en",
+  "text": "[REDACTED] — CV submitted via Hays Recruitment (anonymised per client policy)\n\nKEY SKILLS\n• Commissioning of HV substations up to 400 kV\n• NEBOSH General Certificate; CSCS Gold Card\n• AutoCAD Electrical 2024, ETAP 22, DIgSILENT PowerFactory\n\nEMPLOYMENT\nSiemens Energy — Senior Commissioning Engineer — Manchester — 2019 to date\n  Delivered 11 grid connection projects for National Grid ESO and SP Energy Networks;\n  largest: 2 × 240 MVA transformers at Harker.\nBalfour Beatty — Electrical Engineer — Warrington — 2014 to 2019\nMorgan Sindall — Graduate Engineer — 2012 to 2014\n\nEDUCATION\n[Institution withheld] — BEng (Hons) Electrical & Electronic Engineering, First, 2012\n\nMEMBERSHIPS\nIET — Member (MIET); IEng registration in progress\n\nContact your Hays consultant for further details.\n",
+  "gold": []
+ },
+ {
+  "id": "H3-030",
+  "lang": "it",
+  "text": "Chiara Bellandi-Okafor\nUX Researcher · Milano\nchiara.bellandi@libero.it · 339 402 7781 · chiarabellandi.com\n\nEsperienze\n2021 – oggi · Satispay, Milano — Senior UX Researcher\n  Oltre 120 interviste utente l'anno; framework di research ops adottato da 6 team\n2018 – 2021 · Yoox Net-a-Porter — UX Researcher\n2017 · Stage, Accenture Interactive (Roma)\n\nFormazione\nPolitecnico di Milano — Laurea magistrale in Design della Comunicazione (2017)\nUniversità Iuav di Venezia — Laurea triennale (2015)\n\nStrumenti: Dovetail, Maze, Figma, Optimal Workshop\nLingue: italiano, inglese (C2), igbo (conversazione)\nNata a Brescia il 3 ottobre 1992\n",
+  "gold": [
+   [
+    "Chiara Bellandi-Okafor",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Milano",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "chiara.bellandi@libero.it",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "339 402 7781",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "chiarabellandi.com",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "Politecnico di Milano",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Università Iuav di Venezia",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Brescia",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "3 ottobre 1992",
+    "DOB",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-031",
+  "lang": "en",
+  "text": "Europass Curriculum Vitae\n\nPERSONAL INFORMATION\nSurname(s) / First name(s)   Papadopoulou, Eleni-Artemis\nAddress(es)                  Leoforos Kifisias 212, 15231 Chalandri, Athens, Greece\nTelephone(s)                 +30 210 674 1189        Mobile: +30 694 552 0317\nE-mail                       e.papadopoulou.eng@gmail.com\nNationality                  Greek\nDate of birth                28/06/1986\nGender                       Female\n\nDESIRED EMPLOYMENT / OCCUPATIONAL FIELD\nStructural Engineer – Offshore Wind\n\nWORK EXPERIENCE\nDates                        01/2017 → present\nOccupation or position held  Senior Structural Engineer\nMain activities              Monopile and jacket design for 15 MW turbines; DNV-ST-0126 compliance\nName and address of employer Ramboll, Hamburg (Germany)\nDates                        09/2011 → 12/2016\nOccupation or position held  Structural Engineer\nName and address of employer Aktor S.A., Athens\n\nEDUCATION AND TRAINING\nDates                        2004 → 2011\nTitle of qualification       Diploma in Civil Engineering (5-year, MEng equivalent)\nOrganisation                 National Technical University of Athens (NTUA)\n\nPERSONAL SKILLS\nMother tongue(s)             Greek\nOther language(s)            English C2, German B2\nDriving licence              B (licence no. GR 7729 1841)\n",
+  "gold": [
+   [
+    "Papadopoulou, Eleni-Artemis",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Leoforos Kifisias 212, 15231 Chalandri, Athens, Greece",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "+30 210 674 1189",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "+30 694 552 0317",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "e.papadopoulou.eng@gmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "Greek",
+    "NATIONALITY",
+    true,
+    0
+   ],
+   [
+    "28/06/1986",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Female",
+    "GENDER",
+    true,
+    null
+   ],
+   [
+    "National Technical University of Athens",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "NTUA",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "GR 7729 1841",
+    "ID",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-032",
+  "lang": "de",
+  "text": "**Lena Sommer, BSc MSc**\nGraz, Österreich · +43 664 381 2270 · lena.sommer@gmx.at\nxing.com/profile/Lena_Sommer3\n\n**Berufserfahrung**\n- *seit 03/2021* – **AVL List GmbH**, Graz – Simulation Engineer Batteriesysteme\n  - Thermisches Modell für 800-V-Batterien, Validierung an 26 Prüfständen\n  - Mentoring von 4 Werkstudierenden\n- *07/2019 – 02/2021* – **Magna Steyr**, Graz – Entwicklungsingenieurin\n- *Sommer 2017* – Sommerpraktikum bei **voestalpine**, Linz\n\n**Ausbildung**\n- 2017 – 2019: MSc Elektrotechnik, **Technische Universität Graz**\n- Sommersemester 2016: Erasmus am **Politecnico di Torino**\n- 2013 – 2017: BSc, **Montanuniversität Leoben**\n\n**Kenntnisse**\nMATLAB/Simulink R2024a, GT-SUITE, COMSOL, Python\nDeutsch (Muttersprache), Englisch (C1), Italienisch (B1)\n\n**Referenz**\nDipl.-Ing. Dr. Herwig Winkler, Teamleiter AVL — auf Anfrage\n\nGraz, 1. September 2025 — L. Sommer\n",
+  "gold": [
+   [
+    "Lena Sommer",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Graz, Österreich",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "+43 664 381 2270",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "lena.sommer@gmx.at",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "xing.com/profile/Lena_Sommer3",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "Technische Universität Graz",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Politecnico di Torino",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Montanuniversität Leoben",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Herwig Winkler",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Graz",
+    "LOCATION",
+    true,
+    4
+   ],
+   [
+    "L. Sommer",
+    "NAME",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-033",
+  "lang": "en",
+  "text": "RESUME — Electrician (A-Grade)\n\nName: Lachlan \"Lachie\" O'Rourke-Tipene\nLocation: Newcastle NSW 2300 (happy to travel FIFO)\nPh: 0412 667 309\nEmail: lachie.otipene@bigpond.com\nLicence: NSW Electrical Contractor Licence No. 342718C\nDriver licence: NSW Class HR\n\nWORK HISTORY\nBHP — FIFO Electrician, Mt Arthur Coal (Muswellbrook) — 2020–now\n  - 14/7 roster, HV switching up to 66 kV, maintenance on 11 draglines\nAmpcontrol — Electrical Fitter — 2016–2020\n  - Built 3.3 kV mining switchgear; 400+ units shipped\nApprentice — Sparke Electrical, Maitland — 2012–2016\n\nTICKETS\nWhite Card, Working at Heights, Confined Space, HV Switching (ESAA), First Aid (HLTAID011)\n\nTRAINING\nCert III in Electrotechnology — TAFE NSW Hunter Institute (Tighes Hill), 2016\n\nREFEREES\nShane Kupu — Maintenance Supervisor, BHP — 0438 221 006\nDave Hollingworth — Owner, Sparke Electrical — ph 02 4933 7718\n",
+  "gold": [
+   [
+    "Lachlan \"Lachie\" O'Rourke-Tipene",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Newcastle NSW 2300",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "0412 667 309",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "lachie.otipene@bigpond.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "342718C",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "TAFE NSW Hunter Institute",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Shane Kupu",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "0438 221 006",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "Dave Hollingworth",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "02 4933 7718",
+    "PHONE",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-034",
+  "lang": "fr",
+  "text": "Curriculum vitæ — Soumaya Ben Ammar-Guillot\nMaîtresse de conférences en sociologie\nLaboratoire LADEC, Université Lumière Lyon 2, 5 avenue Pierre Mendès France, 69676 Bron Cedex\nsoumaya.benammar@univ-lyon2.fr\n\nParcours\n2020 – : Maîtresse de conférences, Université Lumière Lyon 2\n2018 – 2020 : ATER, Sciences Po Grenoble\n2017 : Doctorat de sociologie, EHESS, sous la direction de Jean-Baptiste Rémond et Nadia Chergui (mention très honorable)\nJury : Pr. Claire Aubineau (présidente), Pr. Oriol Puigdomènech (rapporteur, Universitat de Barcelona)\n2012 : Master 2 Sociologie, École normale supérieure de Lyon\n\nPublications choisies\nBen Ammar-Guillot S. (2023), « Les travailleurs des plateformes à Lyon », Revue française de sociologie, 64(2), 211-240.\nBen Ammar-Guillot S., Rémond J.-B. (2021), « Précarité et numérique », Sociologie du travail, 63(4).\nChergui N., Ben Ammar-Guillot S. (2019), Actes du congrès AFS, Aix-en-Provence.\n\nResponsabilités\nCo-responsable du Master Sociologie des organisations (effectif 45 étudiants)\nMembre élue du CNU section 19 (2023-2027)\n",
+  "gold": [
+   [
+    "Soumaya Ben Ammar-Guillot",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Université Lumière Lyon 2",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "5 avenue Pierre Mendès France, 69676 Bron Cedex",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "soumaya.benammar@univ-lyon2.fr",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "Sciences Po Grenoble",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "EHESS",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Jean-Baptiste Rémond",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Nadia Chergui",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Claire Aubineau",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Oriol Puigdomènech",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Universitat de Barcelona",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "École normale supérieure de Lyon",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Ben Ammar-Guillot S.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Rémond J.-B.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Chergui N.",
+    "NAME",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-035",
+  "lang": "en",
+  "text": "MATEO                           WORK EXPERIENCE\nARISTIZÁBAL\nQUINTERO                        Globant | Bogotá → Madrid\n                                Senior QA Lead, 2020–present\nContact                         Led 35 testers across 6 accounts\n+34 611 07 29 45                (Disney, EA, Google). Cut release\nmateo.aq@proton.me              regression from 72h to 9h.\nCalle de Embajadores 90,\n28012 Madrid                    Rappi | Bogotá\n                                QA Engineer, 2017–2020\nBorn 1991 · Colombian           Cypress + Appium, 4.8★ app\n& Spanish citizen               rating maintained across 19\n                                releases.\nEducation\nPontificia Universidad          SKILLS\nJaveriana — Systems Eng.        Cypress 13 · Playwright · k6\n(2015)                          Appium · Postman · JMeter 5.6\n                                ISTQB Advanced Test Manager\nLanguages\nSpanish · English (C1)\n",
+  "gold": [
+   [
+    "MATEO",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "ARISTIZÁBAL",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "QUINTERO",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "+34 611 07 29 45",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "mateo.aq@proton.me",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "Calle de Embajadores 90,",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "28012 Madrid",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "Born 1991",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Colombian",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "Spanish",
+    "NATIONALITY",
+    true,
+    0
+   ],
+   [
+    "Pontificia Universidad",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Javeriana",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-036",
+  "lang": "sv",
+  "text": "Hej! Jag heter Linnea Abdi Svensson, 27 år, och bor i Malmö.\n\nJag söker tjänsten som junior frontendutvecklare hos er och bifogar här mitt CV.\n\nErfarenhet\n• 2023– : Frontendutvecklare (konsult), Sigma Technology – uppdrag hos IKEA och Axis Communications (React 18, TypeScript)\n• 2021–2023: Kundtjänst, Telia (hanterade ~60 ärenden/dag)\n\nUtbildning\n• Frontendutvecklare YH, Medieinstitutet Malmö (2021–2023)\n• Naturvetenskapsprogrammet, Malmö Latinskola (2014–2017)\n\nKompetenser\nReact, Next.js 14, TypeScript, Tailwind, Jest, Storybook, WCAG 2.1\n\nKontakt\nlinnea.abdisvensson@hotmail.se · 073-551 28 90\nlinkedin.com/in/linnea-abdi-svensson\n",
+  "gold": [
+   [
+    "Linnea Abdi Svensson",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "27 år",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Malmö",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "Medieinstitutet Malmö",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Malmö Latinskola",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "linnea.abdisvensson@hotmail.se",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "073-551 28 90",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "linkedin.com/in/linnea-abdi-svensson",
+    "URL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-037",
+  "lang": "en",
+  "text": "JULIA R. PASCAL\nQuantitative Developer\npascal.julia.r@fastmail.com | 646-555-0142 | New York, NY\n\nSUMMARY\nQuant developer who writes Julia and R for research and C++ for production. Pascal-era Delphi veteran (don't ask).\n\nEXPERIENCE\nTwo Sigma — Quantitative Developer, 2020–present\n- Rewrote factor-model backtester from R to Julia 1.10: 14x speedup on 3,000-asset universe\n- Maintains internal Julia package registry (120+ packages)\nBloomberg LP — Software Engineer, 2016–2020\n- Pricing library in C++17; legacy Pascal/Delphi port for BVAL feeds\n\nEDUCATION\nColumbia University — MS Financial Engineering, 2016\nCarnegie Mellon University — BS Mathematical Sciences, 2014\n\nSKILLS\nJulia, R, Python, C++, Pascal (legacy), kdb+/q, SQL\nOpen source: co-maintainer of JuMP.jl (https://jump.dev)\n\nSigned: J. R. Pascal\n",
+  "gold": [
+   [
+    "JULIA R. PASCAL",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "pascal.julia.r@fastmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "646-555-0142",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "New York, NY",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "Columbia University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Carnegie Mellon University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "J. R. Pascal",
+    "NAME",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-038",
+  "lang": "nl",
+  "text": "CURRICULUM VITAE\n\nVoornaam\tWout\nAchternaam\tDe Smedt-Vanhaelewyn\nStraat + nr\tKortrijksesteenweg 1024 bus 3\nPostcode + gemeente\t9051 Sint-Denijs-Westrem\nGSM\t0486 21 77 30\nE-mail\twout.desmedt@telenet.be\nGeboren\t21/10/1997\nRijksregisternummer\t97.10.21-285.44\nRijbewijs\tB\n\nWERKERVARING\n2022 – nu\tBarco NV, Kortrijk\tEmbedded software engineer (C, Zephyr RTOS 3.5)\n2020 – 2022\tTelevic, Izegem\tJunior firmware ontwikkelaar\n2019 (zomer)\tStudentenjob bij Colruyt, Halle\n\nOPLEIDING\n2015 – 2020\tMaster Industriële Wetenschappen Elektronica-ICT\tUniversiteit Gent (campus Kortrijk)\n2009 – 2015\tLatijn-Wiskunde\tSint-Barbaracollege Gent\n\nTALEN\tNederlands (moedertaal), Frans (goed), Engels (zeer goed)\nHOBBY'S\tWielrennen (± 6.000 km/jaar), vrijwilliger bij de scouts\n",
+  "gold": [
+   [
+    "Wout",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "De Smedt-Vanhaelewyn",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Kortrijksesteenweg 1024 bus 3",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "9051 Sint-Denijs-Westrem",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "0486 21 77 30",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "wout.desmedt@telenet.be",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "21/10/1997",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "97.10.21-285.44",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Universiteit Gent",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Sint-Barbaracollege Gent",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-039",
+  "lang": "en",
+  "text": "Aoife Ní Bhriain\nSolicitor (admitted 2016) · Galway\naoife.nibhriain@eircom.net · 087 219 4460 · PPSN available on request\n\nProfessional experience\nArthur Cox LLP, Dublin — Senior Associate, Corporate (2019–present)\n  Advised on 40+ M&A transactions totalling €6.2bn; lead on 3 IPOs\nMcCann FitzGerald, Dublin — Associate (2016–2019)\nTrainee Solicitor, Mason Hayes & Curran (2014–2016)\n\nEducation\nLaw Society of Ireland — Professional Practice Courses I & II (2014–2016)\nUniversity of Galway (formerly NUI Galway) — BCL (Law), First Class Honours, 2013\nColáiste Iognáid, Gaillimh — Leaving Certificate, 2009\n\nLanguages\nIrish (fluent), English, French (B2)\n\nReferees\nMs Siobhán Mac Giolla Phádraig, Partner, Arthur Cox LLP\nMr Eoin Ó Cathasaigh SC, The Law Library, Four Courts — eocathasaigh@lawlibrary.ie\n",
+  "gold": [
+   [
+    "Aoife Ní Bhriain",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Galway",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "aoife.nibhriain@eircom.net",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "087 219 4460",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "Law Society of Ireland",
+    "EDU_ORG",
+    false,
+    null
+   ],
+   [
+    "University of Galway",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "NUI Galway",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Coláiste Iognáid, Gaillimh",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Siobhán Mac Giolla Phádraig",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Eoin Ó Cathasaigh",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "eocathasaigh@lawlibrary.ie",
+    "EMAIL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-040",
+  "lang": "it",
+  "text": "CURRICULUM VITAE\nBeatrice Degli Esposti\nSviluppatrice Full-Stack\n\nContatti |\nEmail | bea.degliesposti@gmail.com\nCellulare | +39 328 116 0492\nResidenza | Via dell'Indipendenza 44, 40121 Bologna\nGitHub | github.com/beadegli\nData di nascita | 15/12/1995\nStato civile | nubile\n\nEsperienza |\n2021 – presente | Ducati Motor Holding, Borgo Panigale (BO) | Full-stack developer, piattaforma e-commerce (Vue 3, Node 20)\n2019 – 2021 | Bonfiglioli Riduttori, Calderara di Reno | Sviluppatrice web, portale B2B con 1.500 distributori\n2018 | Tirocinio, CINECA, Casalecchio di Reno | HPC tooling\n\nIstruzione |\n2016 – 2018 | Alma Mater Studiorum – Università di Bologna | Laurea magistrale in Informatica, 110/110\n2013 – 2016 | Università degli Studi di Ferrara | Laurea triennale\n\nLingue | Italiano (madrelingua), Inglese (C1), Spagnolo (B2)\nCertificazioni | AWS Developer Associate (validation no. 7XQ2LM9KD1)\n",
+  "gold": [
+   [
+    "Beatrice Degli Esposti",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "bea.degliesposti@gmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "+39 328 116 0492",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "Via dell'Indipendenza 44, 40121 Bologna",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "github.com/beadegli",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "15/12/1995",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "nubile",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Alma Mater Studiorum – Università di Bologna",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Università degli Studi di Ferrara",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "7XQ2LM9KD1",
+    "ID",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-041",
+  "lang": "en",
+  "text": "Chiamaka Obi-Wellington, CISSP\nCyber Security Manager\nLagos, Nigeria | +234 803 417 2209 | chiamaka.obiwellington@yahoo.com | ISC2 Member ID 648213\n\nSummary\n12 years in information security across banking and telecoms. Led ISO 27001:2022 certification for 3 entities, PCI DSS 4.0 for 1, and a SOC of 24 analysts handling 1.1M events/day.\n\nExperience\nAccess Bank Plc — Head, Security Operations (2019–present) — Lagos\n * Deployed Splunk ES 7.3 and CrowdStrike Falcon on 18,000 endpoints\n * Reduced mean time to detect from 11 days to 38 hours\nMTN Nigeria — Security Analyst → Lead (2013–2019) — Lagos\n * Managed 2,400-firewall-rule clean-up; NDPR 2019 compliance lead\nInterswitch — Graduate Trainee (2012–2013)\n\nEducation\nUniversity of Lagos — MSc Computer Science (2015)\nCovenant University, Ota — BSc Computer Science (2011)\n\nCertifications\nCISSP (ISC2), CISM (ISACA) #221903347, ISO 27001 Lead Implementer (PECB)\n",
+  "gold": [
+   [
+    "Chiamaka Obi-Wellington",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Lagos, Nigeria",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "+234 803 417 2209",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "chiamaka.obiwellington@yahoo.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "648213",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "University of Lagos",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Covenant University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "221903347",
+    "ID",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-042",
+  "lang": "pl",
+  "text": "Marek Zając-Dąbrowski — programista Python / Django (B2B)\n\nKontakt: marek@zajac-dabrowski.pl | +48 512 330 918 | Gdańsk (praca zdalna)\n\nDoświadczenie\n• 2021– : Kontraktor B2B dla Spyrosoft (klient: fintech z Londynu) — Django 4.2, Celery, PostgreSQL 15\n• 2017–2021: STX Next, Poznań — Python Developer, zespół 8 osób\n• 2015–2017: Intel Technology Poland, Gdańsk — stażysta QA\n\nWykształcenie\nPolitechnika Gdańska, Wydział ETI — inżynier informatyki (2016)\n\nUmiejętności\nPython 3.12, Django, FastAPI, Celery, Redis, Docker, AWS (ECS, RDS)\n\nDane do umowy B2B\nFirma: Marek Zając-Dąbrowski Software\nNIP: 584-271-90-33 · REGON: 369118204\nNr rachunku: PL61 1090 1014 0000 0712 1981 2874\n",
+  "gold": [
+   [
+    "Marek Zając-Dąbrowski",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "marek@zajac-dabrowski.pl",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "+48 512 330 918",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "Gdańsk",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "Politechnika Gdańska",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "584-271-90-33",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "369118204",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "PL61 1090 1014 0000 0712 1981 2874",
+    "ID",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-043",
+  "lang": "en",
+  "text": "Hiroko Tanabe-Lang\nFreelance technical translator — EN / JA / DE\n\n- 11 years; patents, medical devices, automotive (Toyota, Bosch, Olympus)\n- 2.4M words translated; Trados Studio 2024, memoQ 11\n- JTF member #J-08871; ATA-certified JA>EN (cert. no. 518244)\n- MA Translation Studies, Sophia University, Tokyo\n- Tokyo-based; async preferred, JST ±6h\n- Rates: from ¥12/character, 3,000 words/day capacity\n- hiroko.tanabe-lang@outlook.jp · LINE: hiroko_tl\n",
+  "gold": [
+   [
+    "Hiroko Tanabe-Lang",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "J-08871",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "518244",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Sophia University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Tokyo",
+    "LOCATION",
+    true,
+    1
+   ],
+   [
+    "hiroko.tanabe-lang@outlook.jp",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "hiroko_tl",
+    "HANDLE",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-044",
+  "lang": "de",
+  "text": "Dr. rer. nat. Onur Yıldırım-Schäfer\nPostdoktorand, Arbeitsgruppe Prof. Dr. Gesine Falkenhahn\nInstitut für Organische Chemie, Universität Heidelberg, Im Neuenheimer Feld 270, 69120 Heidelberg\nTel. +49 6221 54-8813 · onur.yildirim@oci.uni-heidelberg.de\n\nWissenschaftlicher Werdegang\nseit 2022   Postdoc, Universität Heidelberg (DFG-Projekt YI 112/3-1)\n2018–2022   Promotion, Westfälische Wilhelms-Universität Münster\n            Betreuer: Prof. Dr. Armin Kettelhut; Note: summa cum laude\n2016–2018   M.Sc. Chemie, Universität Duisburg-Essen\n2015        Forschungsaufenthalt, Kyoto University (Gruppe Prof. Takeshi Morinaga)\n\nPublikationen (Auswahl, 14 insgesamt, h-Index 9)\n1. O. Yıldırım-Schäfer, L. Brandauer, G. Falkenhahn, J. Am. Chem. Soc. 2024, 146, 3321.\n2. O. Yıldırım-Schäfer, A. Kettelhut, Angew. Chem. Int. Ed. 2021, 60, 18874.\n3. M. Tsang, O. Yıldırım-Schäfer, T. Morinaga, Org. Lett. 2019, 21, 902.\n\nPreise\nReaxys PhD Prize Finalist 2022; Liebig-Stipendium des Fonds der Chemischen Industrie\n\nLehre\nBetreuung von 7 Masterarbeiten; Praktikum OC-II (120 Studierende/Semester)\n",
+  "gold": [
+   [
+    "Onur Yıldırım-Schäfer",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Gesine Falkenhahn",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Universität Heidelberg",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Im Neuenheimer Feld 270, 69120 Heidelberg",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "+49 6221 54-8813",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "onur.yildirim@oci.uni-heidelberg.de",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "YI 112/3-1",
+    "ID",
+    false,
+    null
+   ],
+   [
+    "Westfälische Wilhelms-Universität Münster",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Armin Kettelhut",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Universität Duisburg-Essen",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Kyoto University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Takeshi Morinaga",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "O. Yıldırım-Schäfer",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "L. Brandauer",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "G. Falkenhahn",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "A. Kettelhut",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "M. Tsang",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "T. Morinaga",
+    "NAME",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-045",
+  "lang": "es",
+  "text": "CURRICULUM VITAE — Santiago Ezequiel Quiroga-Balbuena\n\nDatos de contacto\nAv. Corrientes 3247, piso 5 \"B\", C1193AAE, Ciudad Autónoma de Buenos Aires\n+54 9 11 5832-0476 · santi.quiroga@gmail.com · @santiquiroga (X/Twitter)\nDNI 36.448.912 · Argentino · 33 años · Casado\n\nPerfil\nIngeniero en sistemas con 10 años en e-commerce. Lideré la migración de Mercado Envíos a microservicios en Go (1.200 servicios, 99,95% de disponibilidad).\n\nExperiencia\nMercado Libre — Senior Technical Lead (2018 – actualidad)\nDespegar — Desarrollador backend (2014 – 2018)\nGlobant — Trainee (2013 – 2014)\n\nEducación\nInstituto Tecnológico de Buenos Aires (ITBA) — Ingeniería en Informática (2014)\nColegio Nacional de Buenos Aires — Bachiller (2008)\n\nContacto de emergencia\nValentina Ruiz Etcheverry (esposa) — +54 9 11 6120-3389\n",
+  "gold": [
+   [
+    "Santiago Ezequiel Quiroga-Balbuena",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Av. Corrientes 3247, piso 5 \"B\", C1193AAE, Ciudad Autónoma de Buenos Aires",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "+54 9 11 5832-0476",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "santi.quiroga@gmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "@santiquiroga",
+    "HANDLE",
+    true,
+    null
+   ],
+   [
+    "36.448.912",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Argentino",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "33 años",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Casado",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Instituto Tecnológico de Buenos Aires",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "ITBA",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Colegio Nacional de Buenos Aires",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Valentina Ruiz Etcheverry",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "esposa",
+    "MARITAL",
+    false,
+    null
+   ],
+   [
+    "+54 9 11 6120-3389",
+    "PHONE",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-046",
+  "lang": "en",
+  "text": "HOLLOWAY-NAKASHIMA, BRIANNA M.\nSecondary Mathematics Teacher\n\n2317 SE Hawthorne Blvd, Apt 4, Portland, OR 97214 · (503) 555-0199 · bmhn.teach@gmail.com\nOregon TSPC License #TL-4478120 (Mathematics, grades 7–12)\n\nTEACHING EXPERIENCE\nFranklin High School, Portland Public Schools — Math Teacher (2019–present)\n  - AP Calculus AB pass rate rose from 58% to 81% over 4 cohorts (n=112)\n  - Robotics club advisor; team placed 3rd at FIRST Tech Challenge state (2024)\nLincoln Middle School, Beaverton — Math Teacher (2016–2019)\n\nEDUCATION\nLewis & Clark College — MAT, Secondary Education (2016)\nUniversity of Oregon — BS Mathematics (2014)\n\nREFERENCES\nDr. Marisol Etxeberria, Principal, Franklin High School — metxeberria@pps.net\nKevin Tran-Obuya, Math Dept. Chair — (503) 555-0126\n",
+  "gold": [
+   [
+    "HOLLOWAY-NAKASHIMA, BRIANNA M.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "2317 SE Hawthorne Blvd, Apt 4, Portland, OR 97214",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "(503) 555-0199",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "bmhn.teach@gmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "TL-4478120",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Franklin High School",
+    "EDU_ORG",
+    false,
+    null
+   ],
+   [
+    "Lincoln Middle School",
+    "EDU_ORG",
+    false,
+    null
+   ],
+   [
+    "Lewis & Clark College",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "University of Oregon",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Marisol Etxeberria",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "metxeberria@pps.net",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "Kevin Tran-Obuya",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "(503) 555-0126",
+    "PHONE",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-047",
+  "lang": "fr",
+  "text": "ÉLODIE TREMBLAY-BAPTISTE\nInfirmière clinicienne — soins intensifs\nMontréal (Québec) · 514 555-0173 · elodie.tb@videotron.ca\nNuméro de permis OIIQ : 2112457\n\nEXPÉRIENCE\nCHUM — Centre hospitalier de l'Université de Montréal (2018 – aujourd'hui)\n  Infirmière clinicienne, USI 39 lits ; préceptrice de 22 nouvelles infirmières\nHôpital Maisonneuve-Rosemont (2015 – 2018)\n  Infirmière, médecine interne\n\nFORMATION\nBaccalauréat en sciences infirmières — Université de Montréal (2015)\nDEC en soins infirmiers — Cégep du Vieux Montréal (2012)\n\nCERTIFICATIONS\nACLS, PALS (Fondation des maladies du cœur), CSIA (AIIC)\n\nLANGUES\nFrançais, anglais, créole haïtien\n\nRÉFÉRENCES\nMme Josée Paquin-Arsenault, cheffe d'unité USI, CHUM — poste 14527\n",
+  "gold": [
+   [
+    "ÉLODIE TREMBLAY-BAPTISTE",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Montréal (Québec)",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "514 555-0173",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "elodie.tb@videotron.ca",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "2112457",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Université de Montréal",
+    "EDU_ORG",
+    true,
+    1
+   ],
+   [
+    "Cégep du Vieux Montréal",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Josée Paquin-Arsenault",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "poste 14527",
+    "PHONE",
+    false,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-048",
+  "lang": "en",
+  "text": "About me\nI'm Tariq Mahmood-Lindgren (he/him), a 41-year-old engineering manager living in Uppsala with my wife and our three kids. I moved from Karachi to Sweden in 2011 to study at Uppsala University and never left.\n\nWhat I've done\n- 2019–now: Engineering Manager, Klarna (Stockholm). 5 teams, 38 engineers, checkout for 150M shoppers.\n- 2015–2019: Senior Engineer, King (Stockholm). Backend for Candy Crush live-ops; 10k req/s.\n- 2012–2015: Developer, Ericsson (Kista). Telecom OSS tooling in Erlang.\n- Before that: 3 years at Systems Limited in Lahore.\n\nEducation\n- MSc Computer Science, Uppsala University (2013)\n- BE Software Engineering, NED University of Engineering and Technology, Karachi (2008)\n\nThings I care about\nHiring fairly, boring technology, on-call that doesn't burn people out.\n\nElsewhere\n- Blog: tariqml.se/writing\n- Mastodon: @tariq@mastodon.nu\n- Mail: hej@tariqml.se\n",
+  "gold": [
+   [
+    "Tariq Mahmood-Lindgren",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "he/him",
+    "GENDER",
+    true,
+    null
+   ],
+   [
+    "41-year-old",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Uppsala",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "my wife and our three kids",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Karachi",
+    "LOCATION",
+    false,
+    0
+   ],
+   [
+    "Uppsala University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "NED University of Engineering and Technology",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "tariqml.se/writing",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "@tariq@mastodon.nu",
+    "HANDLE",
+    true,
+    null
+   ],
+   [
+    "hej@tariqml.se",
+    "EMAIL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-049",
+  "lang": "no",
+  "text": "Sol Marie Fjeld\nProsjektingeniør – solenergi\nTrondheim · 452 18 330 · solmarie.fjeld@gmail.com\n\nSolenergi er mitt fagfelt: jeg har prosjektert over 60 MW solcelleanlegg på tak i Norden.\n\nErfaring\n2021–      Otovo ASA, Oslo – Prosjektingeniør (fjernarbeid fra Trondheim)\n           Ansvar for 1 400 installasjoner/år; kvalitetssystem etter ISO 9001\n2018–2021  Skanska Norge, Trondheim – Elektroingeniør\nSommerjobb 2017: Statkraft\n\nUtdanning\n2016–2018  Master i energi og miljø, NTNU\n2013–2016  Bachelor elektro, Høgskolen i Sørøst-Norge\n\nVerktøy: PVsyst 7.4, AutoCAD, Revit, Python\nSpråk: norsk, engelsk, spansk\nReferanser oppgis på forespørsel.\n\nMvh\nSol\n",
+  "gold": [
+   [
+    "Sol Marie Fjeld",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Trondheim",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "Trondheim",
+    "LOCATION",
+    true,
+    1
+   ],
+   [
+    "452 18 330",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "solmarie.fjeld@gmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "NTNU",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Høgskolen i Sørøst-Norge",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Sol",
+    "NAME",
+    true,
+    2
+   ]
+  ]
+ },
+ {
+  "id": "H3-050",
+  "lang": "en",
+  "text": "Curriculum Vitae\n\nName ......... Oluwadamilare \"Dami\" Fashola-Grant\nAddress ...... 7/2 Dalry Road, Edinburgh EH11 2BU\nTel .......... 0131 496 0712 (home) / 07700 900 235 (mobile)\nEmail ........ dami.fg@hotmail.co.uk\nNI Number .... QQ 12 34 56 C\nNationality .. British / Nigerian (dual)\nRight to work  Full, no sponsorship required\n\nKey achievements\n* Grew B2B pipeline from £0.8m to £5.3m in 18 months at Skyscanner\n* Ran 250+ A/B tests; median uplift 2.1%\n\nEmployment\nSkyscanner, Edinburgh — Growth Marketing Lead — 2020–present\nFanDuel, Edinburgh — CRM Manager — 2017–2020\nBrewdog, Ellon — Marketing Executive — 2015–2017\n\nEducation\nRobert Gordon University, Aberdeen — BA (Hons) Marketing, 2015\nGeorge Watson's College, Edinburgh — Highers, 2011\n\nInterests\nFive-a-side football; mentor with MCR Pathways (since 2019)\n",
+  "gold": [
+   [
+    "Oluwadamilare \"Dami\" Fashola-Grant",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "7/2 Dalry Road, Edinburgh EH11 2BU",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "0131 496 0712",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "07700 900 235",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "dami.fg@hotmail.co.uk",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "QQ 12 34 56 C",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "British / Nigerian",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "Robert Gordon University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "George Watson's College",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-051",
+  "lang": "pt",
+  "text": "CURRICULUM VITAE\n\nInês Carvalho de Sousa Mendonça\nEngenheira Civil | Membro da Ordem dos Engenheiros n.º 78214\n\nMorada: Rua de Santa Catarina 512, 4.º Esq., 4000-446 Porto\nTelemóvel: 912 447 083\nEmail: ines.csmendonca@sapo.pt\nData de nascimento: 8 de abril de 1987 · Nacionalidade: Portuguesa\nNIF: 238 551 904 · Carta de condução: P-1938472 6\n\nExperiência Profissional\n2016 – presente · Mota-Engil, Porto — Diretora de Obra\n  Empreitadas até 85 M€; coordenação de 140 trabalhadores; ISO 45001\n2011 – 2016 · Teixeira Duarte, Lisboa — Engenheira de Estruturas\n\nFormação Académica\n2005 – 2011 · Mestrado Integrado em Engenharia Civil — Faculdade de Engenharia da Universidade do Porto (FEUP)\n2010 · Erasmus — Universidad Politécnica de Valencia\n\nSoftware: SAP2000, Robot Structural Analysis, Revit, MS Project\nLínguas: Português (materna), Inglês (C1), Espanhol (B2)\n",
+  "gold": [
+   [
+    "Inês Carvalho de Sousa Mendonça",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "78214",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Rua de Santa Catarina 512, 4.º Esq., 4000-446 Porto",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "912 447 083",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "ines.csmendonca@sapo.pt",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "8 de abril de 1987",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Portuguesa",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "238 551 904",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "P-1938472 6",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Faculdade de Engenharia da Universidade do Porto",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "FEUP",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Universidad Politécnica de Valencia",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-052",
+  "lang": "fi",
+  "text": "Ansioluettelo – Eveliina Ruohonen-Makkonen\nHelsinki | 050 339 1827 | eveliina.rm@outlook.com | github.com/eveliinarm\n\nProfiili\nFull stack -kehittäjä, 5 vuotta kokemusta. TypeScript, React, Node.js, PostgreSQL. Olen vastannut 300 000 käyttäjän verkkopalvelun arkkitehtuurista.\n\nTyökokemus\n2022–      Reaktor, Helsinki – Senior Developer (asiakkaina Finnair ja Yle)\n2020–2022  Vincit, Tampere – Developer\n2019       Kesäharjoittelija, Supercell\n\nKoulutus\nAalto-yliopisto, tietotekniikan DI (2021)\nHelsingin Suomalainen Yhteiskoulu, ylioppilas (2015)\n\nMuuta\nPerhe: puoliso ja kaksi lasta\nKielet: suomi, englanti, ruotsi\n",
+  "gold": [
+   [
+    "Eveliina Ruohonen-Makkonen",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Helsinki",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "050 339 1827",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "eveliina.rm@outlook.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "github.com/eveliinarm",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "Aalto-yliopisto",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Helsingin Suomalainen Yhteiskoulu",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "puoliso ja kaksi lasta",
+    "MARITAL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-053",
+  "lang": "en",
+  "text": "CHELSEA DOVER-KENT\nPhysiotherapist (MCSP, HCPC PH118273)\nMaidstone, Kent · 07700 900 761 · chelseadk.physio@gmail.com\n\nEXPERIENCE\nChelsea and Westminster Hospital NHS Foundation Trust — Band 7 MSK Physiotherapist (2021–present)\n  • Caseload of ~45 patients/week; ran hip & knee ESP clinic\nKent Community Health NHS Foundation Trust, Dover — Band 6 Physiotherapist (2018–2021)\nGillingham FC — Academy Physio (part-time, 2017–2018)\n\nEDUCATION\nCanterbury Christ Church University — BSc (Hons) Physiotherapy (2017)\n\nCPD\nAcupuncture (AACP), 2020 · Pilates for Rehab (APPI), 2022 · Running gait analysis, 2023\n\nChelsea Dover-Kent — CV — 2025\n",
+  "gold": [
+   [
+    "CHELSEA DOVER-KENT",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "PH118273",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Maidstone, Kent",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "07700 900 761",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "chelseadk.physio@gmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "Canterbury Christ Church University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Chelsea Dover-Kent",
+    "NAME",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-054",
+  "lang": "da",
+  "text": "Curriculum Vitae\n\nNavn: Astrid Kjærgaard Holm\nAdresse: Vesterbrogade 101, 4. tv., 1620 København V\nTelefon: +45 31 62 07 48\nE-mail: astrid.k.holm@ku.dk\nORCID: 0000-0001-5582-9134\n\nAnsættelser\n2023–      Adjunkt, Institut for Folkesundhedsvidenskab, Københavns Universitet\n2020–2023  Postdoc, Statens Serum Institut (SSI), afdeling for epidemiologi\n2016–2020  Ph.d.-studerende, Aarhus Universitet (vejleder: professor Henrik Toft Rasmussen)\n\nUddannelse\n2016  Cand.scient.san.publ., Syddansk Universitet\n2013  Udveksling, Karolinska Institutet, Stockholm\n\nUdvalgte publikationer\nHolm AK, Rasmussen HT, Lindahl-Brix S. Vaccine effectiveness among 2.1 million Danes. Lancet Public Health 2024;9:e211–e220.\nHolm AK, et al. Register-based cohort of 480,000 births. Int J Epidemiol 2022;51(3):812–823.\n\nBevillinger\nNovo Nordisk Fonden, NNF22OC0078113 (DKK 2,9 mio.)\n",
+  "gold": [
+   [
+    "Astrid Kjærgaard Holm",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Vesterbrogade 101, 4. tv., 1620 København V",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "+45 31 62 07 48",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "astrid.k.holm@ku.dk",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "0000-0001-5582-9134",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Københavns Universitet",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Aarhus Universitet",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Henrik Toft Rasmussen",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Syddansk Universitet",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Karolinska Institutet",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Holm AK",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Rasmussen HT",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Lindahl-Brix S",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "NNF22OC0078113",
+    "ID",
+    false,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-055",
+  "lang": "en",
+  "text": "RESUME\n\nLIM WEN QI, SHERILYN\nNRIC: S9234567D | DOB: 12 Jan 1992 | Race: Chinese | Singapore Citizen\nBlk 418 Bedok North Ave 2, #09-127, Singapore 460418\nHP: 9123 4567 | E: sherilyn.limwq@gmail.com\n\nEMPLOYMENT HISTORY\nDBS Bank Ltd — Assistant Vice President, Regulatory Reporting (Apr 2020 – Present)\n • MAS 610/1003 returns for balance sheet of S$740bn\n • Automated 46 reports using Python & Alteryx, saving 1,900 man-hours/yr\nKPMG Singapore — Senior Associate, Audit (Aug 2015 – Mar 2020)\n\nEDUCATION\nNanyang Technological University — B.Acc (Hons), 2015\nRaffles Junior College — GCE 'A' Levels, 2011\n\nPROFESSIONAL\nChartered Accountant of Singapore (CA Singapore), ISCA member no. 25813\nCFA Level II candidate\n\nExpected salary: S$9,500/month · Notice: 2 months\n",
+  "gold": [
+   [
+    "LIM WEN QI, SHERILYN",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "S9234567D",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "12 Jan 1992",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Chinese",
+    "NATIONALITY",
+    false,
+    null
+   ],
+   [
+    "Singapore Citizen",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "Blk 418 Bedok North Ave 2, #09-127, Singapore 460418",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "9123 4567",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "sherilyn.limwq@gmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "Nanyang Technological University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Raffles Junior College",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "25813",
+    "ID",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-056",
+  "lang": "de",
+  "text": "Kontakt                          Profil\nJana-Marie Oberhäuser            Controllerin mit 7 Jahren Erfahrung in\nTheresienstr. 71                 der Automobilzulieferindustrie. Budget-\n80333 München                    verantwortung 120 Mio. EUR, Team 5 FTE.\n0151 2297 4418\njm.oberhaeuser@t-online.de       Stationen\n                                 2021–heute  Knorr-Bremse AG, München\nPersönliches                                 Senior Controllerin\ngeb. 03.08.1990                  2018–2021   Schaeffler AG, Herzogenaurach\nledig                                        Controllerin\n                                 2016–2018   Trainee, Brose Fahrzeugteile\nSprachen                                     Coburg\nDeutsch · Englisch C1 ·\nSpanisch B1                      Bildung\n                                 2014–2016   M.Sc. BWL, Ludwig-Maximilians-\nIT                                           Universität München\nSAP CO/FI, S/4HANA,              2011–2014   B.Sc. BWL, Otto-Friedrich-\nPower BI, Excel VBA                          Universität Bamberg\n",
+  "gold": [
+   [
+    "Jana-Marie Oberhäuser",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Theresienstr. 71",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "80333 München",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "0151 2297 4418",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "jm.oberhaeuser@t-online.de",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "03.08.1990",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "ledig",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Ludwig-Maximilians-",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Universität München",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Otto-Friedrich-",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Universität Bamberg",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-057",
+  "lang": "en",
+  "text": "Trần Quốc Bảo (Bao Tran)\nRust / Systems Engineer — Ho Chi Minh City, Vietnam\nbao@tranquocbao.dev · +84 90 812 3374 · https://tranquocbao.dev · https://github.com/baotq\n\nOpen source\n- tokio-rs/tokio — 27 merged PRs (runtime metrics) — https://github.com/tokio-rs/tokio\n- Author of `sqlx-vn`, 900★ — https://github.com/baotq/sqlx-vn\n- Speaker, RustConf 2024: \"Async cancellation in practice\" (https://rustconf.com/2024)\n\nExperience\n2022–now   Cloudflare (remote) — Systems Engineer, Workers runtime; p99 cold start 5ms → 3ms\n2019–2022  VNG Corporation — Backend Engineer, Zalo messaging (80M users)\n2017–2019  FPT Software — Developer, AUTOSAR projects for Denso\n\nEducation\nHo Chi Minh City University of Technology (HCMUT / Bách Khoa) — BEng Computer Science, 2017\n",
+  "gold": [
+   [
+    "Trần Quốc Bảo",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Bao Tran",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Ho Chi Minh City, Vietnam",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "bao@tranquocbao.dev",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "+84 90 812 3374",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "https://tranquocbao.dev",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "https://github.com/baotq",
+    "URL",
+    true,
+    0
+   ],
+   [
+    "https://github.com/baotq/sqlx-vn",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "Ho Chi Minh City University of Technology",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "HCMUT",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Bách Khoa",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-058",
+  "lang": "sv",
+  "text": "CV – Oskar Nieminen Berg\n\nPersonlig information\nFödelsedatum: 1994-05-22\nBostadsort: Umeå, Västerbotten\nTelefon: +46 (0)70 612 55 09\nE-post: oskar.nberg@protonmail.com\nKörkort: B, C (yrkeskompetensbevis)\n\nArbetslivserfarenhet\n2020–      Northvolt Ett, Skellefteå – Processtekniker, cellproduktion (16 GWh-linje)\n2017–2020  Boliden AB, Rönnskär – Drifttekniker\n2014–2017  Volvo Lastvagnar, Umeå – Montör\n\nUtbildning\n2012–2014  Processtekniker YH, Skellefteå Yrkeshögskola\n2009–2012  Teknikprogrammet, Dragonskolan, Umeå\n\nReferenser\nMaja Lundgren-Oyewole, skiftledare, Northvolt – 070-455 18 22\nPer-Erik Hägglund, produktionschef, Boliden – per-erik.hagglund@boliden.com\n",
+  "gold": [
+   [
+    "Oskar Nieminen Berg",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "1994-05-22",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Umeå, Västerbotten",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "+46 (0)70 612 55 09",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "oskar.nberg@protonmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "Skellefteå Yrkeshögskola",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Dragonskolan",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Maja Lundgren-Oyewole",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "070-455 18 22",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "Per-Erik Hägglund",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "per-erik.hagglund@boliden.com",
+    "EMAIL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-059",
+  "lang": "en",
+  "text": "--- Applicant Export (ATS) ---\ncandidate_id: 48213379\nfirst_name: Meera\nlast_name: Venkatesh-Hollis\nemail_primary: meera.vh@pm.me\nphone_mobile: +1 (416) 555-0148\naddress_city: Toronto\naddress_region: ON\naddress_postal: M6J 1H4\nwebsite: https://meeravh.design\nsource: Referral (employee: Jordan Castellanos-Reyes)\ncurrent_company: Shopify\ncurrent_title: Staff Product Designer\nyears_experience: 11\nwork_authorization: Canadian citizen\nsalary_expectation_cad: 210000\n---- Resume text ----\nStaff Product Designer, Shopify (2020–present): checkout design lead; 1.75M merchants; team of 9.\nSenior Designer, Wattpad (2016–2020): reader app redesign, 90M monthly users.\nDesigner, Rangle.io (2014–2016).\nEducation: OCAD University, BDes Graphic Design (2014).\n",
+  "gold": [
+   [
+    "48213379",
+    "ID",
+    false,
+    null
+   ],
+   [
+    "Meera",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Venkatesh-Hollis",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "meera.vh@pm.me",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "+1 (416) 555-0148",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "Toronto",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "ON",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "M6J 1H4",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "https://meeravh.design",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "Jordan Castellanos-Reyes",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Canadian",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "OCAD University",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H3-060",
+  "lang": "en",
+  "text": "CURRICULUM VITAE\n\nKHALID BIN SAEED AL-MANSOORI\nSenior HSE Manager | NEBOSH IDip | 17 years Oil & Gas\n\nPersonal Details\nNationality: Emirati\nDate of Birth: 02/11/1981 (Age 44)\nMarital Status: Married, 4 children\nEmirates ID: 784-1981-4417093-2\nPassport No: N2K418760\nDriving Licence: UAE, Light & Heavy\nMobile: +971 50 331 8842 | +971 4 885 2210 (res.)\nEmail: khalid.almansoori81 [at] gmail.com\nP.O. Box 44721, Abu Dhabi, UAE\n\nCareer Summary\nADNOC Offshore — Senior HSE Manager (2016 – present), Das Island & Zirku\n• Zero LTI across 21.4 million man-hours (2019–2023)\n• ISO 45001:2018 and ISO 14001:2015 recertification lead\nDolphin Energy — HSE Superintendent (2010 – 2016), Ras Laffan, Qatar\nSchlumberger — HSE Engineer (2007 – 2010), Abu Dhabi\n\nEducation\nKhalifa University of Science and Technology — BSc Chemical Engineering (2004)\nHigher Colleges of Technology, Abu Dhabi Men's College — Diploma (2001)\n\nCertifications\nNEBOSH International Diploma (Learner No. 00384271), IOSH Chartered Member (CMIOSH) no. 117622\n\nReferences available upon request.\n",
+  "gold": [
+   [
+    "KHALID BIN SAEED AL-MANSOORI",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Emirati",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "02/11/1981",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Age 44",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Married, 4 children",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "784-1981-4417093-2",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "N2K418760",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "+971 50 331 8842",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "+971 4 885 2210",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "khalid.almansoori81 [at] gmail.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "P.O. Box 44721, Abu Dhabi, UAE",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "Khalifa University of Science and Technology",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Higher Colleges of Technology",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Abu Dhabi Men's College",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "00384271",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "117622",
+    "ID",
+    true,
+    null
+   ]
+  ]
+ }
+]

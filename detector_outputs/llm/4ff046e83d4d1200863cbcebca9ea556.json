@@ -1,0 +1,1 @@
+{"out": "{\"pii\": [{\"text\": \"Prof. Elena Vasquez, PhD\", \"label\": \"NAME\"}, {\"text\": \"elena.vasquez@univ-lab.es\", \"label\": \"EMAIL\"}, {\"text\": \"+34 612 998 774\", \"label\": \"PHONE\"}, {\"text\": \"Calle Mayor 88, Madrid, Spain\", \"label\": \"ADDRESS|LOCATION\"}]}"}

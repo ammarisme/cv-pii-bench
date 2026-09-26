@@ -1,0 +1,8 @@
+[llm-qwen3b] S7b-qwen3b+cv                      h2   R=0.898 P=0.856 F2=0.890 entR=0.872 leakDocs=28/40 FP/doc=4.30 s/doc=54.43
+[llm-qwen3b] S7b-qwen3b+cv                      test R=1.000 P=0.986 F2=0.997 entR=1.000 leakDocs=0/20 FP/doc=0.20 s/doc=29.134
+[llm-qwen3b] S8-spacytrf+qwen3b+cv              h2   R=0.942 P=0.800 F2=0.910 entR=0.914 leakDocs=21/40 FP/doc=6.70 s/doc=54.876
+[llm-qwen3b] S8-spacytrf+qwen3b+cv              test R=1.000 P=0.986 F2=0.997 entR=1.000 leakDocs=0/20 FP/doc=0.20 s/doc=29.35
+[llm-qwen3b] S8-spacytrf+qwen3b+cv-vote2        h2   R=0.892 P=0.895 F2=0.893 entR=0.862 leakDocs=30/40 FP/doc=3.00 s/doc=54.877
+[llm-qwen3b] S8-spacytrf+qwen3b+cv-vote2        test R=1.000 P=0.986 F2=0.997 entR=1.000 leakDocs=0/20 FP/doc=0.20 s/doc=29.349
+[llm-qwen3b-judge] S9-spacytrf+cv+qwen3b-judge        test R=0.942 P=0.996 F2=0.952 entR=0.935 leakDocs=6/20 FP/doc=0.05 s/doc=39.099
+[llm-qwen3b-judge] S9-spacytrf+cv+qwen3b-judge        h2   R=0.672 P=0.849 F2=0.701 entR=0.692 leakDocs=36/40 FP/doc=3.42 s/doc=99.653

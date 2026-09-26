@@ -1,0 +1,20 @@
+[transformers] You are using a model of type `extractor` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+/usr/local/lib/python3.11/dist-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/gliner2/models/span/model.py:99: RuntimeWarning: Encoder rejected attn_implementation='sdpa'; falling back to 'eager' (DebertaV2Model does not support an attention implementation through torch.nn.functional.scaled_dot_product_attention yet. Please request the support for this architecture: https://github.com/huggingface/transformers/issues/28005. If you believe this error is a bug, please open an issue in Transformers GitHub repository and load your model with the argument `attn_implementation="eager"` meanwhile. Example: `model = AutoModel.from_pretrained("openai/whisper-tiny", attn_implementation="eager")`)
+  self.encoder = self._load_encoder(
+============================================================
+🧠 Model Configuration
+============================================================
+Encoder model      : microsoft/mdeberta-v3-base
+Counting layer     : count_lstm
+Token pooling      : first
+============================================================
+[gliner2-cache] S3-gliner2-raw                     h3   R=0.659 P=0.785 F2=0.681 entR=0.613 leakDocs=57/60 FP/doc=4.65 s/doc=0.671
+[gliner2-cache] S3-gliner2-raw                     h2   R=0.684 P=0.755 F2=0.697 entR=0.642 leakDocs=39/40 FP/doc=6.30 s/doc=0.737
+[gliner2-cache] S3-gliner2-raw                     test R=0.862 P=0.824 F2=0.854 entR=0.841 leakDocs=10/20 FP/doc=2.60 s/doc=0.389
+[gliner2-cache] S3-gliner2-raw                     dev  R=0.826 P=0.809 F2=0.823 entR=0.757 leakDocs=71/80 FP/doc=4.36 s/doc=0.552
+[gliner2-cache] S3-gliner2cv-raw                   h3   R=0.873 P=0.788 F2=0.854 entR=0.828 leakDocs=46/60 FP/doc=6.10 s/doc=0.72
+[gliner2-cache] S3-gliner2cv-raw                   h2   R=0.866 P=0.769 F2=0.845 entR=0.822 leakDocs=34/40 FP/doc=7.38 s/doc=0.781
+[gliner2-cache] S3-gliner2cv-raw                   test R=0.909 P=0.857 F2=0.898 entR=0.907 leakDocs=5/20 FP/doc=2.15 s/doc=0.434
+[gliner2-cache] S3-gliner2cv-raw                   dev  R=0.924 P=0.819 F2=0.901 entR=0.898 leakDocs=46/80 FP/doc=4.60 s/doc=0.591

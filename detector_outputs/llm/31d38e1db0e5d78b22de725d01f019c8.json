@@ -1,0 +1,1 @@
+{"out": "{\"decisions\": {\"0\": \"mask\", \"1\": \"mask\", \"2\": \"mask\", \"3\": \"mask\"}, \"missed\": [{\"text\": \"gregory.palmer@archmail.se\", \"label\": \"EMAIL\"}, {\"text\": \"+46 70 123 4567\", \"label\": \"PHONE\"}, {\"text\": \"Stockholm\", \"label\": \"LOCATION\"}]}"}

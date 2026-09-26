@@ -1,0 +1,1 @@
+{"out": "{\"pii\": [{\"text\": \"April Summers\", \"label\": \"NAME\"}, {\"text\": \"april.summers@brandco.com\", \"label\": \"EMAIL\"}, {\"text\": \"+1 415 555 0198\", \"label\": \"PHONE\"}, {\"text\": \"Austin, Texas\", \"label\": \"ADDRESS\"}]}"}

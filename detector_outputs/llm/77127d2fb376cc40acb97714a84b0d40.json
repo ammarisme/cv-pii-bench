@@ -1,0 +1,1 @@
+{"out": "{\"pii\": [{\"text\": \"R O B E R T   H A Y E S\", \"label\": \"NAME\"}, {\"text\": \"robert [dot] hayes [at] protonmail [dot] com\", \"label\": \"EMAIL\"}, {\"text\": \"zero-seven-seven eight nine one two three four\", \"label\": \"PHONE\"}, {\"text\": \"rhayes(at)securemail(dot)org\", \"label\": \"EMAIL\"}, {\"text\": \"@rhayes_sec\", \"label\": \"HANDLE\"}]}"}

@@ -1,0 +1,1 @@
+{"out": "{\"pii\": [{\"text\": \"Marcus Webb\", \"label\": \"NAME\"}, {\"text\": \"marcus.webb@devmail.net\", \"label\": \"EMAIL\"}, {\"text\": \"(212) 555-0147\", \"label\": \"PHONE\"}, {\"text\": \"Brooklyn, New York, USA\", \"label\": \"ADDRESS|LOCATION\"}]}"}

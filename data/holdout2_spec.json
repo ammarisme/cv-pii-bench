@@ -1,0 +1,3149 @@
+[
+ {
+  "id": "H2-001",
+  "lang": "en",
+  "text": "LIN Xiaoyu\nData Engineer | Manchester, UK\n+44 7700 900418 | xiaoyu.lin@example.com | linkedin.com/in/xiaoyu-lin-data\nSUMMARY                                  SKILLS\nData engineer with 6 years building      Python, Scala, Apache Kafka,\nbatch and streaming pipelines for        Airflow, dbt, Snowflake,\nretail and fintech clients.              Jenkins, Terraform\nEXPERIENCE\nSenior Data Engineer — Monzo Bank, London          2022 – present\n- Migrated 140 Airflow DAGs to Kubernetes; cut infra spend by £310k/yr\n- Led team of 7 engineers; on-call rota for 24/7 payment pipelines\nData Engineer — Boots UK, Nottingham               2019 – 2022\n- Built Kafka ingestion handling 2.3M events/hour\n- Supported the Manchester analytics hub (office relocation 2021)\nEDUCATION\nMSc Data Science, University of Manchester         2018 – 2019\nBEng Software Engineering, Zhejiang University     2014 – 2018\nLANGUAGES\nMandarin (native), English (fluent)",
+  "gold": [
+   [
+    "LIN Xiaoyu",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Manchester, UK",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "+44 7700 900418",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "xiaoyu.lin@example.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "linkedin.com/in/xiaoyu-lin-data",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "University of Manchester",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Zhejiang University",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-002",
+  "lang": "de",
+  "text": "LEBENSLAUF\n\n[Foto]\n\nPersönliche Daten\nName:                Katharina von Oppeln-Brandt\nAnschrift:           Lindenstraße 14, 50674 Köln\nTelefon:             0221 4839 2017\nMobil:               +49 (0)171 5528391\nE-Mail:              k.oppeln-brandt@example.de\nGeburtsdatum:        03.07.1988 in Dresden\nStaatsangehörigkeit: deutsch\nFamilienstand:       verheiratet, zwei Kinder\n\nBerufserfahrung\n04/2019 – heute    Leiterin Controlling, Henkel AG & Co. KGaA, Düsseldorf\n                   - Budgetverantwortung 48 Mio. EUR, Team von 9 Mitarbeitenden\n                   - Einführung SAP S/4HANA (Release 2021)\n09/2014 – 03/2019  Senior Controllerin, Carl Zeiss AG, Oberkochen\n                   - Monatsabschluss nach IFRS 15 und HGB\n\nAusbildung\n2008 – 2014        Diplom-Kauffrau, Universität zu Köln\n2007               Abitur, Kreuzgymnasium Dresden\n\nKenntnisse\nSAP CO/FI, SAP BW, Excel VBA, Power BI\nEnglisch (C1), Französisch (B2)\n\nKöln, im März 2025\nKatharina von Oppeln-Brandt",
+  "gold": [
+   [
+    "Katharina von Oppeln-Brandt",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Lindenstraße 14, 50674 Köln",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "0221 4839 2017",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "+49 (0)171 5528391",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "k.oppeln-brandt@example.de",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "03.07.1988",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Dresden",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "deutsch",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "verheiratet",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "zwei Kinder",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Universität zu Köln",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Kreuzgymnasium Dresden",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Köln",
+    "LOCATION",
+    true,
+    2
+   ]
+  ]
+ },
+ {
+  "id": "H2-003",
+  "lang": "en",
+  "text": "Rose Hill\nLandscape Architect (CMLI)\nBristol BS6 5QA · 07911 482306 · rose.hill.la@example.co.uk\nPortfolio: www.rosehill-landscapes.example/work\n\nPROFILE\nChartered landscape architect with 11 years in public realm and housing-led regeneration. Comfortable from RIBA Stage 0 through to construction.\n\nEXPERIENCE\nAssociate Landscape Architect, LDA Design, Bristol (2020–present)\n• Lead designer for the Rose Hill Estate regeneration, Oxford (1,200 homes, £14m landscape budget)\n• Managed a team of 5; delivered 3 planning consents in 2023\nLandscape Architect, Gillespies, London (2015–2020)\n• Public realm for Canary Wharf Group; worked with Hunter Page Planning on the Wood Wharf phase\nGraduate Landscape Architect, Grant Associates, Bath (2013–2015)\n\nEDUCATION\nMA Landscape Architecture — University of Sheffield (2011–2013)\nBSc Geography — Cardiff University (2008–2011)\n\nMEMBERSHIPS & SOFTWARE\nChartered Member of the Landscape Institute (membership no. 4471902)\nAutoCAD, Vectorworks, Rhino, Lumion, QGIS, Adobe InDesign\n\nREFERENCES\nTom Ashworth, Director, LDA Design — t.ashworth@example.com\nFurther references available on request.",
+  "gold": [
+   [
+    "Rose Hill",
+    "NAME",
+    true,
+    0
+   ],
+   [
+    "Bristol BS6 5QA",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "07911 482306",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "rose.hill.la@example.co.uk",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "www.rosehill-landscapes.example/work",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "University of Sheffield",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Cardiff University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "4471902",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Tom Ashworth",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "t.ashworth@example.com",
+    "EMAIL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-004",
+  "lang": "fr",
+  "text": "Nadia Benali-Rousseau\nIngénieure DevOps\n12 rue des Tanneurs, 67000 Strasbourg\n06 12 48 90 73 — nadia.benali (at) example (point) fr\nNée le 14/02/1991 — Nationalité : française — Pacsée\n\nEXPÉRIENCE PROFESSIONNELLE\n2021 – aujourd'hui : Ingénieure DevOps senior, Crédit Mutuel Alliance Fédérale, Strasbourg\n  • Industrialisation de 300+ pipelines Jenkins et GitLab CI\n  • Passage à Kubernetes 1.27, disponibilité 99,95 %\n2017 – 2021 : Administratrice systèmes, Thales, Vélizy-Villacoublay\n  • Durcissement selon ISO 27001, gestion de 1 800 serveurs\n\nFORMATION\n2014 – 2017 : Diplôme d'ingénieur, Télécom Physique Strasbourg\n2012 – 2014 : Classes préparatoires, Lycée Kléber\n\nCOMPÉTENCES\nAnsible, Terraform, Docker, Prometheus, Grafana, Python\nCertifications : CKA (Linux Foundation), AWS Solutions Architect – Associate\n\nLANGUES\nFrançais (langue maternelle), Arabe (courant), Anglais (C1)\n\nProfils : github.com/nbenali · https://www.linkedin.com/in/nadia-benali-rousseau",
+  "gold": [
+   [
+    "Nadia Benali-Rousseau",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "12 rue des Tanneurs, 67000 Strasbourg",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "06 12 48 90 73",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "nadia.benali (at) example (point) fr",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "14/02/1991",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "française",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "Pacsée",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Télécom Physique Strasbourg",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Lycée Kléber",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "github.com/nbenali",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "https://www.linkedin.com/in/nadia-benali-rousseau",
+    "URL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-005",
+  "lang": "en",
+  "text": "CANDIDATE PROFILE — REF 2024-117\nPrepared by recruiter for client shortlist. Personal details withheld.\n\nRole sought: Senior Backend Engineer (Go / Rust)\nNotice period: 3 months\nSalary expectation: £95,000–£105,000\n\nExperience\n2021–present  Staff Engineer, Deliveroo, London\n  - Owned order-dispatch service (Go 1.21), 40k requests/second at peak\n  - Reduced p99 latency from 480ms to 110ms\n2017–2021     Backend Engineer, Skyscanner, Edinburgh\n  - Rewrote pricing cache in Rust; saved 18% compute\n2015–2017     Software Developer, Sage Group, Newcastle\n  - Maintained Phoenix/Elixir billing prototype and Django admin tools\n\nSkills\nGo, Rust, Elixir, Python, PostgreSQL, Redis, Kafka, gRPC, Kubernetes, Datadog\n\nCertifications\nAWS Certified Solutions Architect – Professional (2022)\nCertified Kubernetes Administrator (CKA), Linux Foundation (2020)\n\nOther\nSpeaker at GopherCon UK 2023 and RustConf 2022\nDocumentation contributions: https://go.dev/doc and https://docs.rs",
+  "gold": []
+ },
+ {
+  "id": "H2-006",
+  "lang": "es",
+  "text": "CURRÍCULUM VITAE\nMaría José de la Fuente Olmedo\nC/ Alcalá 212, 3º B · 28028 Madrid\nTel.: +34 612 45 78 90 | Fijo: 91 356 22 10\nmjdelafuente@example.es\nDNI: 52876431Y · Fecha de nacimiento: 22/11/1985 · Nacionalidad: española\nEstado civil: soltera\n\nPERFIL\nAbogada especializada en derecho mercantil y M&A, con 12 años de experiencia en operaciones transfronterizas por valor superior a 2.000 millones de euros.\n\nEXPERIENCIA\n2018 – actualidad  Asociada sénior, Garrigues, Madrid\n · Asesoramiento a Banco Santander y Telefónica en 14 operaciones de adquisición\n2013 – 2018        Asociada, Uría Menéndez, Barcelona\n · Due diligence para fondos de capital riesgo\n\nFORMACIÓN\n2011 – 2013  Máster en Acceso a la Abogacía, Universidad Pontificia Comillas (ICADE)\n2005 – 2010  Licenciatura en Derecho y ADE, Universidad Carlos III de Madrid\n\nColegiada n.º 118.442 del Ilustre Colegio de Abogados de Madrid (ICAM)\n\nIDIOMAS\nEspañol (nativo), Inglés (C2), Francés (B2)",
+  "gold": [
+   [
+    "María José de la Fuente Olmedo",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "C/ Alcalá 212, 3º B · 28028 Madrid",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "+34 612 45 78 90",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "91 356 22 10",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "mjdelafuente@example.es",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "52876431Y",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "22/11/1985",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "española",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "soltera",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Universidad Pontificia Comillas (ICADE)",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Universidad Carlos III de Madrid",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "118.442",
+    "ID",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-007",
+  "lang": "en",
+  "text": "Oluwaseun Adebayo-Okafor\nLagos, Nigeria | +234 803 412 7765 | seun.adebayo@example.com\nLinkedIn: https://ng.linkedin.com/in/seun-adebayo-okafor | Skype: seun.adebayo.ok\n\nPROFESSIONAL SUMMARY\nChartered accountant (ICAN) and financial controller with 9 years in FMCG and banking. Managed consolidations for entities with combined revenue of NGN 84bn.\n\nWORK EXPERIENCE\nFinancial Controller, Nestlé Nigeria Plc, Lagos — Jan 2020 to date\n- Monthly close for 3 factories; headcount of finance team: 14\n- Implemented BlackLine reconciliations (v2.6)\nSenior Associate, KPMG Nigeria, Lagos — 2015 to 2019\n- Audited Guaranty Trust Bank and Dangote Cement\n- Supervised by Mrs. Funmilayo Eze, Partner\n\nEDUCATION\nB.Sc. Accounting (First Class), Obafemi Awolowo University, Ile-Ife, 2014\nICAN Professional Examinations — Member No. ICAN/2016/041873\n\nPERSONAL\nDate of Birth: 9th May 1990 | Nationality: Nigerian | Marital Status: Married\n\nREFEREES\n1. Mr. Chukwuemeka Obi, CFO, Nestlé Nigeria Plc — +234 809 555 0142\n2. Dr. Aminat Bello, Senior Lecturer, Obafemi Awolowo University — a.bello@example.edu.ng",
+  "gold": [
+   [
+    "Oluwaseun Adebayo-Okafor",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Lagos, Nigeria",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "+234 803 412 7765",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "seun.adebayo@example.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "https://ng.linkedin.com/in/seun-adebayo-okafor",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "seun.adebayo.ok",
+    "HANDLE",
+    true,
+    null
+   ],
+   [
+    "Funmilayo Eze",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Obafemi Awolowo University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "ICAN/2016/041873",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "9th May 1990",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Nigerian",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "Married",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Chukwuemeka Obi",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "+234 809 555 0142",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "Aminat Bello",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "a.bello@example.edu.ng",
+    "EMAIL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-008",
+  "lang": "nl",
+  "text": "Curriculum Vitae\n\nNaam:           Joris van der Meulen\nAdres:          Oudegracht 231-bis, 3511 NK Utrecht\nTelefoon:       06-38174920\nE-mail:         joris.vandermeulen@example.nl\nGeboortedatum:  17-08-1992\nNationaliteit:  Nederlandse\nRijbewijs:      B\n\nWerkervaring\n2020 – heden   Product Owner, Bol.com, Utrecht\n               Verantwoordelijk voor checkout (12 mln. bezoekers per maand)\n2016 – 2020    Business Analist, ING Bank, Amsterdam\n               Implementatie PSD2-koppelingen; Scrum team van 8\n\nOpleiding\n2012 – 2016    BSc Informatiekunde, Universiteit Utrecht\n2006 – 2012    VWO, Stedelijk Gymnasium Leiden\n\nVaardigheden\nJira, Confluence, SQL, Figma, Scrum (PSPO I), SAFe 6.0\n\nHobby's\nWielrennen, zeilen op de Loosdrechtse Plassen\n\nReferenties\nMw. drs. Ilse de Wit-Hoogendoorn, Head of Payments, ING — 020 563 9111",
+  "gold": [
+   [
+    "Joris van der Meulen",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Oudegracht 231-bis, 3511 NK Utrecht",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "06-38174920",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "joris.vandermeulen@example.nl",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "17-08-1992",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Nederlandse",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "Universiteit Utrecht",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Stedelijk Gymnasium Leiden",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Ilse de Wit-Hoogendoorn",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "020 563 9111",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "drs.",
+    "NAME",
+    false,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-009",
+  "lang": "en",
+  "text": "# nguyễn thị thu hà\n**Machine Learning Engineer** · Ho Chi Minh City, Vietnam\n📧 thuha.nguyen@example.vn · 📱 +84 90 812 3456 · 🐙 github.com/thuha-ml · 🌐 https://thuha.example.dev\n\n## Experience\n### ML Engineer — Grab, Singapore (remote from HCMC) · 2022–now\n- Trained demand-forecasting models (LightGBM, PyTorch 2.1) serving 8 markets\n- Cut forecast MAPE from 21% to 13%\n### Data Scientist — VNG Corporation, Ho Chi Minh City · 2019–2022\n- Built recommender for Zalo with 75M MAU\n\n## Education\n- **MSc Computer Science**, KAIST, Daejeon · 2017–2019 (thesis supervised by Prof. Kim Min-jun)\n- **BEng**, Ho Chi Minh City University of Technology (HCMUT) · 2013–2017\n\n## Publications\n- T. H. Nguyen, M.-J. Kim, S. Park. \"Sparse Attention for Tabular Forecasting.\" *NeurIPS Workshop on Tabular Learning*, 2019.\n\n## Skills\n`Python` `Julia` `PyTorch` `Spark` `Airflow` `MLflow` `Kubeflow`",
+  "gold": [
+   [
+    "nguyễn thị thu hà",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Ho Chi Minh City, Vietnam",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "thuha.nguyen@example.vn",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "+84 90 812 3456",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "github.com/thuha-ml",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "https://thuha.example.dev",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "HCMC",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "KAIST",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Kim Min-jun",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Ho Chi Minh City University of Technology",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "HCMUT",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "T. H. Nguyen",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "M.-J. Kim",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "S. Park",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Prof.",
+    "NAME",
+    false,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-010",
+  "lang": "sv",
+  "text": "Linnea Åkesson\nSystemutvecklare\nGötgatan 48 lgh 1102, 118 26 Stockholm\n070-341 22 86 · linnea.akesson@example.se\nPersonnummer: 19900415-2386\nlinkedin.com/in/linneaakesson\n\nProfil\nFullstackutvecklare med åtta års erfarenhet av Java, Kotlin och React inom fintech.\n\nAnställningar\n2021 – nu      Senior utvecklare, Klarna, Stockholm\n               Betalflöden för 150 miljoner konsumenter; mentor för 4 juniora utvecklare\n2017 – 2021    Utvecklare, Spotify, Stockholm\n               Backend för podcast-annonsering (Scala, Kafka)\n2016 – 2017    Trainee, Ericsson, Kista\n\nUtbildning\n2011 – 2016    Civilingenjör, Datateknik, KTH Kungliga Tekniska högskolan\n2008 – 2011    Naturvetenskapsprogrammet, Norra Real\n\nÖvrigt\nKörkort B. Gift, två barn. Föräldraledig hösten 2019.\nSpråk: svenska (modersmål), engelska (flytande), tyska (grundläggande)",
+  "gold": [
+   [
+    "Linnea Åkesson",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Götgatan 48 lgh 1102, 118 26 Stockholm",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "070-341 22 86",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "linnea.akesson@example.se",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "19900415-2386",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "linkedin.com/in/linneaakesson",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "KTH Kungliga Tekniska högskolan",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Norra Real",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Gift",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "två barn",
+    "MARITAL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-011",
+  "lang": "en",
+  "text": "KHALID BIN RASHID AL-MANSOORI\nPetroleum Engineer\nP.O. Box 48213, Abu Dhabi, United Arab Emirates\nMobile: +971 50 318 7742 | Email: k.almansoori@example.ae\nNationality: Emirati | DOB: 12 Rajab 1406 AH (23 March 1986) | Passport No.: A4827193\n\nEXPERIENCE\nReservoir Engineer, ADNOC Offshore, Abu Dhabi | 2014 – present\n• Managed waterflood optimisation across 62 wells; +11,000 bopd incremental\n• Mentored 6 UAE National graduates\nField Engineer, Schlumberger, Dubai | 2010 – 2014\n• Wireline logging on Das Island; worked closely with Baker Hughes crews\n\nEDUCATION\nM.Sc. Petroleum Engineering, Heriot-Watt University, Edinburgh | 2008 – 2010\nB.Sc. Chemical Engineering, Khalifa University | 2004 – 2008\n\nPUBLICATIONS\nAl-Mansoori, K. R., Haddad, L., & O'Neill, P. (2019). Low-salinity waterflooding in carbonate reservoirs. SPE Reservoir Evaluation & Engineering, 22(3), 1011–1024.\n\nCERTIFICATIONS\nSPE Petroleum Engineering Certification (Cert. No. 11874)\nWell Control – IWCF Level 4\n\nLANGUAGES\nArabic (native), English (fluent)",
+  "gold": [
+   [
+    "KHALID BIN RASHID AL-MANSOORI",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "P.O. Box 48213, Abu Dhabi, United Arab Emirates",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "+971 50 318 7742",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "k.almansoori@example.ae",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "Emirati",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "12 Rajab 1406 AH",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "23 March 1986",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "A4827193",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Heriot-Watt University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Khalifa University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Al-Mansoori, K. R.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Haddad, L.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "O'Neill, P.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "11874",
+    "ID",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-012",
+  "lang": "pl",
+  "text": "Agnieszka Wróblewska-Kowal\nul. Piotrkowska 118 m. 7, 90-006 Łódź\ntel. 601 234 587 | a.wroblewska@example.pl\nData urodzenia: 5 października 1989 r. | PESEL: 89100504526\n\nDOŚWIADCZENIE ZAWODOWE\n03.2019 – obecnie   Kierownik Projektów, Comarch S.A., Kraków (praca zdalna z Łodzi)\n  – Wdrożenia ERP dla 23 klientów, budżet 11 mln zł\n  – Zespół 12 osób, certyfikacja ISO 9001:2015\n06.2014 – 02.2019   Analityk biznesowy, Asseco Poland S.A., Rzeszów\n  – Analiza wymagań dla sektora bankowego (PKO BP, mBank)\n\nWYKSZTAŁCENIE\n2009 – 2014   Politechnika Łódzka, Wydział Elektrotechniki — mgr inż. Informatyka\n              Praca magisterska pod kierunkiem dr. hab. inż. Mariusza Zielińskiego\n\nUMIEJĘTNOŚCI\nPRINCE2 Practitioner, PMP (nr certyfikatu 2918744), MS Project, Jira\nJęzyki: angielski C1, niemiecki B1\n\nWyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. (RODO).\nAgnieszka Wróblewska-Kowal",
+  "gold": [
+   [
+    "Agnieszka Wróblewska-Kowal",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "ul. Piotrkowska 118 m. 7, 90-006 Łódź",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "601 234 587",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "a.wroblewska@example.pl",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "5 października 1989 r.",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "89100504526",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Łodzi",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "Politechnika Łódzka",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Mariusza Zielińskiego",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "2918744",
+    "ID",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-013",
+  "lang": "en",
+  "text": "{\n  \"basics\": {\n    \"name\": \"Chase Hunter\",\n    \"label\": \"Site Reliability Engineer\",\n    \"email\": \"chase.hunter@example.org\",\n    \"phone\": \"(512) 555-0187\",\n    \"url\": \"https://chasehunter.example.io\",\n    \"location\": {\"city\": \"Austin\", \"region\": \"TX\", \"postalCode\": \"78704\"},\n    \"profiles\": [\n      {\"network\": \"GitHub\", \"username\": \"chunter-sre\"},\n      {\"network\": \"Twitter\", \"username\": \"@chase_on_call\"}\n    ]\n  },\n  \"work\": [\n    {\"name\": \"JPMorgan Chase\", \"position\": \"Senior SRE\", \"startDate\": \"2021-02\",\n     \"summary\": \"Incident command for a 99.99% SLO payments platform; 3,400 hosts.\"},\n    {\"name\": \"Indeed\", \"position\": \"SRE\", \"startDate\": \"2017-06\", \"endDate\": \"2021-01\", \"location\": \"Austin, TX\"},\n    {\"name\": \"Rackspace\", \"position\": \"Linux Engineer\", \"startDate\": \"2013-08\", \"endDate\": \"2017-05\", \"location\": \"San Antonio, TX\"}\n  ],\n  \"education\": [\n    {\"institution\": \"Texas A&M University\", \"area\": \"Computer Engineering\", \"studyType\": \"BS\", \"endDate\": \"2013\"}\n  ],\n  \"skills\": [\n    {\"name\": \"Observability\", \"keywords\": [\"Prometheus\", \"Grafana\", \"Jenkins\", \"Terraform\", \"Chef\"]}\n  ]\n}",
+  "gold": [
+   [
+    "Chase Hunter",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "chase.hunter@example.org",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "(512) 555-0187",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "https://chasehunter.example.io",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "Austin",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "TX",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "78704",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "chunter-sre",
+    "HANDLE",
+    true,
+    null
+   ],
+   [
+    "@chase_on_call",
+    "HANDLE",
+    true,
+    null
+   ],
+   [
+    "Texas A&M University",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-014",
+  "lang": "fi",
+  "text": "ANSIOLUETTELO\n\nHenkilötiedot\nNimi: Aino-Kaisa Heikkilä\nOsoite: Hämeenkatu 25 B 14, 33200 Tampere\nPuhelin: 040 718 2295\nSähköposti: ainokaisa.heikkila@example.fi\nSyntymäaika: 11.6.1987\nHenkilötunnus: 110687-436E\nSiviilisääty: naimisissa, 1 lapsi\n\nTyökokemus\n2019–      Tuotepäällikkö, Nokia Oyj, Tampere\n           Vastuualueena 5G-tukiasemaohjelmisto, tiimi 18 henkilöä\n2013–2019  Ohjelmistosuunnittelija, Wapice Oy, Vaasa\n           C++- ja Qt-kehitys teollisuusasiakkaille (ABB, Wärtsilä)\n\nKoulutus\n2007–2013  Diplomi-insinööri, Tampereen teknillinen yliopisto\n2004–2007  Ylioppilas, Tampereen lyseon lukio\n\nKielitaito\nsuomi (äidinkieli), englanti (erinomainen), ruotsi (tyydyttävä)\n\nSuosittelijat\nPetteri Laaksonen, ohjelmistojohtaja, Wapice Oy, puh. 050 331 8820",
+  "gold": [
+   [
+    "Aino-Kaisa Heikkilä",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Hämeenkatu 25 B 14, 33200 Tampere",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "040 718 2295",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "ainokaisa.heikkila@example.fi",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "11.6.1987",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "110687-436E",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "naimisissa",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "1 lapsi",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Tampereen teknillinen yliopisto",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Tampereen lyseon lukio",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Petteri Laaksonen",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "050 331 8820",
+    "PHONE",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-015",
+  "lang": "en",
+  "text": "VENKATESH SUBRAMANIAM IYER              CONTACT\nProduct Designer                        Flat 4B, Prestige Lakeside, Whitefield\n                                        Bengaluru 560066\nABOUT                                   +91 98450 12378\nI design B2B SaaS workflows. 8 yrs      venky.iyer@example.in\nacross payments & logistics.            behance.net/venkyiyer\nEXPERIENCE                              SKILLS\nLead Product Designer                   Figma, Framer, Maze,\nRazorpay · Bengaluru · 2021–now         Design systems, UX research\n- Redesigned merchant dashboard used\n  by 8M businesses; NPS +19             EDUCATION\nSenior UX Designer                      M.Des Interaction Design\nSwiggy · Bengaluru · 2018–21            National Institute of Design,\n- Delivery partner app, 300k DAU        Ahmedabad · 2014–16\nUX Designer                             B.Arch, CEPT University · 2009–14\nZoho · Chennai · 2016–18\n                                        PERSONAL\n                                        DOB 02/01/1991 · Male · Married\n                                        Father's name: S. Ramanathan Iyer",
+  "gold": [
+   [
+    "VENKATESH SUBRAMANIAM IYER",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Flat 4B, Prestige Lakeside, Whitefield",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "Bengaluru 560066",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "+91 98450 12378",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "venky.iyer@example.in",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "behance.net/venkyiyer",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "National Institute of Design",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "CEPT University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "02/01/1991",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Male",
+    "GENDER",
+    true,
+    null
+   ],
+   [
+    "Married",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "S. Ramanathan Iyer",
+    "NAME",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-016",
+  "lang": "it",
+  "text": "CURRICULUM VITAE EUROPASS\n\nINFORMAZIONI PERSONALI\nNome e cognome   Giulia De Santis\nIndirizzo        Via Po 17, 10124 Torino (Italia)\nTelefono         011 812 4471    Cellulare 347 552 9018\nE-mail           giulia.desantis@example.it   PEC: g.desantis@pec.example.it\nSesso            F\nData di nascita  28/09/1990\nNazionalità      Italiana\nCodice fiscale   DSNGLI90P68L219U\n\nESPERIENZA PROFESSIONALE\nDa 01/2020 a oggi     Responsabile Qualità, Lavazza S.p.A., Torino\n                      Sistema di gestione ISO 9001 e FSSC 22000; 4 stabilimenti\nDa 03/2015 a 12/2019  Tecnologa alimentare, Ferrero, Alba (CN)\n                      Audit fornitori nocciole; riduzione scarti del 9%\n\nISTRUZIONE E FORMAZIONE\n2012 – 2014   Laurea Magistrale in Scienze e Tecnologie Alimentari, Università degli Studi di Torino\n2009 – 2012   Laurea Triennale in Biotecnologie, Politecnico di Milano\n\nCOMPETENZE PERSONALI\nLingua madre: italiano. Inglese C1, Tedesco A2.\nPatente di guida: B\n\nAutorizzo il trattamento dei miei dati personali ai sensi del D.Lgs. 196/2003 e del GDPR (Regolamento UE 2016/679).",
+  "gold": [
+   [
+    "Giulia De Santis",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Via Po 17, 10124 Torino (Italia)",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "011 812 4471",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "347 552 9018",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "giulia.desantis@example.it",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "g.desantis@pec.example.it",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "F",
+    "GENDER",
+    true,
+    1
+   ],
+   [
+    "28/09/1990",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Italiana",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "DSNGLI90P68L219U",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Università degli Studi di Torino",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Politecnico di Milano",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-017",
+  "lang": "en",
+  "text": "Julia Kafka\nQuantitative Researcher\nChicago, IL 60614 · (312) 555-0143 · jkafka@example.com · linkedin.com/in/juliakafka\n\nSUMMARY\nQuant researcher building low-latency signals in Julia and C++, streaming market data through Kafka.\n\nEXPERIENCE\nCitadel Securities — Quantitative Researcher, Chicago, IL (2020–present)\n• Alpha research on US equities; strategies contribute ~$40M annual PnL\n• Ported backtester from Python to Julia 1.9 (6x faster)\nMorgan Stanley — Quant Analyst, New York, NY (2017–2020)\n• Built Kafka-based tick capture (2.1B messages/day)\nJane Street — Summer Intern (2016)\n\nEDUCATION\nPhD Statistics, University of Chicago (2013–2017)\nAdvisor: Prof. Lars Hendricksen. Thesis: \"Heavy-tailed volatility estimation\"\nBS Mathematics, Carnegie Mellon University (2009–2013)\n\nPUBLICATIONS\nKafka, J., & Hendricksen, L. (2018). Robust realized volatility under microstructure noise. Journal of Econometrics, 204(2), 211–229.\n\nSKILLS\nJulia, C++20, Python, kdb+/q, Kafka, Apache Flink, Linux",
+  "gold": [
+   [
+    "Julia Kafka",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Chicago, IL 60614",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "(312) 555-0143",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "jkafka@example.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "linkedin.com/in/juliakafka",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "University of Chicago",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Lars Hendricksen",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Carnegie Mellon University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Kafka, J.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Hendricksen, L.",
+    "NAME",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-018",
+  "lang": "de",
+  "text": "Lebenslauf\n\nMarco Bernasconi-Gerber\nSeefeldstrasse 88\n8008 Zürich\n+41 79 482 17 33\nmarco.bernasconi@example.ch\n\nJahrgang 1984 | Schweizer | ledig\nAHV-Nr. 756.3047.5009.62\n\nProfil\nSoftware-Architekt mit 14 Jahren Erfahrung in Banken und Versicherungen.\n\nBerufserfahrung\n2018 – heute   Lead Architect, UBS AG, Zürich\n               Cloud-Migration von 220 Anwendungen, Budget CHF 35 Mio.\n2012 – 2018    Senior Engineer, Swiss Re, Zürich\n2009 – 2012    Entwickler, Die Mobiliar, Bern\n\nAusbildung\n2004 – 2009    MSc Informatik, ETH Zürich\n2000 – 2004    Maturität, Kantonsschule Rämibühl\n\nWeiterbildung\nTOGAF 10 Certified (The Open Group), 2021\nExecutive MBA, Universität St. Gallen (HSG), 2016\n\nReferenzen\nDr. Beatrice Hug, CTO, UBS AG, beatrice.hug@example.com",
+  "gold": [
+   [
+    "Marco Bernasconi-Gerber",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Seefeldstrasse 88",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "8008 Zürich",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "+41 79 482 17 33",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "marco.bernasconi@example.ch",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "1984",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Schweizer",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "ledig",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "756.3047.5009.62",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "ETH Zürich",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Kantonsschule Rämibühl",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Universität St. Gallen (HSG)",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Beatrice Hug",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "beatrice.hug@example.com",
+    "EMAIL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-019",
+  "lang": "en",
+  "text": "PERSONAL DETAILS\nFull name:            Siobhán Ní Bhriain\nPreferred name:       Shiv\nGender:               Female\nDate of birth:        30/01/1995 (Age: 30)\nPlace of birth:       Galway, Ireland\nNationality:          Irish\nMarital status:       Single\nHome address:         Apartment 12, The Maltings, Bishop Street, Dublin 8, D08 X2V4\nMobile:               +353 87 214 6630\nHome phone:           01 453 8812\nEmail:                siobhan.nibhriain@example.ie\nAlternate email:      shiv.nb (at) example (dot) com\nPPS number:           7483920E\nPassport:             PX2918374\nDriving licence no.:  195301284\nBank:                 Bank of Ireland, IBAN IE32 BOFI 9000 1720 4829 16\nSkype:                live:shiv.nibhriain\nInstagram:            @shiv_draws\nLinkedIn:             https://www.linkedin.com/in/siobhan-ni-bhriain/\nEmergency contact:    Pádraig Ó Briain (father), +353 91 562 700\n\nCURRENT ROLE\nJunior Graphic Designer, Bord Bia, Dublin (2021–present)\n\nEDUCATION\nBA Visual Communication, Technological University Dublin, 2017–2021",
+  "gold": [
+   [
+    "Siobhán Ní Bhriain",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Shiv",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Female",
+    "GENDER",
+    true,
+    null
+   ],
+   [
+    "30/01/1995",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Age: 30",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Galway, Ireland",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "Irish",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "Single",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Apartment 12, The Maltings, Bishop Street, Dublin 8, D08 X2V4",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "+353 87 214 6630",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "01 453 8812",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "siobhan.nibhriain@example.ie",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "shiv.nb (at) example (dot) com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "7483920E",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "PX2918374",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "195301284",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "IE32 BOFI 9000 1720 4829 16",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "live:shiv.nibhriain",
+    "HANDLE",
+    true,
+    null
+   ],
+   [
+    "@shiv_draws",
+    "HANDLE",
+    true,
+    null
+   ],
+   [
+    "https://www.linkedin.com/in/siobhan-ni-bhriain/",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "Pádraig Ó Briain",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "+353 91 562 700",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "Technological University Dublin",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-020",
+  "lang": "pt",
+  "text": "CURRÍCULO\n\nThiago Nascimento dos Santos\nBrasileiro, casado, 36 anos\nRua Augusta, 1508, apto 92 – Consolação – São Paulo/SP – CEP 01304-001\nCelular/WhatsApp: (11) 98765-4321\nE-mail: thiago.nsantos@example.com.br\nCPF: 318.475.926-19\n\nOBJETIVO\nGerente de Operações Logísticas\n\nEXPERIÊNCIA PROFISSIONAL\nMercado Livre – São Paulo/SP (2019 – atual)\nGerente de Operações – centro de distribuição com 1.100 colaboradores; redução de 17% no custo por pedido\nAmbev – Jaguariúna/SP (2014 – 2019)\nCoordenador de Logística – gestão de frota de 240 caminhões\nNatura &Co – Cajamar/SP (2011 – 2014)\nAnalista de Supply Chain\n\nFORMAÇÃO ACADÊMICA\nMBA em Gestão de Operações – Fundação Getulio Vargas (FGV), 2016\nEngenharia de Produção – Universidade Estadual de Campinas (Unicamp), 2010\n\nIDIOMAS E CERTIFICAÇÕES\nInglês fluente, espanhol intermediário\nLean Six Sigma Green Belt; CNH categoria B",
+  "gold": [
+   [
+    "Thiago Nascimento dos Santos",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Brasileiro",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "casado",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "36 anos",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Rua Augusta, 1508, apto 92 – Consolação – São Paulo/SP – CEP 01304-001",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "(11) 98765-4321",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "thiago.nsantos@example.com.br",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "318.475.926-19",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Fundação Getulio Vargas (FGV)",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Universidade Estadual de Campinas (Unicamp)",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-021",
+  "lang": "en",
+  "text": "CURRICULUM VITAE\n\nPROFILE\nSupply-chain analyst with 5 years at global electronics and automotive firms. Based in Seoul; open to relocation to Frankfurt or Munich.\n\nEXPERIENCE\nSupply Chain Analyst, Hyundai Mobis, Seoul — 2021–present\n- Forecasting for 3,800 SKUs; improved fill rate from 91% to 97%\n- SAP IBP rollout (release 2308)\nProcurement Associate, Samsung Electronics, Suwon — 2019–2021\n- Negotiated contracts worth KRW 42bn with 30 suppliers\n\nEDUCATION\nB.B.A., Yonsei University, Seoul — 2015–2019\nExchange semester, WHU – Otto Beisheim School of Management, 2018\n\nSKILLS\nSAP IBP, SQL, Tableau, Python (pandas)\nKorean (native), English (TOEIC 965), German (B1)\n\nCONTACT\nEmail: park.jiwoo.scm@example.kr | KakaoTalk ID: jiwoo_scm | +82 10-4417-2093\n\n—\nPage 1 of 1 · CV_ParkJiwoo_2025.pdf",
+  "gold": [
+   [
+    "Seoul",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "Yonsei University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "WHU – Otto Beisheim School of Management",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "park.jiwoo.scm@example.kr",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "jiwoo_scm",
+    "HANDLE",
+    true,
+    null
+   ],
+   [
+    "+82 10-4417-2093",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "ParkJiwoo",
+    "NAME",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-022",
+  "lang": "fr",
+  "text": "Arnaud Van den Bossche\nAvenue Louise 327, boîte 5\n1050 Ixelles\nBelgique\nGSM : +32 478 21 64 09\narnaud.vandenbossche@example.be\nNuméro de registre national : 85.07.19-273.21\nNé le 19 juillet 1985 à Liège — Belge — marié\n\nExpérience professionnelle\nDepuis 2016 — Responsable juridique, Solvay SA, Bruxelles\n · Négociation de 60 contrats fournisseurs par an ; conformité RGPD\n2010 – 2016 — Juriste, Deloitte Legal, Bruxelles\n · Missions pour Proximus et bpost\n\nFormation\n2008 – 2010 — Master en droit, Université libre de Bruxelles (ULB)\n             Stage dirigé par Maître Sophie Lambert-Delvaux, avocate au barreau de Bruxelles\n2005 – 2008 — Bachelier en droit, Université de Liège\n\nLangues : français, néerlandais (C1), anglais (C1)\n\nRéférences sur demande.",
+  "gold": [
+   [
+    "Arnaud Van den Bossche",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Avenue Louise 327, boîte 5",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "1050 Ixelles",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "Belgique",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "+32 478 21 64 09",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "arnaud.vandenbossche@example.be",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "85.07.19-273.21",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "19 juillet 1985",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Liège",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "Belge",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "marié",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Université libre de Bruxelles (ULB)",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Sophie Lambert-Delvaux",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Université de Liège",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Maître",
+    "NAME",
+    false,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-023",
+  "lang": "en",
+  "text": "CV\nField         | Value\n--------------|--------------------------------------------\nName          | Emre Yıldırım Çelik\nTitle         | Embedded Software Engineer\nLocation      | Eindhoven, Netherlands\nPhone         | +31 6 4829 1175\nEmail         | emre.celik@example.com\nGitHub        | https://github.com/emrecelik-emb\nResidence     | Highly skilled migrant permit; BSN 204518374\nBorn          | 1991, İzmir\n\nExperience\nCompany              | Role                          | Period\nASML                 | Senior Embedded Engineer      | 2020 – now\nPhilips Healthcare   | Embedded Developer            | 2017 – 2020\nArçelik (Istanbul)   | Firmware Engineer             | 2014 – 2017\n\nHighlights\n- Real-time motion control in C++17 on VxWorks 7; latency budget 50 µs\n- Authored AUTOSAR-compliant bootloader shipped in 1.4M units\n- Collaborated with Eindhoven University of Technology (TU/e) on a joint research grant (project NWO-TTW 17963)\n\nEducation\nMSc Electrical Engineering | Middle East Technical University (METU), Ankara | 2012 – 2014\nBSc Electronics            | Dokuz Eylül University, İzmir                   | 2008 – 2012\n\nLanguages | Turkish (native), English (C2), Dutch (B1)",
+  "gold": [
+   [
+    "Emre Yıldırım Çelik",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Eindhoven, Netherlands",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "+31 6 4829 1175",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "emre.celik@example.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "https://github.com/emrecelik-emb",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "204518374",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "1991",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "İzmir",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "Eindhoven University of Technology (TU/e)",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Middle East Technical University (METU)",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Dokuz Eylül University",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-024",
+  "lang": "es",
+  "text": "José Luis Hernández Ávila\nIngeniero Civil\nAv. Coyoacán 1435, Int. 6, Col. Del Valle, C.P. 03100, Ciudad de México\nCel. 55 4128 9076 · jl.hernandez.avila@example.mx\nCURP: HEAL870312HDFRVS04 · RFC: HEAL870312KT5\nEdad: 38 años · Estado civil: casado · Nacionalidad: mexicana\n\nEXPERIENCIA LABORAL\nEmpresas ICA, Ciudad de México — Gerente de Proyecto (2017 – actual)\n• Tramo 3 del Tren Maya: 120 km de vía, presupuesto de 9,800 millones MXN\n• Supervisión de 450 trabajadores; 0 accidentes incapacitantes en 2022\nCEMEX, Monterrey — Ingeniero de Estructuras (2011 – 2017)\n• Diseño de naves industriales conforme a ACI 318-14\n\nFORMACIÓN\nMaestría en Ingeniería Estructural — Universidad Nacional Autónoma de México (UNAM), 2011\n   Tesis dirigida por el Dr. Ramón Villaseñor Paredes\nIngeniería Civil — Instituto Politécnico Nacional (IPN), 2009\n\nCÉDULA PROFESIONAL: 6214837\n\nHABILIDADES\nSAP2000, ETABS, AutoCAD Civil 3D, Primavera P6, MS Project\nInglés avanzado (TOEFL iBT 104)",
+  "gold": [
+   [
+    "José Luis Hernández Ávila",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Av. Coyoacán 1435, Int. 6, Col. Del Valle, C.P. 03100, Ciudad de México",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "55 4128 9076",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "jl.hernandez.avila@example.mx",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "HEAL870312HDFRVS04",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "HEAL870312KT5",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "38 años",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "casado",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "mexicana",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "Universidad Nacional Autónoma de México (UNAM)",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Ramón Villaseñor Paredes",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Instituto Politécnico Nacional (IPN)",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "6214837",
+    "ID",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-025",
+  "lang": "en",
+  "text": "Brooke Marsh\nEnvironmental Consultant\nUnit 3/41 Cronulla Street, Cronulla NSW 2230\n0412 876 553 | brooke.marsh.env@example.com.au | au.linkedin.com/in/brookemarsh\n\nPROFILE\nEnvironmental scientist specialising in wetland and marsh restoration, coastal hydrology and EIS preparation. 10 years across government and consulting.\n\nEMPLOYMENT\nPrincipal Consultant — Jacobs, Sydney | Mar 2019 – present\n- Led EIS for the Georges River marsh rehabilitation (A$62m)\n- Coordinated 12 specialists; managed client relationship with Transport for NSW\nEnvironmental Scientist — NSW Office of Environment & Heritage, Parramatta | 2014 – 2019\n- Monitoring program across 38 estuaries\n\nEDUCATION\nPhD Environmental Science, University of Wollongong (2010–2014)\nSupervisor: Assoc. Prof. Hamish McAllister-Reid\nBSc (Hons), Macquarie University (2006–2009)\n\nPUBLICATIONS\nMarsh, B., McAllister-Reid, H., & Tran, Q. (2015). Saltmarsh carbon accumulation rates in south-eastern Australia. Estuarine, Coastal and Shelf Science, 164, 45–53.\n\nREFEREES\nDr Mei-Ling Tran, Technical Director, Jacobs — 02 9928 2100\nNicole O'Dea, Manager, OEH — nicole.odea@example.gov.au",
+  "gold": [
+   [
+    "Brooke Marsh",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Unit 3/41 Cronulla Street, Cronulla NSW 2230",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "0412 876 553",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "brooke.marsh.env@example.com.au",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "au.linkedin.com/in/brookemarsh",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "University of Wollongong",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Hamish McAllister-Reid",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Macquarie University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Marsh, B.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "McAllister-Reid, H.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Tran, Q.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Mei-Ling Tran",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "02 9928 2100",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "Nicole O'Dea",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "nicole.odea@example.gov.au",
+    "EMAIL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-026",
+  "lang": "nl",
+  "text": "Fatma Yılmaz-de Groot\nVerpleegkundig specialist\n[Foto]\nContact                         Profiel\nLaan van Meerdervoort 512       BIG-geregistreerd verpleegkundig\n2563 BG Den Haag                specialist met 9 jaar ervaring op\n06 21 87 45 30                  de IC en SEH.\nfatma.degroot@example.nl\n                                Werkervaring\nPersoonlijk                     2019 – heden  Verpleegkundig specialist IC,\nGeboren: 2 maart 1990           Haaglanden Medisch Centrum, Den Haag\nNationaliteit: Nederlands /     2014 – 2019  IC-verpleegkundige, Erasmus MC,\nTurks                           Rotterdam\nBurgerlijke staat: gehuwd\nBIG-nummer: 49051237101         Opleiding\nIBAN: NL35 RABO 0317 8490 25    2017 – 2019  Master Advanced Nursing Practice,\n                                Hogeschool Rotterdam\nTalen                           2010 – 2014  HBO-V, Haagse Hogeschool\nNederlands, Turks, Engels\n                                Vaardigheden\n                                ALS, ATLS, Epic, HiX 6.3",
+  "gold": [
+   [
+    "Fatma Yılmaz-de Groot",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Laan van Meerdervoort 512",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "2563 BG Den Haag",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "06 21 87 45 30",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "fatma.degroot@example.nl",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "2 maart 1990",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Nederlands",
+    "NATIONALITY",
+    true,
+    0
+   ],
+   [
+    "Turks",
+    "NATIONALITY",
+    true,
+    0
+   ],
+   [
+    "gehuwd",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "49051237101",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "NL35 RABO 0317 8490 25",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Hogeschool Rotterdam",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Haagse Hogeschool",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-027",
+  "lang": "en",
+  "text": "Dr. Mei-Hua (Michelle) Tsai\nPostdoctoral Research Fellow, Department of Chemistry\nImperial College London, South Kensington Campus, London SW7 2AZ\nm.tsai21@example.ac.uk | ORCID: 0000-0002-7134-5589 | Google Scholar: scholar.google.com/citations?user=Xq3kP7AAAAAJ\n\nRESEARCH INTERESTS\nElectrocatalysis, CO2 reduction, operando X-ray spectroscopy\n\nPOSITIONS\n2022–present  Marie Skłodowska-Curie Fellow, Imperial College London (host: Prof. Rhys Llewellyn-Jones)\n2021–2022     Postdoctoral researcher, BASF SE, Ludwigshafen\n\nEDUCATION\n2016–2021  DPhil Inorganic Chemistry, University of Oxford\n           Thesis supervised by Prof. Dame Harriet Okonjo and Dr. Samuel Achterberg\n2012–2016  BSc Chemistry, National Taiwan University, Taipei\n\nSELECTED PUBLICATIONS\n1. Tsai, M.-H.; Achterberg, S.; Okonjo, H. Operando XAS of copper nanocubes during CO2 electroreduction. J. Am. Chem. Soc. 2020, 142, 11834–11845.\n2. Liu, Y.; Tsai, M.-H.; Llewellyn-Jones, R. Tandem catalysts for C2+ products. Nature Catalysis 2023, 6, 402–410.\n\nFUNDING & AWARDS\nMarie Skłodowska-Curie Individual Fellowship (Grant agreement No. 101063288), €224,934\nRSC Dalton Young Researcher Award 2021\n\nTALKS\nACS Fall Meeting 2023, San Francisco; Faraday Discussions, 2022\n\nPERSONAL\nHome: Clapham, London SW4 · Taiwanese · she/her",
+  "gold": [
+   [
+    "Mei-Hua (Michelle) Tsai",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Imperial College London",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "South Kensington Campus, London SW7 2AZ",
+    "ADDRESS",
+    false,
+    null
+   ],
+   [
+    "m.tsai21@example.ac.uk",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "0000-0002-7134-5589",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "scholar.google.com/citations?user=Xq3kP7AAAAAJ",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "Rhys Llewellyn-Jones",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "University of Oxford",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Harriet Okonjo",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Samuel Achterberg",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "National Taiwan University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Tsai, M.-H.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Achterberg, S.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Okonjo, H.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Liu, Y.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Llewellyn-Jones, R.",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Clapham, London SW4",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "Taiwanese",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "she/her",
+    "GENDER",
+    false,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-028",
+  "lang": "it",
+  "text": "FERRARI Leonardo\nIngegnere Meccanico – Powertrain\n\nVia Emilia Est 1020 – 41122 Modena (MO)\n+39 333 918 2746 | leonardo.ferrari88@example.it\nnato a Sassuolo il 04/04/1988 – celibe\nlinkedin.com/in/leonardoferrari-powertrain\n\nESPERIENZE\n2016 – oggi    Ferrari S.p.A., Maranello — Senior Powertrain Engineer\n               Calibrazione motori V12 e ibridi; banco prova da 1.000 CV\n2012 – 2016    Maserati, Modena — Ingegnere Sperimentazione\n               Omologazione Euro 6d; collaborazione con Magneti Marelli\n\nFORMAZIONE\n2010 – 2012    Laurea Magistrale in Ingegneria del Veicolo, Università di Modena e Reggio Emilia\n               Tesi svolta con il Prof. Alberto Castagnetti\n2007 – 2010    Laurea Triennale in Ingegneria Meccanica, Politecnico di Torino\n\nCERTIFICAZIONI\nSix Sigma Black Belt (Ferrari Academy, 2019)\n\nLINGUE\nInglese C1, Tedesco B1\n\nIscritto all'Ordine degli Ingegneri della Provincia di Modena, n. A-3317",
+  "gold": [
+   [
+    "FERRARI Leonardo",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Via Emilia Est 1020 – 41122 Modena (MO)",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "+39 333 918 2746",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "leonardo.ferrari88@example.it",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "Sassuolo",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "04/04/1988",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "celibe",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "linkedin.com/in/leonardoferrari-powertrain",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "Università di Modena e Reggio Emilia",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Alberto Castagnetti",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Politecnico di Torino",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "A-3317",
+    "ID",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-029",
+  "lang": "en",
+  "text": "arjun mehta-kapoor\nbackend developer · open source maintainer\n\nreach me: arjun [at] mehtakapoor [dot] dev  |  phone: plus four four, seven seven zero zero, nine double-zero, one two three  |  mastodon: @arjunmk@fosstodon.org\nhome base: Leeds (hybrid)\n\nwhat i've done\n- 2022–now: Senior Backend Developer @ Sky Betting & Gaming, Leeds\n  handled 1.2k rps on the bet placement API; migrated from Django 3.2 to 4.2\n- 2019–2022: Developer @ BJSS, Leeds and Manchester client sites\n  delivered NHS booking flows; ISO 27001 audit prep\n- maintainer of `django-queuebeat` (4.3k stars) — docs at https://django-queuebeat.readthedocs.io\n\nschool\n- BSc Computer Science, University of Leeds, 2016–2019 (first)\n- A-levels at Leeds Grammar School\n\ntalks\n- DjangoCon Europe 2023 (Edinburgh): \"Queues without tears\"\n- PyCon UK 2021, co-presented with Dana Whitlock\n\npersonal site: mehtakapoor.dev/blog",
+  "gold": [
+   [
+    "arjun mehta-kapoor",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "arjun [at] mehtakapoor [dot] dev",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "plus four four, seven seven zero zero, nine double-zero, one two three",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "@arjunmk@fosstodon.org",
+    "HANDLE",
+    true,
+    null
+   ],
+   [
+    "Leeds",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "University of Leeds",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Leeds Grammar School",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Dana Whitlock",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "mehtakapoor.dev/blog",
+    "URL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-030",
+  "lang": "de",
+  "text": "LEBENSLAUF\nMag. Stefanie Hofbauer-Nguyen\nWohnhaft in Graz, Steiermark\nTel. +43 664 382 91 05 | E-Mail: stefanie.hofbauer@example.at\ngeb. am 17. Juni 1983 in Linz | österreichische Staatsbürgerin | geschieden, 1 Tochter\nSV-Nr.: 4175 170683\n\nBERUFLICHER WERDEGANG\nseit 2017      Head of HR Business Partnering, AVL List GmbH, Graz\n               Personalverantwortung für 2.400 Mitarbeitende an 3 Standorten\n2011 – 2017    HR-Generalistin, voestalpine AG, Linz\n               Einführung SuccessFactors; Betriebsratsverhandlungen\n2008 – 2011    Trainee Personalentwicklung, Magna Steyr, Graz\n\nAUSBILDUNG\n2002 – 2008    Studium der Psychologie, Karl-Franzens-Universität Graz (Mag. rer. nat.)\n2001           Matura, BRG Linz Hamerlingstraße\n\nZUSATZQUALIFIKATIONEN\nSystemischer Coach (ÖVS), Hogan Assessment zertifiziert\nEnglisch verhandlungssicher, Französisch Grundkenntnisse\n\nGraz, 12. Februar 2025",
+  "gold": [
+   [
+    "Stefanie Hofbauer-Nguyen",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Graz, Steiermark",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "+43 664 382 91 05",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "stefanie.hofbauer@example.at",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "17. Juni 1983",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Linz",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "österreichische",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "geschieden",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "1 Tochter",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "4175 170683",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Karl-Franzens-Universität Graz",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "BRG Linz Hamerlingstraße",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Graz",
+    "LOCATION",
+    true,
+    4
+   ],
+   [
+    "Mag.",
+    "NAME",
+    false,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "H2-031",
+  "lang": "en",
+  "text": "Thandeka Mokoena-Dlamini\nChartered Accountant (SA) | CA(SA) Membership No. 20174839\nJohannesburg, Gauteng | 082 447 1930 | thandeka.md@example.co.za\nID Number: 8807150443083\nLanguages: isiZulu, English, Afrikaans, Sesotho\n\nEXPERIENCE\nAudit Manager — PwC South Africa, Johannesburg (2019 – present)\n• Group audits for Anglo American and Standard Bank; teams of up to 25\n• Supervised 14 trainee accountants through the SAICA training programme\nAudit Senior — Deloitte, Cape Town (2015 – 2019)\n• IFRS 9 implementation for Old Mutual; R1.2bn impairment model review\n\nEDUCATION\nBCom Accounting Sciences (Hons), University of Pretoria (2011 – 2014)\nPostgraduate Diploma in Accounting, University of Cape Town (2015)\nMatric — St Mary's School, Waverley (2010)\n\nREFERENCES\nMr Johan van Rensburg, Partner, PwC — 011 797 4000\nMs Lerato Khumalo, Director, Deloitte — lerato.khumalo@example.co.za",
+  "gold": [
+   [
+    "Thandeka Mokoena-Dlamini",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "20174839",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Johannesburg, Gauteng",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "082 447 1930",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "thandeka.md@example.co.za",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "8807150443083",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "University of Pretoria",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "University of Cape Town",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "St Mary's School",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Johan van Rensburg",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "011 797 4000",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "Lerato Khumalo",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "lerato.khumalo@example.co.za",
+    "EMAIL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-032",
+  "lang": "pl",
+  "text": "Oleksandr Kowalczuk-Ivanenko\nProgramista Java | Wrocław\n+48 512 803 944 · oleksandr.ki@example.com · github.com/okowalczuk\nObywatelstwo: ukraińskie · Karta pobytu nr RP4817392\n\nDoświadczenie\n2021 – obecnie   Senior Java Developer, Nokia Solutions and Networks, Wrocław\n                 Mikroserwisy w Spring Boot 3.1, 5G Core; zespół 9 osób\n2018 – 2021      Java Developer, Credit Suisse, Wrocław\n                 Systemy rozliczeń; migracja z Java 8 do Java 17\n2016 – 2018      Junior Developer, SoftServe, Lwów\n\nWykształcenie\n2012 – 2016   Politechnika Lwowska, Informatyka (inż.)\n2019 – 2021   Politechnika Wrocławska, studia podyplomowe: Architektura Systemów\n\nUmiejętności\nJava, Kotlin, Spring, Kafka, Oracle DB 19c, Jenkins, Docker, Kubernetes\n\nJęzyki\nukraiński (ojczysty), polski (C2), angielski (C1), rosyjski (C1)\n\nZainteresowania: wspinaczka, szachy (ranking FIDE 1850)\nWyrażam zgodę na przetwarzanie moich danych osobowych w celu rekrutacji.",
+  "gold": [
+   [
+    "Oleksandr Kowalczuk-Ivanenko",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Wrocław",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "+48 512 803 944",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "oleksandr.ki@example.com",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "github.com/okowalczuk",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "ukraińskie",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "RP4817392",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Politechnika Lwowska",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Politechnika Wrocławska",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-033",
+  "lang": "fi",
+  "text": "Mikko Järvinen\nMyyntipäällikkö\nOulu | 044 551 7302 | mikko.jarvinen@example.fi\n\nOlen kokenut B2B-myyjä, asun Oulussa ja olen valmis matkustamaan Pohjoismaissa.\n\nTYÖKOKEMUS\nMyyntipäällikkö, Polar Electro Oy, Kempele (2018–)\n– Vastuulla Pohjoismaiden jälleenmyyjäverkosto, liikevaihto 26 M€\n– Kasvatin myyntiä 34 % kolmessa vuodessa\nAccount Manager, Fujitsu Finland Oy, Oulu (2012–2018)\n– Julkishallinnon asiakkaat (Oulun kaupunki, Pohjois-Pohjanmaan sairaanhoitopiiri)\n\nKOULUTUS\nKauppatieteiden maisteri, Oulun yliopisto (2007–2012)\n\nKIELET\nsuomi, englanti, ruotsi\n\nMUUTA\nSyntynyt 1983, naimisissa. Reserviupseeri.\nSuosittelija: Hanna-Leena Kivelä, toimitusjohtaja, Polar Electro Oy, hanna-leena.kivela@example.fi",
+  "gold": [
+   [
+    "Mikko Järvinen",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Oulu",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "044 551 7302",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "mikko.jarvinen@example.fi",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "Oulussa",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "Oulun yliopisto",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "1983",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "naimisissa",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Hanna-Leena Kivelä",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "hanna-leena.kivela@example.fi",
+    "EMAIL",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-034",
+  "lang": "en",
+  "text": "RESUME\nNAME:    DeShawn Marcus Whitaker-Bell\nADDRESS: 4417 Magnolia Ave, Apt 2C, St. Louis, MO 63110\nPHONE:   314.555.0199   ALT: (314) 555-0162\nEMAIL:   dwhitakerbell@example.net\nSSN:     412-58-3096\nD.O.B.:  11/23/1979\n\nOBJECTIVE\nCDL-A driver seeking regional or dedicated route position.\n\nLICENSES & CERTIFICATIONS\nClass A CDL, Missouri — License # W417-8829-3301, Hazmat & Tanker endorsements\nDOT medical card valid through 08/2026\nOSHA 10-Hour General Industry\n\nWORK HISTORY\nSchneider National — Regional Driver — 2016 to Present\n* 1.1 million accident-free miles; routes across MO, IL, KS\n* Driver of the Month, March 2021\nAnheuser-Busch — Warehouse Lead — 2009 to 2016\n* Supervised 11 forklift operators at the St. Louis brewery\nU.S. Army — Motor Transport Operator (88M) — 2001 to 2009\n* Deployed to Iraq 2004–2005; Honorable Discharge\n\nEDUCATION\nVashon High School, St. Louis, MO — Diploma 1998\nRanken Technical College — Diesel Technology coursework\n\nREFERENCES\nLuis Ortega, Terminal Manager, Schneider National, 314-555-0177",
+  "gold": [
+   [
+    "DeShawn Marcus Whitaker-Bell",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "4417 Magnolia Ave, Apt 2C, St. Louis, MO 63110",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "314.555.0199",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "(314) 555-0162",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "dwhitakerbell@example.net",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "412-58-3096",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "11/23/1979",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "W417-8829-3301",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Vashon High School",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Ranken Technical College",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Luis Ortega",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "314-555-0177",
+    "PHONE",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-035",
+  "lang": "es",
+  "text": "LAIA PUIGDOMÈNECH I SERRA\nDirectora de Arte\n\nContacto\nCarrer de Verdi 74, 2n 1a, 08012 Barcelona\n634 91 27 58 · laia@puigdomenech.example.cat\nPortfolio: https://puigdomenech.example.cat/projectes · Behance: behance.net/laiapuigdomenech · Instagram: @laia.pds\n\nExperiencia\n2019 – actualidad · Directora de Arte, Bassat Ogilvy, Barcelona\n  Campañas para Estrella Damm, SEAT y Desigual; 3 Leones de Cannes\n2015 – 2019 · Diseñadora sénior, Summa Branding, Barcelona\n  Identidad visual para el Mobile World Congress 2017 (100.000 asistentes)\n2013 – 2015 · Diseñadora junior, Mucho, París\n\nFormación\n2009 – 2013 · Grado en Diseño, Elisava – Escola Universitària de Disseny i Enginyeria de Barcelona\n2012 · Erasmus en la Gerrit Rietveld Academie, Ámsterdam\n\nIdiomas: catalán y castellano (nativos), inglés (C1), francés (B2)\nSoftware: Figma, Adobe CC, Cinema 4D, Blender\n\nNacida en Girona, 1990.",
+  "gold": [
+   [
+    "LAIA PUIGDOMÈNECH I SERRA",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Carrer de Verdi 74, 2n 1a, 08012 Barcelona",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "634 91 27 58",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "laia@puigdomenech.example.cat",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "https://puigdomenech.example.cat/projectes",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "behance.net/laiapuigdomenech",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "@laia.pds",
+    "HANDLE",
+    true,
+    null
+   ],
+   [
+    "Elisava – Escola Universitària de Disseny i Enginyeria de Barcelona",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Gerrit Rietveld Academie",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Girona",
+    "LOCATION",
+    true,
+    null
+   ],
+   [
+    "1990",
+    "DOB",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-036",
+  "lang": "en",
+  "text": "Maria Lourdes \"Malou\" Dela Cruz-Santos, RN\nBand 6 Staff Nurse – Critical Care\n23 Kingsley Road, Hounslow, TW3 1QB | 07448 219 305 | malou.delacruz@example.co.uk\nNMC PIN: 17I2843E\nNationality: Filipino (British citizen since 2022) | Right to work: Yes\n\nCLINICAL EXPERIENCE\nStaff Nurse (Band 6), Intensive Care Unit — Hillingdon Hospital NHS Foundation Trust, Uxbridge | 2019 – present\n• 12-bed ICU; ventilated patients, CRRT, ECMO transfers to St George's\n• Link nurse for infection control; audit compliance raised from 82% to 96%\nStaff Nurse (Band 5), Medical Wards — West Middlesex University Hospital, Isleworth | 2016 – 2019\nStaff Nurse — St. Luke's Medical Center, Quezon City, Philippines | 2011 – 2016\n\nEDUCATION\nBSc Nursing, University of Santo Tomas, Manila | 2007 – 2011\nCritical Care Course (post-registration), Buckinghamshire New University | 2020\n\nCERTIFICATIONS\nALS (Resuscitation Council UK), IELTS Academic 7.5, OSCE passed 2016\n\nREFEREES\nSister Joanne Pritchard, ICU Ward Manager, Hillingdon Hospital — joanne.pritchard@example.nhs.uk\nMr Kwame Asante-Boateng, Matron, West Middlesex University Hospital — 020 8560 2121",
+  "gold": [
+   [
+    "Maria Lourdes \"Malou\" Dela Cruz-Santos",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "23 Kingsley Road, Hounslow, TW3 1QB",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "07448 219 305",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "malou.delacruz@example.co.uk",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "17I2843E",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Filipino",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "British citizen",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "University of Santo Tomas",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Buckinghamshire New University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Joanne Pritchard",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "joanne.pritchard@example.nhs.uk",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "Kwame Asante-Boateng",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "020 8560 2121",
+    "PHONE",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-037",
+  "lang": "en",
+  "text": "[Photo]\nGENEVIÈVE TREMBLAY-OUELLET\nMontréal (Québec) H2T 1S6 · 514-555-0128 · gen.tremblay@example.ca\nlinkedin.com/in/gtremblayouellet · Age: 34 · Canadian citizen\n\nPROFILE\nBilingual (FR/EN) UX researcher with 9 years in gaming and fintech. Led research ops for teams up to 40 designers.\n\nEXPERIENCE\nUbisoft Montréal — Lead User Researcher — 2020–present\n• Playtests for Assassin's Creed Mirage; 6,000 participants/yr\n• Built research repository in Dovetail\nDesjardins — UX Researcher — 2016–2020\n• Mobile banking app (4.6★, 2M+ reviews)\nBehaviour Interactive — Junior UX Analyst — 2015–2016\n\nEDUCATION\nM.Sc. Psychology (Human Factors), Université de Montréal — 2013–2015\nMaster's thesis directed by Prof. Hugo Bélanger-Riel\nB.A. Cognitive Science, McGill University — 2010–2013\n\nVOLUNTEERING\nMentor, Ladies Learning Code (2018–2022)\n\nSIN available upon offer.",
+  "gold": [
+   [
+    "GENEVIÈVE TREMBLAY-OUELLET",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Montréal (Québec) H2T 1S6",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "514-555-0128",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "gen.tremblay@example.ca",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "linkedin.com/in/gtremblayouellet",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "Age: 34",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Canadian citizen",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "Université de Montréal",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Hugo Bélanger-Riel",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "McGill University",
+    "EDU_ORG",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-038",
+  "lang": "de",
+  "text": "Nils Hartmann\nEinkäufer Strategischer Einkauf\nKönigsallee 9 · 33098 Paderborn\n0176 23984410 · nils.hartmann@example.de · xing.com/profile/Nils_Hartmann7\nSteuer-ID: 47 036 892 815 · Bankverbindung (Reisekosten): DE26 3704 0044 0532 8147 72\n\nBerufserfahrung\n• seit 01/2020 – Senior Einkäufer, Dr. August Oetker Nahrungsmittel KG, Bielefeld\n  Verantwortung für ein Einkaufsvolumen von 180 Mio. €; Lieferantenstamm 350\n• 07/2015 – 12/2019 – Einkäufer, Robert Bosch GmbH, Stuttgart-Feuerbach\n  Warengruppe Elektronik; Einsparungen von 6,2 % p. a.\n• 10/2013 – 06/2015 – Traineeprogramm, HUGO BOSS AG, Metzingen\n\nAusbildung\n• 2009 – 2013 B.Sc. Wirtschaftsingenieurwesen, Universität Paderborn\n  Bachelorarbeit bei Prof. Dr.-Ing. Wolfgang Brenner-Lutz\n• 2000 – 2009 Gymnasium Theodorianum, Paderborn (Abitur 1,7)\n\nKenntnisse\nSAP MM / Ariba, Coupa, Power BI · Englisch C1 · Spanisch B1\nFührerschein Klasse B\n\nPaderborn, 03.02.2025",
+  "gold": [
+   [
+    "Nils Hartmann",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Königsallee 9 · 33098 Paderborn",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "0176 23984410",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "nils.hartmann@example.de",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "xing.com/profile/Nils_Hartmann7",
+    "URL",
+    true,
+    null
+   ],
+   [
+    "47 036 892 815",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "DE26 3704 0044 0532 8147 72",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Universität Paderborn",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Wolfgang Brenner-Lutz",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Gymnasium Theodorianum",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Paderborn",
+    "LOCATION",
+    true,
+    3
+   ]
+  ]
+ },
+ {
+  "id": "H2-039",
+  "lang": "sv",
+  "text": "CV – Yasmin Haddad Lindqvist\nMalmö · 072-918 44 07 · yasmin.hl@example.se\nFödd 1994 · Svensk medborgare · Sambo\n\nOm mig\nJag bor i Malmö och har arbetat med hållbarhetsrapportering sedan 2018.\n\nErfarenhet\n2021–      Hållbarhetsanalytiker, IKEA of Sweden, Älmhult\n           GRI- och CSRD-rapportering för 31 marknader\n2018–2021  Miljökonsult, WSP Sverige, Malmö\n           Livscykelanalyser (ISO 14044) för Skanska och NCC\n\nUtbildning\n2015–2018  Kandidatexamen i miljövetenskap, Lunds universitet\n2018–2020  Masterprogram (deltid), Malmö universitet\n\nKompetenser\nSimaPro, openLCA, Excel, Power BI, Python\nSpråk: svenska, arabiska, engelska\n\nReferens: Johan Ek, gruppchef WSP, 010-722 50 00",
+  "gold": [
+   [
+    "Yasmin Haddad Lindqvist",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Malmö",
+    "LOCATION",
+    true,
+    0
+   ],
+   [
+    "Malmö",
+    "LOCATION",
+    true,
+    1
+   ],
+   [
+    "072-918 44 07",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "yasmin.hl@example.se",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "1994",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Svensk medborgare",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "Sambo",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "Lunds universitet",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Malmö universitet",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Johan Ek",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "010-722 50 00",
+    "PHONE",
+    true,
+    null
+   ]
+  ]
+ },
+ {
+  "id": "H2-040",
+  "lang": "en",
+  "text": "TAN WEI MING, JONATHAN\nBlk 308 Clementi Ave 4, #11-275, Singapore 120308\n+65 9123 4876 | jonathan.tan.wm@example.sg | NRIC: S8834572Z\nSingapore Citizen | Male | Born 14 Aug 1988 | Married with 2 children\n[Photo]\n\nCAREER SUMMARY\nTreasury and FX risk manager with 12 years at regional banks. Managed trading books up to SGD 3.2bn.\n\nEMPLOYMENT\nDBS Bank Ltd, Singapore — Vice President, Treasury Risk (2019 – present)\n- Oversee market-risk limits for 7 desks; Basel III FRTB implementation\nOCBC Bank, Singapore — Assistant Manager, ALM (2013 – 2019)\nStandard Chartered, Hong Kong — Graduate Analyst (2011 – 2013)\n\nEDUCATION\nMaster of Financial Engineering, NUS Business School (2016 – 2017, part-time)\nBachelor of Business (Banking & Finance), Nanyang Technological University (2007 – 2011)\nRaffles Junior College (2003 – 2004)\n\nPROFESSIONAL QUALIFICATIONS\nCFA Charterholder (ID 196443), FRM (GARP)\n\nREFEREES\nMr Goh Kok Leong, Managing Director, DBS Bank — +65 6878 8888\nMs Priscilla Lim Hui Min, Head of ALM, OCBC — priscilla.lim@example.sg",
+  "gold": [
+   [
+    "TAN WEI MING, JONATHAN",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "Blk 308 Clementi Ave 4, #11-275, Singapore 120308",
+    "ADDRESS",
+    true,
+    null
+   ],
+   [
+    "+65 9123 4876",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "jonathan.tan.wm@example.sg",
+    "EMAIL",
+    true,
+    null
+   ],
+   [
+    "S8834572Z",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Singapore Citizen",
+    "NATIONALITY",
+    true,
+    null
+   ],
+   [
+    "Male",
+    "GENDER",
+    true,
+    null
+   ],
+   [
+    "14 Aug 1988",
+    "DOB",
+    true,
+    null
+   ],
+   [
+    "Married with 2 children",
+    "MARITAL",
+    true,
+    null
+   ],
+   [
+    "NUS Business School",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Nanyang Technological University",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "Raffles Junior College",
+    "EDU_ORG",
+    true,
+    null
+   ],
+   [
+    "196443",
+    "ID",
+    true,
+    null
+   ],
+   [
+    "Goh Kok Leong",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "+65 6878 8888",
+    "PHONE",
+    true,
+    null
+   ],
+   [
+    "Priscilla Lim Hui Min",
+    "NAME",
+    true,
+    null
+   ],
+   [
+    "priscilla.lim@example.sg",
+    "EMAIL",
+    true,
+    null
+   ]
+  ]
+ }
+]

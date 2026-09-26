@@ -1,0 +1,1 @@
+{"out": "{\"pii\": [{\"text\": \"Chen Wei\", \"label\": \"NAME\"}, {\"text\": \"chen.wei@datamail.cn\", \"label\": \"EMAIL\"}, {\"text\": \"+86 138 0013 8000\", \"label\": \"PHONE\"}, {\"text\": \"Shanghai, China\", \"label\": \"LOCATION\"}]}"}

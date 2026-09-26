@@ -1,0 +1,10 @@
+models/
+__pycache__/
+*.pyc
+results/*__*.json
+.env
+
+# hosted on Hugging Face instead
+hf/model/*.safetensors
+results/*__*.json
+results/leaderboard.jsonl

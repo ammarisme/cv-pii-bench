@@ -1,0 +1,6 @@
+
+Loading weights:   0%|          | 0/140 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 140/140 [00:00<00:00, 20962.54it/s]
+[pf-cache] S4-pf-openai-raw                   h3   R=0.466 P=0.781 F2=0.507 entR=0.461 leakDocs=57/60 FP/doc=3.35 s/doc=0.872
+[pf-cache] S4-pf-openai-raw                   h2   R=0.500 P=0.739 F2=0.535 entR=0.520 leakDocs=39/40 FP/doc=5.03 s/doc=0.892
+[pf-cache] S4-pf-openai-raw                   test R=0.678 P=0.875 F2=0.710 entR=0.748 leakDocs=18/20 FP/doc=1.35 s/doc=0.603

@@ -1,0 +1,1 @@
+{"out": "{\"decisions\": {\"0\": \"mask\", \"1\": \"mask\", \"2\": \"keep_visible\", \"3\": \"keep_visible\", \"4\": \"mask\"}, \"missed\": [{\"text\": \"chen.wei@datamail.cn\", \"label\": \"EMAIL\"}, {\"text\": \"+86 138 0013 8000\", \"label\": \"PHONE\"}, {\"text\": \"Shanghai, China\", \"label\": \"LOCATION\"}]}"}

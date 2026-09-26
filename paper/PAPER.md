@@ -1,0 +1,164 @@
+# Masking Personal Data in CVs: A Span-Based Pipeline and an Honest Hold-Out
+
+**Ameerudeen, Ammar** · September 2026
+
+*Research and code were developed with the assistance of an AI model (Claude, Anthropic).*
+
+## Abstract
+
+Recruitment systems increasingly pass CVs to language models, and data-protection rules require that personal data be removed first. Off-the-shelf PII tools do this badly on CVs: Microsoft Presidio with default settings finds 65% of identifying tokens on our hold-out and leaks at least one personal item in 39 of 40 CVs. We describe a span-based pipeline that combines neural detectors with a *CV policy layer* — rules that understand CV structure — and never rewrites the text. We evaluate 17 detector stacks and their parameter sweeps on 200 fictional, annotated CVs in 12 languages. The best stack (a LoRA-fine-tuned GLiNER2-PII unioned with OpenAI Privacy Filter and Knowledgator GLiNER-PII, plus the policy layer) reaches 0.974 token recall and 0.905 precision on a 40-CV hold-out written independently of the pipeline, at 2.1 s per CV on two CPU cores. A cheaper single-model stack reaches 0.956 / 0.926 at 0.7 s per CV. Our main methodological finding is a large seen-versus-unseen gap: rules written against 20 probe CVs scored 1.000 recall on them and about 0.75 on the first independent set. All data, code and cached detector outputs are released so that every number here can be reproduced on a laptop without downloading a model.
+
+## 1. Why CVs are hard
+
+A CV is full of proper nouns, and most of them are not personal data. Employers, universities, cities, frameworks (Jenkins, Julia, Ruby, Flask), certifications and product names all look like names to a general-purpose NER model. At the same time the item that matters most — the candidate's own name — usually sits alone at the top of the page with no sentence around it. Typical failure modes we observed with generic tools:
+
+- Tools and languages masked as people (`Jenkins`, `Julia`, `Pascal`).
+- Two-column PDF extraction that glues a name to a job title on one line.
+- Name particles and compound surnames (`van der Berg`, `de la Fuente`, `Müller-Lüdenscheidt`).
+- Europass and German-style key–value forms (`Staatsangehörigkeit: …`, `Familienstand | ledig`).
+- Third-party names in references, supervisors and publication author lists.
+- Personal URLs next to non-personal ones (a GitHub profile versus a company website).
+
+## 2. Masking policy
+
+The policy is designed for bias-reduced screening, where a reviewer or model should see skills and experience but not identity or protected attributes.
+
+**Masked:** names (candidate and third parties), email, phone, street address and postcode, home city/region/country, personal URLs and handles, ID/account/licence numbers, date of birth or age, nationality, marital status, gender and pronouns, universities and schools.
+
+**Kept:** employers, job titles, skills and tools, certification names, cities that appear only as work locations, date ranges and metrics.
+
+Universities are masked because institution prestige is a known proxy for socio-economic background. Employers are kept because they carry most of the signal about experience. Ambiguous items (for example a city that is both home and workplace) are annotated `required: false`; they are neither rewarded nor penalised.
+
+## 3. Data
+
+| Split | CVs | Required spans | Languages | Authorship | Role |
+|---|---|---|---|---|---|
+| probe20 | 20 | 107 | en | Hand-written probes, one failure mode each | Seen during development |
+| devsynth | 80 | 754 | 7 | Template generator | Early development |
+| devhard | 60 | 623 | 12 | LLM agent blind to the pipeline | Tuning and fine-tuning |
+| holdout | 40 | 477 | 10 | Second LLM agent blind to the pipeline | Final evaluation only |
+
+All personal data is fictional. The `devhard` and `holdout` sets were written by AI agents given only the masking policy and a list of hard phenomena, never the pipeline code. The hold-out was read only in aggregate: no rule or threshold was changed after looking at an individual hold-out error.
+
+## 4. Metrics
+
+- **Token recall / precision.** A gold token counts as masked if a predicted span covers it; a predicted span is a true positive if at least 50% of its characters overlap a gold span. Connector tokens (`van`, `de`) and field keys are ignored.
+- **Leak CVs.** The number of CVs in which at least one identifying token of any required gold entity stays visible. This is the deployment metric: a CV with one leaked surname is not anonymous.
+- **FP per CV.** False-positive tokens per document, a proxy for how much useful content is destroyed.
+- **F2** is used to select the best configuration of each stack, weighting recall over precision.
+
+## 5. Pipeline
+
+Every component outputs character spans; masking replaces those offsets with `[LABEL]`. The text is never regenerated, so no component can hallucinate or silently alter content.
+
+1. **Section tagging** in 12 languages (header, personal, experience, education, skills, references, publications, footer).
+2. **Pattern rules**: emails including obfuscated forms, phones, IBANs, ORCIDs, around 90 keyed ID fields, and key–value personal fields in tables, pipes and YAML.
+3. **Model detectors**, any subset, unioned: spaCy, Presidio, GLiNER2-PII, OpenAI Privacy Filter, OpenMed Privacy Filter, Knowledgator GLiNER-PII, or a local LLM extractor.
+4. **CV policy filter**: drop tool and language names, eponyms, employer names with company suffixes, degree names and work-only locations; keep locations only in contact zones; a header-name rule for the first lines.
+5. **Identity propagation**: once the candidate's name is confirmed, mask the surname and name-bearing URLs everywhere.
+6. **Safety net**: any string masked once is masked at every other occurrence.
+
+Raw detector outputs are cached at a very low threshold, so a threshold sweep is only a filter over the cache.
+
+## 6. Stacks
+
+| ID | Detectors |
+|---|---|
+| S0 | Rules only (policy layer, no model) |
+| S1 | Presidio default (baseline) |
+| S2 | spaCy / Presidio transformer + CV layer |
+| S3 | GLiNER2-PII (default labels, CV labels, fine-tuned) + CV layer |
+| S4 / S5 | OpenAI Privacy Filter / OpenMed Privacy Filter + CV layer |
+| S6 | Knowledgator GLiNER-PII + CV layer |
+| S7–S9 | Qwen2.5-3B (local) as extractor or as judge |
+| S10–S17 | Unions of the above, with and without voting |
+
+The Privacy Filter models were decoded with a custom scheme: a span's score is the minimum over its tokens of P(not O), which recovered recall the default argmax decoding lost.
+
+## 7. Results
+
+### 7.1 Hold-out (40 CVs, unseen)
+
+Best configuration of each stack by F2; thresholds were chosen on `devhard`.
+
+| Stack | Recall | Precision | Leak CVs | FP/CV | s/CV |
+|---|---|---|---|---|---|
+| S17ft GLiNER2-ft 0.4 ∪ PF 0.1 ∪ Knowledgator 0.5 + CV | **0.974** | 0.905 | **10** | 2.92 | 2.05 |
+| S15ft GLiNER2-ft ∪ PF ∪ OpenMed + CV | 0.973 | 0.894 | 10 | 3.30 | 2.16 |
+| S12ft GLiNER2-ft 0.4 ∪ PF 0.1 + CV | 0.972 | 0.907 | 11 | 2.83 | 1.60 |
+| S12 GLiNER2-CV 0.2 ∪ PF 0.1 + CV | 0.971 | 0.874 | 12 | 4.00 | 1.69 |
+| S3ft GLiNER2-ft 0.4 + CV | 0.956 | **0.926** | 12 | 2.17 | 0.71 |
+| S16 GLiNER2-CV ∪ Knowledgator + CV | 0.958 | 0.907 | 13 | 2.80 | 1.24 |
+| S3 GLiNER2-CV 0.4 + CV | 0.956 | 0.908 | 13 | 2.75 | 0.80 |
+| S6 Knowledgator 0.3 + CV | 0.950 | 0.888 | 19 | 3.40 | 0.47 |
+| S4 OpenAI PF 0.05 + CV | 0.925 | 0.906 | 22 | 2.73 | 0.90 |
+| S2b spaCy trf + CV | 0.913 | 0.862 | 24 | 4.15 | 0.49 |
+| S5 OpenMed PF 0.7 + CV | 0.904 | 0.918 | 26 | 2.30 | 0.58 |
+| S7b Qwen2.5-3B extractor + CV | 0.898 | 0.856 | 28 | 4.30 | 54.4 |
+| S0 Rules only | 0.849 | 0.933 | 31 | 1.73 | 0.01 |
+| S3 GLiNER2 raw (no CV layer) | 0.684 | 0.755 | 39 | 6.30 | 0.74 |
+| S1 Presidio default | 0.646 | 0.385 | 39 | 29.18 | 0.49 |
+
+Per-label recall of S17ft: NAME, EMAIL, URL, HANDLE, ADDRESS, DOB and GENDER 1.00; PHONE 0.98; EDU_ORG 0.98; MARITAL 0.96; ID 0.92; NATIONALITY 0.91; LOCATION 0.89. The remaining leaks are dominated by home locations written without any cue and by unusual ID formats.
+
+### 7.2 The seen-versus-unseen gap
+
+| Stack | probe20 (seen) | devhard (tuning) | holdout (unseen) |
+|---|---|---|---|
+| Rules only | R 1.000, 0/20 leak | R 0.855, 41/60 | R 0.849, 31/40 |
+| spaCy trf + CV | R 1.000, 0/20 | R 0.941, 24/60 | R 0.913, 24/40 |
+| GLiNER2-CV + CV | R 1.000, 0/20 | R 0.967, 15/60 | R 0.956, 13/40 |
+
+Every stack is perfect on the probes it was developed against. The rule layer alone looks as good as any model there, and is the weakest of the three once the data is new. Before `devhard` existed, our best stack scored about 0.75 recall on the first independent CVs. Without an independent hold-out we would have shipped a system believed to be perfect.
+
+### 7.3 Thresholds
+
+Thresholds mattered less than expected. On `devhard`, sweeping GLiNER2-CV from 0.1 to 0.8 moved recall only from 0.965 to 0.923 while precision moved from 0.78 to 0.90; Privacy Filter recall moved by under two points across 0.05–0.9. In unions, the best setting was consistently a low threshold on the model with the best precision and a moderate one on the others. The choice of labels mattered far more: asking GLiNER2 for five CV-specific labels raised raw hold-out recall from 0.68 to 0.87 without training.
+
+The sweeps were limited in three ways. Each detector used a single threshold for all of its labels, although confidence is likely to be calibrated differently for, say, emails and names. The grids were coarse (steps of 0.1–0.2, and only two to four values per axis in the union grids). Thresholds below 0.05, the floor at which most detectors were cached, were never tried. spaCy reports no confidence scores, so its threshold could not be tuned at all. Per-label thresholds are the cheapest untested improvement, since they need only a filter over the cached outputs.
+
+### 7.4 Voting and LLM judges
+
+Requiring two detectors to agree always increased leaks (S12 with a two-vote rule: 17 leak CVs instead of 12).
+
+We tested LLM judges in three modes. **Add-only** can flag spans the detectors missed. **Drop-only** can veto detections. **Full** does both. Each judge sees the CV and the list of candidate spans. A local Qwen2.5-3B judge allowed to veto lowered hold-out recall of the spaCy stack from 0.913 to between 0.64 and 0.83, depending on the prompt; in add-only mode it barely helped (0.919) at 50× the cost.
+
+We then repeated the experiment with a hosted model (gpt-4o-mini, temperature 0, one call per CV, no prompt tuning on the hold-out). All CVs are fictional, so sending them to a third-party API was acceptable here. Baselines in this table were recomputed in the same environment as the judge runs, so they differ from Table 7.1 by at most 0.001 in recall.
+
+| Base stack | Split | No judge | Add-only | Drop-only | Full |
+|---|---|---|---|---|---|
+| S17ft | holdout | 0.973 / 0.907 / 11 | **0.980 / 0.896 / 9** | 0.954 / 0.924 / 17 | 0.962 / 0.912 / 14 |
+| S3ft | holdout | 0.955 / 0.928 / 12 | **0.980 / 0.897 / 9** | 0.935 / 0.940 / 17 | 0.964 / 0.907 / 13 |
+| S3 | holdout | 0.955 / 0.910 / 14 | 0.958 / 0.891 / 12 | 0.932 / 0.927 / 19 | 0.935 / 0.906 / 17 |
+| S3 | devhard | 0.966 / 0.894 / 17 | 0.967 / 0.880 / 16 | 0.937 / 0.915 / 24 | 0.941 / 0.900 / 21 |
+| spaCy trf | holdout | 0.911 / 0.864 / 25 | 0.946 / 0.852 / 18 | 0.816 / 0.925 / 32 | 0.858 / 0.907 / 29 |
+| spaCy trf | devhard | 0.938 / 0.878 / 25 | 0.954 / 0.864 / 21 | 0.805 / 0.927 / 41 | 0.824 / 0.908 / 39 |
+
+*Cells: token recall / precision / CVs with ≥1 leak. On `probe20` every stack stays at 0 leaks with add-only; drop-only and full introduce 2 leaks for S3.*
+
+The pattern is the same for the small local model and the hosted one:
+
+- **Veto always hurts.** Every drop-only and full run leaked more CVs than no judge, by 1–16 CVs. The judge buys precision (up to +0.06) by un-masking real personal data, which is the wrong trade for anonymisation.
+- **Add-only helps, most on the strongest stacks.** It took S3ft and S17ft from 12 and 11 leak CVs to 9, the best result in this study (0.980 recall). The cost is 0.4–1.1 extra false-positive tokens per CV (precision −0.01 to −0.03) and roughly 2.5 s of API latency per CV.
+
+A hosted add-only judge is therefore the only judge configuration worth considering. It still means sending the unmasked CV to a third party, which on real CVs needs a data-processing agreement and a legal basis, or a comparable model served inside your own infrastructure. Without that, S17ft with no judge is within two leak CVs of the best configuration.
+
+### 7.5 Fine-tuning
+
+We trained a LoRA adapter (r = 16, α = 32, learning rate 1e-4, 3 epochs) on GLiNER2-PII using `devsynth` and `devhard` (140 CVs, chunked to 1,500 characters). Training took about 15 minutes on two CPU cores. On the hold-out the fine-tuned model kept recall (0.956) while cutting false positives from 2.75 to 2.17 per CV, and it improved every union it joined. The adapter is released separately.
+
+## 8. Recommendations
+
+- **Default:** S12ft or S17ft for the highest recall, about 2 s per CV on CPU.
+- **Low latency or precision-first:** S3ft, 0.7 s per CV with a single model.
+- **Always** run the CV policy layer; it contributes 9–43 recall points depending on the detector.
+- **Union, don't vote.** Keep LLMs out of the veto path; an add-only LLM judge cuts leaks further (11 → 9 CVs) if you are allowed to send CVs to it.
+- **Keep a human review step** for the residual leaks (about one CV in four still has at least one), and validate on a consented sample of your own CVs before deployment.
+
+## 9. Limitations
+
+The data is synthetic. Real CVs bring OCR noise, scanned images, tables and layouts not simulated here. The hold-out has 40 CVs, so differences under about two recall points are within noise. Both independent sets were written by instances of the same model family, which may share blind spots. Token recall does not capture re-identification from combinations of kept attributes (employer + title + dates), which the policy deliberately leaves visible.
+
+## 10. Reproducibility
+
+Everything is at `https://github.com/ammarisme/cv-pii-bench`; the data is also on Hugging Face as `<hf-user>/cv-pii-bench`, and the adapter as `<hf-user>/gliner2-pii-cv-lora`. `python scripts/reproduce.py` rebuilds Table 7.1 from cached detector outputs in seconds. `results/leaderboard_full_log.jsonl` contains all 366 logged runs, including those not shown here.

@@ -1,0 +1,119 @@
+/usr/local/lib/python3.11/dist-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Exception reading Public Suffix List url https://publicsuffix.org/list/public_suffix_list.dat
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/tldextract/cache.py", line 196, in run_and_cache
+    result = cast(T, self.get(namespace=namespace, key=key_args))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/tldextract/cache.py", line 99, in get
+    raise KeyError("namespace: " + namespace + " key: " + repr(key))
+KeyError: "namespace: publicsuffix.org-tlds key: {'urls': ('https://publicsuffix.org/list/public_suffix_list.dat', 'https://raw.githubusercontent.com/publicsuffix/list/master/public_suffix_list.dat'), 'fallback_to_snapshot': True}"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/tldextract/cache.py", line 196, in run_and_cache
+    result = cast(T, self.get(namespace=namespace, key=key_args))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/tldextract/cache.py", line 99, in get
+    raise KeyError("namespace: " + namespace + " key: " + repr(key))
+KeyError: "namespace: urls key: {'url': 'https://publicsuffix.org/list/public_suffix_list.dat'}"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<site>/lib/python3.11/site-packages/urllib3/connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "<site>/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "<site>/lib/python3.11/site-packages/urllib3/connection.py", line 776, in connect
+    self._tunnel()
+  File "/usr/lib/python3.11/http/client.py", line 963, in _tunnel
+    raise OSError(f"Tunnel connection failed: {code} {message.strip()}")
+OSError: Tunnel connection failed: 403 Forbidden
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<site>/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "<site>/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "<site>/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='publicsuffix.org', port=443): Max retries exceeded with url: /list/public_suffix_list.dat (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/tldextract/suffix_list.py", line 44, in find_first_response
+    return cache.cached_fetch_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/tldextract/cache.py", line 207, in cached_fetch_url
+    return self.run_and_cache(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/tldextract/cache.py", line 198, in run_and_cache
+    result = func(**kwargs)
+             ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/tldextract/cache.py", line 216, in _fetch_url
+    response = session.get(url, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<site>/lib/python3.11/site-packages/requests/sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<site>/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<site>/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<site>/lib/python3.11/site-packages/requests/adapters.py", line 672, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='publicsuffix.org', port=443): Max retries exceeded with url: /list/public_suffix_list.dat (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+[spacy-family] S1-presidio-default-lg             dev  R=0.722 P=0.389 F2=0.617 entR=0.761 leakDocs=68/80 FP/doc=26.44 s/doc=0.055
+[spacy-family] S1-presidio-default-trf            dev  R=0.718 P=0.408 F2=0.623 entR=0.776 leakDocs=66/80 FP/doc=24.40 s/doc=0.378
+[spacy-family] S1-presidio-default-lg             dev  R=0.715 P=0.387 F2=0.611 entR=0.757 leakDocs=68/80 FP/doc=26.44 s/doc=0.055
+[spacy-family] S1-presidio-default-trf            dev  R=0.710 P=0.405 F2=0.617 entR=0.772 leakDocs=66/80 FP/doc=24.40 s/doc=0.378
+[spacy-family] S1-presidio-default-lg             dev  R=0.612 P=0.353 F2=0.534 entR=0.671 leakDocs=72/80 FP/doc=26.44 s/doc=0.055
+[spacy-family] S1-presidio-default-trf            dev  R=0.576 P=0.359 F2=0.514 entR=0.671 leakDocs=73/80 FP/doc=24.40 s/doc=0.378
+[spacy-family] S1-presidio-default-lg             dev  R=0.601 P=0.350 F2=0.526 entR=0.645 leakDocs=72/80 FP/doc=26.30 s/doc=0.055
+[spacy-family] S1-presidio-default-trf            dev  R=0.566 P=0.356 F2=0.506 entR=0.647 leakDocs=73/80 FP/doc=24.32 s/doc=0.378
+[spacy-family] S1-presidio-default-lg             dev  R=0.563 P=0.337 F2=0.497 entR=0.615 leakDocs=75/80 FP/doc=26.30 s/doc=0.055
+[spacy-family] S1-presidio-default-trf            dev  R=0.515 P=0.336 F2=0.465 entR=0.609 leakDocs=80/80 FP/doc=24.32 s/doc=0.378
+[spacy-family] S2-presidio+cv-lg                  dev  R=0.980 P=0.856 F2=0.953 entR=0.973 leakDocs=19/80 FP/doc=3.70 s/doc=0.058
+[spacy-family] S2-presidio+cv-lg                  dev  R=0.980 P=0.854 F2=0.952 entR=0.973 leakDocs=19/80 FP/doc=3.75 s/doc=0.058
+[spacy-family] S2-presidio+cv-lg                  dev  R=0.980 P=0.839 F2=0.948 entR=0.973 leakDocs=19/80 FP/doc=4.21 s/doc=0.058
+[spacy-family] S2-presidio+cv-lg                  dev  R=0.980 P=0.856 F2=0.953 entR=0.973 leakDocs=19/80 FP/doc=3.70 s/doc=0.058
+[spacy-family] S2-presidio+cv-lg                  dev  R=0.980 P=0.854 F2=0.952 entR=0.973 leakDocs=19/80 FP/doc=3.75 s/doc=0.058
+[spacy-family] S2-presidio+cv-lg                  dev  R=0.980 P=0.839 F2=0.948 entR=0.973 leakDocs=19/80 FP/doc=4.21 s/doc=0.058
+[spacy-family] S2-presidio+cv-lg                  dev  R=0.980 P=0.860 F2=0.954 entR=0.973 leakDocs=19/80 FP/doc=3.56 s/doc=0.058
+[spacy-family] S2-presidio+cv-lg                  dev  R=0.980 P=0.859 F2=0.953 entR=0.973 leakDocs=19/80 FP/doc=3.61 s/doc=0.058
+[spacy-family] S2-presidio+cv-lg                  dev  R=0.980 P=0.843 F2=0.949 entR=0.973 leakDocs=19/80 FP/doc=4.08 s/doc=0.058
+[spacy-family] S2-presidio+cv-lg                  dev  R=0.980 P=0.860 F2=0.954 entR=0.973 leakDocs=19/80 FP/doc=3.56 s/doc=0.058
+[spacy-family] S2-presidio+cv-lg                  dev  R=0.980 P=0.859 F2=0.953 entR=0.973 leakDocs=19/80 FP/doc=3.61 s/doc=0.058
+[spacy-family] S2-presidio+cv-lg                  dev  R=0.980 P=0.843 F2=0.949 entR=0.973 leakDocs=19/80 FP/doc=4.08 s/doc=0.058
+[spacy-family] S2-presidio+cv-trf                 dev  R=0.987 P=0.908 F2=0.970 entR=0.981 leakDocs=14/80 FP/doc=2.23 s/doc=0.381
+[spacy-family] S2-presidio+cv-trf                 dev  R=0.987 P=0.907 F2=0.970 entR=0.981 leakDocs=14/80 FP/doc=2.26 s/doc=0.381
+[spacy-family] S2-presidio+cv-trf                 dev  R=0.987 P=0.906 F2=0.970 entR=0.981 leakDocs=14/80 FP/doc=2.29 s/doc=0.381
+[spacy-family] S2-presidio+cv-trf                 dev  R=0.987 P=0.908 F2=0.970 entR=0.981 leakDocs=14/80 FP/doc=2.23 s/doc=0.381
+[spacy-family] S2-presidio+cv-trf                 dev  R=0.987 P=0.907 F2=0.970 entR=0.981 leakDocs=14/80 FP/doc=2.26 s/doc=0.381
+[spacy-family] S2-presidio+cv-trf                 dev  R=0.987 P=0.906 F2=0.970 entR=0.981 leakDocs=14/80 FP/doc=2.29 s/doc=0.381
+[spacy-family] S2-presidio+cv-trf                 dev  R=0.987 P=0.911 F2=0.971 entR=0.981 leakDocs=14/80 FP/doc=2.15 s/doc=0.381
+[spacy-family] S2-presidio+cv-trf                 dev  R=0.987 P=0.909 F2=0.970 entR=0.981 leakDocs=14/80 FP/doc=2.19 s/doc=0.382
+[spacy-family] S2-presidio+cv-trf                 dev  R=0.987 P=0.909 F2=0.970 entR=0.981 leakDocs=14/80 FP/doc=2.21 s/doc=0.382
+[spacy-family] S2-presidio+cv-trf                 dev  R=0.987 P=0.911 F2=0.971 entR=0.981 leakDocs=14/80 FP/doc=2.15 s/doc=0.381
+[spacy-family] S2-presidio+cv-trf                 dev  R=0.987 P=0.909 F2=0.970 entR=0.981 leakDocs=14/80 FP/doc=2.19 s/doc=0.381
+[spacy-family] S2-presidio+cv-trf                 dev  R=0.987 P=0.909 F2=0.970 entR=0.981 leakDocs=14/80 FP/doc=2.21 s/doc=0.381
+[spacy-family] S2b-spacy+cv-lg                    dev  R=0.980 P=0.860 F2=0.954 entR=0.973 leakDocs=19/80 FP/doc=3.56 s/doc=0.037
+[spacy-family] S2b-spacy+cv-lg                    dev  R=0.980 P=0.859 F2=0.953 entR=0.973 leakDocs=19/80 FP/doc=3.61 s/doc=0.037
+[spacy-family] S2b-spacy+cv-lg                    dev  R=0.980 P=0.843 F2=0.949 entR=0.973 leakDocs=19/80 FP/doc=4.08 s/doc=0.037
+[spacy-family] S2b-spacy+cv-trf                   dev  R=0.987 P=0.911 F2=0.971 entR=0.981 leakDocs=14/80 FP/doc=2.15 s/doc=0.386
+[spacy-family] S2b-spacy+cv-trf                   dev  R=0.987 P=0.909 F2=0.970 entR=0.981 leakDocs=14/80 FP/doc=2.19 s/doc=0.386
+[spacy-family] S2b-spacy+cv-trf                   dev  R=0.987 P=0.909 F2=0.970 entR=0.981 leakDocs=14/80 FP/doc=2.21 s/doc=0.386
