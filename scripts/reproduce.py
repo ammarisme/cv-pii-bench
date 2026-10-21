@@ -27,6 +27,10 @@ STACKS = [
  ("S12 GLiNER2 + Privacy Filter + CV (0.2/0.1)",     {"name": "S12-gliner2cv+pf+cv", "detectors": {"gliner2cv": 0.2, "pf:openai": 0.1}, "cfg": CV}),
  ("S12ft GLiNER2-ft + Privacy Filter + CV",          {"name": "S12ft-gliner2ft+pf+cv", "detectors": {"gliner2ft": 0.4, "pf:openai": 0.1}, "cfg": CV}),
  ("S17ft GLiNER2-ft + PF + Knowledgator + CV",       {"name": "S17ft-gliner2ft+pf+knowledgator+cv", "detectors": {"gliner2ft": 0.4, "pf:openai": 0.1, "gliner:knowledgator": 0.5}, "cfg": CV}),
+ ("S18a Presidio + GLiNER, sample as published",     {"name": "PG-doc-urchade-raw@0.30", "detectors": {"pg:doc-urchade": 0.30}, "cfg": {"raw": True, "regex": False}}),
+ ("S18b Presidio + GLiNER-large, tuned (t=0.2)",     {"name": "PG-gliner-large-cv-line-raw", "detectors": {"pg:gliner-large-cv-line": 0.2}, "cfg": {"raw": True, "regex": False}}),
+ ("S18c Presidio + GLiNER2 & Knowledgator + CV",     {"name": "PG-best-ens+cv", "detectors": {"pg:best-ens": 0.5}, "cfg": CV}),
+ ("S19ft GLiNER2-ft ∪ Presidio/GLiNER-large + CV",   {"name": "PG-U-gliner2ft+gliner-large-cv-line+cv", "detectors": {"gliner2ft": 0.4, "pg:gliner-large-cv-line": 0.6}, "cfg": CV}),
  ("S9  spaCy trf + CV + Qwen judge (add-only)",      {"name": "S9-spacytrf+cv+qwen3b-judge", "detectors": {"spacy:trf": 0.0}, "cfg": CV, "adjudicator": {"kind": "llama", "model": QWEN3B, "mode": "add_only"}}),
 ]
 

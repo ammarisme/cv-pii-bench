@@ -9,5 +9,5 @@ transformers>=5.0
 gliner>=0.2.29
 gliner2>=2.0
 peft>=0.21
-presidio-analyzer>=2.2
+presidio-analyzer[gliner]>=2.2.360   # GLiNERRecognizer + text chunkers (phase 11)
 llama-cpp-python>=0.3   # optional, local LLM stacks

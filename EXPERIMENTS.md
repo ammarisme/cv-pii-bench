@@ -40,8 +40,9 @@ Every detector's raw output was computed **once at a very low threshold** and sa
 | `pf:openai` | `openai/privacy-filter` | token classifier; span score = min over tokens of P(not O) | 0.05 |
 | `pf:openmed` | `OpenMed/privacy-filter-multilingual-v2` | same decoding, `OPENMED_MAP` | 0.05 |
 | `llm:qwen3b` | Qwen2.5-3B-Instruct Q4_K_M via llama.cpp, temperature 0, JSON output | extraction prompt `piibench/llm.py` | — |
+| `pg:<config>` | a Presidio `AnalyzerEngine` hosting GLiNER: `GLiNERRecognizer` (urchade, nvidia, Knowledgator base/large, `gliner-community/gliner_large-v2.5`) and/or our GLiNER2 `LocalRecognizer`, plus Presidio's pattern recognizers; 29 configs in `PG_CONFIGS` (`piibench/presidio_gliner.py`) | per config: the sample's 4 labels, generic PII, CV, Knowledgator-native, GLiNER2 snake_case; mapped to Presidio entity types, then to ours via `PG_MAP` | GLiNER 0.05, Presidio `score_threshold` 0 |
 
-Registered but not run (weights not downloaded): `gliner:nvidia`, `gliner:urchade`, `llm:gpt-4o-mini`, `llm:gpt-4.1` as extractors.
+Registered but not run (weights not downloaded): `gliner:nvidia`, `gliner:urchade` (both were run hosted in Presidio, as `pg:*`), `llm:gpt-4o-mini`, `llm:gpt-4.1` as extractors.
 
 ## 4. CV policy layer switches (`piibench/pipeline.py`, `cfg` of each stack)
 
@@ -93,10 +94,14 @@ Thresholds per detector were chosen on `devhard` by F2, then frozen and run once
 | S16 | `gliner2cv` 0.4 ∪ `gliner:knowledgator` 0.5 | on | – | 19–20 |
 | **S17ft** | `gliner2ft` 0.4 ∪ `pf:openai` 0.1 ∪ `gliner:knowledgator` 0.5 | on | – | 20 |
 | J-* | S3ft, S17ft, S3, S2b | on | gpt-4o-mini: none / add_only / drop_only / full | `scripts/run_judge.py` |
+| S18a | `pg:doc-urchade` 0.30, the Presidio GLiNER sample as published | **off** (`raw`) | – | 25–26 |
+| S18b | `pg:gliner-large-cv-line` 0.2, best Presidio-only config on devhard | **off** (`raw`) | – | 25–26 |
+| S18c | `pg:best-ens` 0.5 (GLiNER2 + Knowledgator base in one Presidio engine) | on | – | 25–26 |
+| S19 / **S19ft** | `gliner2cv` / `gliner2ft` 0.4 ∪ `pg:gliner-large-cv-line` 0.6 | on | – | 26 |
 
 ## 6. Experiment log, in the order it was run
 
-Every run appended one row to `results/leaderboard_full_log.jsonl` (366 rows): timestamp, `group`, `stack`, `split`, full `params`, all metrics, per-label recall and FP examples. The `group` column matches the groups below. Console output of each phase is in `experiments/logs/`.
+Every run appended one row to `results/leaderboard_full_log.jsonl` (1228 rows; the last 862 are phase 11): timestamp, `group`, `stack`, `split`, full `params`, all metrics, per-label recall and FP examples. The `group` column matches the groups below. Console output of each phase is in `experiments/logs/`.
 
 | Phase | Script(s) | Group(s) | Split | Grid | Outcome |
 |---|---|---|---|---|---|
@@ -109,6 +114,7 @@ Every run appended one row to `results/leaderboard_full_log.jsonl` (366 rows): t
 | 7 | 19–20 | kn-cache, kn-sweep, kn-eval | devhard → holdout | Knowledgator {0.1…0.7}; union with GLiNER2 {0.3, 0.5} | Best third detector for the union |
 | 8 | 21–23 | llm-qwen3b, llm-qwen3b-judge, llm-qwen3b-judge-modes | probe20, holdout | Qwen as extractor, in unions, 2-vote, and judge in 4 modes | Extractor helps a little at 50× cost; any veto loses 8–26 recall points |
 | 9 | `scripts/finetune_gliner2.py`, 24 | gliner2-finetuned | probe20, holdout | LoRA r16/α32, 3 epochs on devsynth + devhard; threshold {0.2…0.6}; with PF | Same recall, ~20% fewer FPs; S17ft best overall |
+| 11 | 25, 26 | pg-sweep, pg-union-sweep, pg-eval | devhard → holdout, probe20 | 29 Presidio configs (model × labels × chunker × flat/nested × pattern set × phone regions × allow_list × context × in-engine ensembles), each × {0.05…0.8} raw and + CV; every config with devhard F2 ≥ 0.94 × {GLiNER2-CV, GLiNER2-CV ∪ PF} as union partner | Line chunks beat Presidio's 250-char default; best Presidio-only 24/40 leak CVs vs 39/40 for default Presidio; GLiNER2-ft ∪ Presidio/GLiNER-large ties S17ft at 10/40 with two models |
 | 10 | `scripts/run_judge.py` (run on the author's machine) | `results/judge_results.jsonl` | devhard, holdout, probe20 | 4 base stacks × {none, add_only, drop_only, full}, gpt-4o-mini, T = 0 | Add-only: 11 → 9 leak CVs; every veto mode leaks more |
 
 The fine-tuned model is never scored on `devhard`, because it was trained on it.
@@ -121,6 +127,7 @@ The fine-tuned model is never scored on `devhard`, because it was trained on it.
 | Main table (regenerated) | `results/main_table.md` ← `scripts/reproduce.py` |
 | Hosted-judge runs with FN/FP counts | `results/judge_results.jsonl`, `results/judge_table.md` |
 | Per-CV leaks and FPs for each judge run | `results/judge_errors__<stack>__<split>__<mode>.jsonl` |
+| Presidio-hosted GLiNER table (devhard, holdout, probe20 for every config) | `results/presidio_gliner_table.md` ← `experiments/26_presidio_gliner_sweep_holdout.py` |
 | Saved detector outputs | `detector_outputs/*.json` |
 | Saved LLM answers (Qwen + gpt-4o-mini), keyed by prompt hash | `detector_outputs/llm/*.json` |
 | Console logs per phase, fine-tuning loss curves | `experiments/logs/` |
@@ -133,6 +140,8 @@ python scripts/reproduce.py                 # main table from saved outputs, no 
 python experiments/14_privacy_filter_sweep.py   # any sweep, from saved outputs
 python experiments/30_error_analysis.py h2 gliner2cv '{"propagate":"surname"}'
 python scripts/run_judge.py --env-file .env # hosted judge; free when answers are saved
+python experiments/26_presidio_gliner_sweep_holdout.py   # Presidio + GLiNER sweep and hold-out, from saved outputs
+PII_MODELS=./models python experiments/25_presidio_gliner_cache.py kn-large-kn-line   # re-run one Presidio config live
 PII_MODELS=./models python scripts/finetune_gliner2.py   # re-train the adapter (~15 min CPU)
 ```
 
@@ -143,4 +152,5 @@ Scripts append to `results/leaderboard.jsonl` and write per-run masked outputs t
 - **Rule changes between phases.** The CV layer was improved between phases, so an early row in the full log can differ from the same stack re-run with today's code. The paper's tables are re-runs with the final code; the log keeps the historical values.
 - **Environment.** The judge runs were done on a different machine (Python 3.9, older spaCy/lingua). Its no-judge baselines differ from the main table by ≤ 0.001 recall and 1 leak CV; judge rows are compared only with baselines from the same machine.
 - **Qwen judge (S9).** 9 of 60 saved answers were written under an older cache key, so `reproduce.py` skips S9 unless the Qwen model is downloaded; its numbers are in the full log.
+- **Presidio phase hardware.** Phase 11 detector outputs were computed on an Apple M4 Pro (12 cores, Python 3.12, presidio-analyzer 2.2.364, gliner 0.2.29), not the 2-core machine used for the other timings, so `s/CV` of `pg:*` detectors is not comparable with the rest. Unions add the cached seconds of both machines.
 - **Fine-tuning reruns.** The adapter was trained twice with seed 0; hold-out results were identical to three decimals.

@@ -19,6 +19,10 @@ register("gliner:urchade", lambda: D.gliner_detector("urchade/gliner_multi_pii-v
 register("pf:openai", lambda: D.privacy_filter_tokens_detector("openai/privacy-filter", 0.05))
 register("pf:openmed", lambda: D.privacy_filter_tokens_detector("OpenMed/privacy-filter-multilingual-v2", 0.05))
 
+from .presidio_gliner import PG_CONFIGS   # Presidio-hosted GLiNER configurations, keys "pg:<config>"
+for _pg in PG_CONFIGS:
+    register(f"pg:{_pg}", lambda _pg=_pg: __import__("piibench.presidio_gliner", fromlist=["x"]).presidio_gliner_detector(_pg))
+
 def _llm_det(kind, model):
     """Build an LLM extraction detector for the given backend kind and model.
 

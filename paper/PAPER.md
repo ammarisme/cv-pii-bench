@@ -70,6 +70,8 @@ Raw detector outputs are cached at a very low threshold, so a threshold sweep is
 | S6 | Knowledgator GLiNER-PII + CV layer |
 | S7–S9 | Qwen2.5-3B (local) as extractor or as judge |
 | S10–S17 | Unions of the above, with and without voting |
+| S18 | GLiNER models hosted in Presidio (`GLiNERRecognizer`, plus our GLiNER2 recognizer), 29 configurations |
+| S19 | GLiNER2-PII (CV labels or fine-tuned) ∪ Presidio-hosted GLiNER-large + CV layer |
 
 The Privacy Filter models were decoded with a custom scheme: a span's score is the minimum over its tokens of P(not O), which recovered recall the default argmax decoding lost.
 
@@ -82,11 +84,13 @@ Best configuration of each stack by F2; thresholds were chosen on `devhard`.
 | Stack | Recall | Precision | Leak CVs | FP/CV | s/CV |
 |---|---|---|---|---|---|
 | S17ft GLiNER2-ft 0.4 ∪ PF 0.1 ∪ Knowledgator 0.5 + CV | **0.974** | 0.905 | **10** | 2.92 | 2.05 |
+| S19ft GLiNER2-ft 0.4 ∪ Presidio/GLiNER-large 0.6 + CV | 0.967 | 0.905 | **10** | 2.90 | 0.7 + 0.5† |
 | S15ft GLiNER2-ft ∪ PF ∪ OpenMed + CV | 0.973 | 0.894 | 10 | 3.30 | 2.16 |
 | S12ft GLiNER2-ft 0.4 ∪ PF 0.1 + CV | 0.972 | 0.907 | 11 | 2.83 | 1.60 |
 | S12 GLiNER2-CV 0.2 ∪ PF 0.1 + CV | 0.971 | 0.874 | 12 | 4.00 | 1.69 |
 | S3ft GLiNER2-ft 0.4 + CV | 0.956 | **0.926** | 12 | 2.17 | 0.71 |
 | S16 GLiNER2-CV ∪ Knowledgator + CV | 0.958 | 0.907 | 13 | 2.80 | 1.24 |
+| S18c Presidio: GLiNER2 + Knowledgator base 0.5 + CV | 0.953 | 0.914 | 13 | 2.55 | 0.28† |
 | S3 GLiNER2-CV 0.4 + CV | 0.956 | 0.908 | 13 | 2.75 | 0.80 |
 | S6 Knowledgator 0.3 + CV | 0.950 | 0.888 | 19 | 3.40 | 0.47 |
 | S4 OpenAI PF 0.05 + CV | 0.925 | 0.906 | 22 | 2.73 | 0.90 |
@@ -94,8 +98,12 @@ Best configuration of each stack by F2; thresholds were chosen on `devhard`.
 | S5 OpenMed PF 0.7 + CV | 0.904 | 0.918 | 26 | 2.30 | 0.58 |
 | S7b Qwen2.5-3B extractor + CV | 0.898 | 0.856 | 28 | 4.30 | 54.4 |
 | S0 Rules only | 0.849 | 0.933 | 31 | 1.73 | 0.01 |
+| S18b Presidio + GLiNER-large 0.2, tuned (no CV layer) | 0.921 | 0.687 | 24 | 11.93 | 0.51† |
 | S3 GLiNER2 raw (no CV layer) | 0.684 | 0.755 | 39 | 6.30 | 0.74 |
+| S18a Presidio + GLiNER, sample as published | 0.736 | 0.425 | 36 | 28.55 | 0.32† |
 | S1 Presidio default | 0.646 | 0.385 | 39 | 29.18 | 0.49 |
+
+*† Measured on an Apple M4 Pro (12 cores), not the 2-core machine of the other rows.*
 
 Per-label recall of S17ft: NAME, EMAIL, URL, HANDLE, ADDRESS, DOB and GENDER 1.00; PHONE 0.98; EDU_ORG 0.98; MARITAL 0.96; ID 0.92; NATIONALITY 0.91; LOCATION 0.89. The remaining leaks are dominated by home locations written without any cue and by unusual ID formats.
 
@@ -145,10 +153,39 @@ A hosted add-only judge is therefore the only judge configuration worth consider
 
 We trained a LoRA adapter (r = 16, α = 32, learning rate 1e-4, 3 epochs) on GLiNER2-PII using `devsynth` and `devhard` (140 CVs, chunked to 1,500 characters). Training took about 15 minutes on two CPU cores. On the hold-out the fine-tuned model kept recall (0.956) while cutting false positives from 2.75 to 2.17 per CV, and it improved every union it joined. The adapter is released separately.
 
+### 7.6 Presidio as a host for GLiNER
+
+Presidio documents a GLiNER integration ([sample](https://presidio.dataprivacystack.org/samples/python/gliner/)): load a small spaCy model, register `GLiNERRecognizer` with `urchade/gliner_multi_pii-v1` and four labels (person, name, organization, location), set `flat_ner=False, multi_label=True`, and remove `SpacyRecognizer`. We treated Presidio as the host and varied everything it exposes: the GLiNER checkpoint (urchade, NVIDIA, Knowledgator base and large, the general `gliner_large-v2.5`, and GLiNER2-PII through a `LocalRecognizer` we wrote), the label set, flat or nested decoding, the text chunker, which pattern recognizers are loaded, phone regions, `allow_list`, keeping spaCy NER alongside GLiNER, context enhancement, and several GLiNER models in one engine. There were 29 configurations. Each was swept over thresholds 0.05–0.8 on `devhard`, both alone and fed into the CV layer (`experiments/25–26`, `results/presidio_gliner_table.md`).
+
+| Hold-out, Presidio-hosted | Presidio only: R / P / leak CVs | + CV layer: R / P / leak CVs |
+|---|---|---|
+| Presidio default (spaCy trf) | 0.646 / 0.385 / 39 | – |
+| Sample as published (t = 0.30) | 0.736 / 0.425 / 36 | 0.916 / 0.837 / 24 |
+| + CV labels | 0.897 / 0.523 / 24 | 0.925 / 0.871 / 22 |
+| + flat decoding, line chunks | 0.899 / 0.556 / 28 | 0.948 / 0.809 / 17 |
+| Knowledgator large, own labels, line chunks | 0.914 / 0.744 / 25 | 0.956 / 0.914 / 16 |
+| GLiNER-large v2.5, CV labels, line chunks | 0.921 / 0.687 / 24 | 0.956 / 0.888 / 15 |
+| GLiNER2-PII (our recognizer), line chunks | 0.907 / 0.689 / 25 | 0.947 / 0.923 / 14 |
+| GLiNER2 + Knowledgator base in one engine | 0.905 / 0.645 / 26 | 0.953 / 0.914 / 13 |
+
+*Thresholds chosen on `devhard` per row and column. Every CV-layer row keeps 0/20 leaks on `probe20`.*
+
+- **Chunking is the main Presidio-specific fix.** `GLiNERRecognizer` defaults to 250-character chunks with a 50-character overlap that can begin mid-word. That is a quarter of a typical CV, and a chunk can begin inside a name. A chunker that packs whole lines up to 1,000 characters with a two-line overlap (`LineChunker`) cut false positives of Knowledgator base from 30.6 to 17.5 per CV (Presidio only) and CV-layer leaks from 22 to 18. It also halved the runtime. On `devhard`, whole-CV chunks were as good and 600-character chunks slightly worse; on the hold-out the three are within two leak CVs of each other.
+- **Labels matter again.** The sample's four labels leave emails and phones to Presidio's patterns and never ask for addresses, schools, dates of birth or nationality. CV labels raised Presidio-only recall from 0.74 to 0.90. With the CV layer, a generic PII list (which includes `organization`) matched the CV list's recall at higher precision (hold-out 0.947 / 0.870 against 0.948 / 0.809). This is likely because the CV layer turns organizations in education sections into schools and drops the rest.
+- **Flat versus nested decoding hardly matters.** The sample's `flat_ner=False, multi_label=True` was within one leak CV of flat decoding on the hold-out, and 0.008 F2 worse on `devhard`.
+- **Leave Presidio's phone regions alone.** Adding European regions to `PhoneRecognizer` made it accept year ranges ("2017 – 2020", "(2016–2018") as phone numbers: 126 extra spans on `devhard`. Hold-out leaks with the CV layer rose from 19 to 28 once the threshold was re-tuned to suppress them.
+- **The other Presidio switches barely matter with the CV layer.** Dropping the US/IN/AU-specific ID recognizers, an `allow_list` of tool and language names, and dropping `UrlRecognizer` each moved leaks by at most one CV. Without the CV layer, dropping the unused ID recognizers helped (33 → 27 leak CVs). Presidio applies one global score threshold, and those low-scoring pattern hits had kept the GLiNER threshold high.
+- **Keeping spaCy NER in the engine hurts.** Keeping `SpacyRecognizer` (`en_core_web_sm`) next to Knowledgator large raised false positives to 36 tokens per CV without the CV layer and to 10 with it, against 10 and 6.4 for the same engine without spaCy.
+- **Context enhancement is close to inert.** We used whole-word matching and the bench's multilingual field keys as context words. For GLiNER2 alone no hold-out number moved by more than 0.003. For the two-model engine it shifted the chosen threshold and traded precision for recall, with the same 13 leak CVs. Presidio matches context against lemmas with stop words removed, and "name" is a spaCy stop word, so `Name:` never counts as context.
+- **Hosting costs nothing.** Our GLiNER2 recognizer inside Presidio scored like the direct GLiNER2 integration (S3): 0.947 / 0.923 / 14 against 0.956 / 0.908 / 13. That difference is within noise; the two label lists also differ slightly.
+
+As a union partner, Presidio-hosted GLiNER-large at 0.6 was the best of the 12 candidates (every configuration with CV-layer F2 ≥ 0.94 on `devhard`, each tried with GLiNER2-CV and with GLiNER2-CV ∪ PF). On the hold-out, GLiNER2-ft ∪ GLiNER-large (S19ft) reached 10 leak CVs, the same as the three-model S17ft, with one model fewer. S17ft plus GLiNER-large stayed at 10 (recall 0.974, precision 0.887), so a fourth model adds nothing.
+
 ## 8. Recommendations
 
 - **Default:** S12ft or S17ft for the highest recall, about 2 s per CV on CPU.
 - **Low latency or precision-first:** S3ft, 0.7 s per CV with a single model.
+- **If you are standardised on Presidio:** host GLiNER in it with line-aligned chunks and CV labels (S18b, 24/40 leak CVs without our rules), and put the CV layer after it (S18c, 13/40). GLiNER2-ft ∪ Presidio-hosted GLiNER-large (S19ft) matches S17ft at 10/40 with two models.
 - **Always** run the CV policy layer; it contributes 9–43 recall points depending on the detector.
 - **Union, don't vote.** Keep LLMs out of the veto path; an add-only LLM judge cuts leaks further (11 → 9 CVs) if you are allowed to send CVs to it.
 - **Keep a human review step** for the residual leaks (about one CV in four still has at least one), and validate on a consented sample of your own CVs before deployment.

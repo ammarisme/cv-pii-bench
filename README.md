@@ -17,8 +17,11 @@ Generic PII tools struggle on CVs. A CV is full of names that are *not* the cand
 | GLiNER2-PII (CV labels) + CV policy layer | 0.956 | 0.908 | 13 / 40 | 0.8 |
 | GLiNER2-PII fine-tuned (LoRA) + CV policy layer | 0.956 | **0.926** | 12 / 40 | 0.7 |
 | GLiNER2-ft ∪ OpenAI Privacy Filter ∪ Knowledgator GLiNER-PII + CV layer | **0.974** | 0.905 | **10 / 40** | 2.1 |
+| Presidio + GLiNER, the [published sample](https://presidio.dataprivacystack.org/samples/python/gliner/) config | 0.736 | 0.425 | 36 / 40 | 0.3† |
+| Presidio + GLiNER, tuned (line chunks, CV labels), no CV layer | 0.921 | 0.687 | 24 / 40 | 0.5† |
+| GLiNER2-PII fine-tuned ∪ Presidio-hosted GLiNER-large + CV layer | 0.967 | 0.905 | **10 / 40** | 0.7 + 0.5† |
 
-Recall and precision are token-level. "CVs with ≥1 leak" counts documents where at least one identifying token of a gold entity stayed visible; this is the metric that matters for deployment. All timings are on 2 CPU cores with no GPU.
+Recall and precision are token-level. "CVs with ≥1 leak" counts documents where at least one identifying token of a gold entity stayed visible; this is the metric that matters for deployment. All timings are on 2 CPU cores with no GPU, except † (Apple M4 Pro, 12 cores; not directly comparable).
 
 **Main finding.** A rule layer tuned on the CVs you can see looks perfect on them. Ours scored 100% on the 20 probe CVs it was written against, yet only about 75% on independently written ones. Always report on a hold-out nobody tuning the system has read.
 
@@ -61,7 +64,7 @@ print(apply_mask(cv_text, spans))    # "[NAME] ... [EMAIL] ..."
 
 1. **Section tagging** (12 languages): header, personal, experience, education, skills, references, publications, footer.
 2. **Pattern rules**: emails (including obfuscated forms), phones, IBANs, ORCIDs, around 90 keyed ID fields, and key–value personal fields (`Nationality: …`, `Zivilstand | …`, YAML).
-3. **Model detectors** (any subset, unioned): spaCy, Presidio, GLiNER2-PII, OpenAI Privacy Filter, OpenMed Privacy Filter, Knowledgator GLiNER-PII, or a local LLM.
+3. **Model detectors** (any subset, unioned): spaCy, Presidio, GLiNER2-PII, OpenAI Privacy Filter, OpenMed Privacy Filter, Knowledgator GLiNER-PII, GLiNER models hosted in Presidio (`piibench/presidio_gliner.py`), or a local LLM.
 4. **CV policy filter**: drop tool and language names, employer names with company suffixes, degree names, and work-only locations. Keep locations only in contact zones.
 5. **Identity propagation**: once a name is confirmed, mask its surname and name-bearing URLs everywhere.
 6. **Safety net**: every masked string is masked at every other occurrence.
@@ -73,6 +76,7 @@ print(apply_mask(cv_text, spans))    # "[NAME] ... [EMAIL] ..."
 - **Union detectors; don't vote.** Requiring agreement always let more CVs leak.
 - **LLM judges: add, never veto.** Every judge allowed to remove detections leaked more CVs, both a local 3B model and gpt-4o-mini. An add-only gpt-4o-mini judge took the best stacks from 11–12 to 9 leak CVs (recall 0.980) for up to 1 extra false-positive token per CV; see `scripts/run_judge.py`.
 - **Fine-tuning mostly buys precision.** LoRA on 140 CVs (15 min on CPU) cut false positives by about 20% at the same recall.
+- **Presidio is a good host for GLiNER if you change its defaults.** Swapping spaCy for GLiNER inside Presidio, as its sample does, only moves leak CVs from 39 to 36 of 40. Line-aligned chunks instead of the default 250-character ones, CV-specific labels and a lower threshold take standalone Presidio to 24 of 40. Don't widen `PhoneRecognizer`'s regions: with European regions it tags year ranges ("2017 – 2020") as phone numbers. With the CV layer, Presidio-hosted models match the direct integrations. Presidio-hosted GLiNER-large is the best second model for the fine-tuned GLiNER2: 10 leak CVs with two models, as good as the three-model S17ft. See [`paper/PAPER.md` §7.6](paper/PAPER.md).
 
 ## Limitations
 
